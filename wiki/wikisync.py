@@ -1,8 +1,8 @@
 import igem_wikisync as sync
 import os
 
-os.environ['IGEM_USERNAME'] = 'gfullerton'
-os.environ['IGEM_PASSWORD'] = 'NutM3g245!'
+os.environ['IGEM_USERNAME'] = ''
+os.environ['IGEM_PASSWORD'] = ''
 
 sync.run(
     team='UFlorida',
