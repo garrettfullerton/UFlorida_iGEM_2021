@@ -1,0 +1,693 @@
+assets:
+  assets\WS-basic\documents\RISE_ppt.pdf:
+    link_URL: https://2021.igem.org/wiki/images/0/06/T--UFlorida--WS-basic--documents--RISE_ppt.pdf
+    md5: 79ba4f346112e60812c0dd5622df0ca6
+    upload_filename: T--UFlorida--WS-basic--documents--RISE_ppt.pdf
+  assets\WS-basic\documents\RISE_ppt.pptx:
+    link_URL: https://2021.igem.org/wiki/images/8/87/T--UFlorida--WS-basic--documents--RISE_ppt.pptx
+    md5: 3939ca8c83309b7ea8f3ec23c5f7558e
+    upload_filename: T--UFlorida--WS-basic--documents--RISE_ppt.pptx
+  assets\WS-basic\documents\experiment_notebook.pdf:
+    link_URL: https://2021.igem.org/wiki/images/2/25/T--UFlorida--WS-basic--documents--experiment_notebook.pdf
+    md5: 40412d51fe4dbc78c15d84c46413c3b3
+    upload_filename: T--UFlorida--WS-basic--documents--experiment_notebook.pdf
+  assets\WS-basic\fonts\ComicNeue-Bold.ttf:
+    link_URL: https://2021.igem.org/wiki/images/6/67/T--UFlorida--WS-basic--fonts--ComicNeue-Bold.ttf
+    md5: d700ff9cac24ac4fc0d2a3b43adf323e
+    upload_filename: T--UFlorida--WS-basic--fonts--ComicNeue-Bold.ttf
+  assets\WS-basic\fonts\ComicNeue-Regular.ttf:
+    link_URL: https://2021.igem.org/wiki/images/d/d2/T--UFlorida--WS-basic--fonts--ComicNeue-Regular.ttf
+    md5: 52497ef6e2a57915ff534c342e49a95b
+    upload_filename: T--UFlorida--WS-basic--fonts--ComicNeue-Regular.ttf
+  assets\WS-basic\fonts\Mali-Bold.ttf:
+    link_URL: https://2021.igem.org/wiki/images/b/b1/T--UFlorida--WS-basic--fonts--Mali-Bold.ttf
+    md5: 88e9e501cb35c07e6b215c4bebac4bad
+    upload_filename: T--UFlorida--WS-basic--fonts--Mali-Bold.ttf
+  assets\WS-basic\img\logos\Our-Solution-Infographic.gif:
+    link_URL: https://2021.igem.org/wiki/images/f/fa/T--UFlorida--WS-basic--img--logos--Our-Solution-Infographic.gif
+    md5: b815592551af32b062be1ef3d421e43f
+    upload_filename: T--UFlorida--WS-basic--img--logos--Our-Solution-Infographic.gif
+  assets\WS-basic\img\logos\backgroundtexture.jpg:
+    link_URL: https://2021.igem.org/wiki/images/f/f3/T--UFlorida--WS-basic--img--logos--backgroundtexture.jpg
+    md5: a35b263b041648241b503e3766e461a4
+    upload_filename: T--UFlorida--WS-basic--img--logos--backgroundtexture.jpg
+  assets\WS-basic\img\logos\collab1.png:
+    link_URL: https://2021.igem.org/wiki/images/4/4e/T--UFlorida--WS-basic--img--logos--collab1.png
+    md5: 7146cbbedfad3026e015198b6a50eade
+    upload_filename: T--UFlorida--WS-basic--img--logos--collab1.png
+  assets\WS-basic\img\logos\collab2.jpg:
+    link_URL: https://2021.igem.org/wiki/images/1/1a/T--UFlorida--WS-basic--img--logos--collab2.jpg
+    md5: ffd3153e4d2bce7f62d9fcb098511904
+    upload_filename: T--UFlorida--WS-basic--img--logos--collab2.jpg
+  assets\WS-basic\img\logos\collab3.png:
+    link_URL: https://2021.igem.org/wiki/images/c/ca/T--UFlorida--WS-basic--img--logos--collab3.png
+    md5: fe951f7af8a31acc31738f609603ea90
+    upload_filename: T--UFlorida--WS-basic--img--logos--collab3.png
+  assets\WS-basic\img\logos\communication_zoom1.png:
+    link_URL: https://2021.igem.org/wiki/images/a/a2/T--UFlorida--WS-basic--img--logos--communication_zoom1.png
+    md5: ccd0ed4af416aac1a55aa86bd26d7f31
+    upload_filename: T--UFlorida--WS-basic--img--logos--communication_zoom1.png
+  assets\WS-basic\img\logos\contribution1.png:
+    link_URL: https://2021.igem.org/wiki/images/9/91/T--UFlorida--WS-basic--img--logos--contribution1.png
+    md5: b5fc536b3e0a519bb81a9257ba6e7bfc
+    upload_filename: T--UFlorida--WS-basic--img--logos--contribution1.png
+  assets\WS-basic\img\logos\dna_repeat.png:
+    link_URL: https://2021.igem.org/wiki/images/d/d9/T--UFlorida--WS-basic--img--logos--dna_repeat.png
+    md5: e2e2556ce0b91ecc6357166a07f3cf64
+    upload_filename: T--UFlorida--WS-basic--img--logos--dna_repeat.png
+  assets\WS-basic\img\logos\dna_repeat2.png:
+    link_URL: https://2021.igem.org/wiki/images/7/77/T--UFlorida--WS-basic--img--logos--dna_repeat2.png
+    md5: 0fb3545639e158b1459b90a41a5b3f76
+    upload_filename: T--UFlorida--WS-basic--img--logos--dna_repeat2.png
+  assets\WS-basic\img\logos\email.png:
+    link_URL: https://2021.igem.org/wiki/images/4/42/T--UFlorida--WS-basic--img--logos--email.png
+    md5: bb18bdbbef437b2d50518db5a8292c94
+    upload_filename: T--UFlorida--WS-basic--img--logos--email.png
+  assets\WS-basic\img\logos\exactech-example.png:
+    link_URL: https://2021.igem.org/wiki/images/b/b2/T--UFlorida--WS-basic--img--logos--exactech-example.png
+    md5: d62f71312263cda37738e8baf5c307bf
+    upload_filename: T--UFlorida--WS-basic--img--logos--exactech-example.png
+  assets\WS-basic\img\logos\excellence_intro_gif.gif:
+    link_URL: https://2021.igem.org/wiki/images/6/60/T--UFlorida--WS-basic--img--logos--excellence_intro_gif.gif
+    md5: 877a74ec6adc3726cb1b8e63a74df10c
+    upload_filename: T--UFlorida--WS-basic--img--logos--excellence_intro_gif.gif
+  assets\WS-basic\img\logos\favicon_uflorida.png:
+    link_URL: https://2021.igem.org/wiki/images/a/a3/T--UFlorida--WS-basic--img--logos--favicon_uflorida.png
+    md5: 84328efc76c5f347bc566368b1bce484
+    upload_filename: T--UFlorida--WS-basic--img--logos--favicon_uflorida.png
+  assets\WS-basic\img\logos\graph_transparent.gif:
+    link_URL: https://2021.igem.org/wiki/images/2/22/T--UFlorida--WS-basic--img--logos--graph_transparent.gif
+    md5: d201b87e00f64404da94458b8a3829b9
+    upload_filename: T--UFlorida--WS-basic--img--logos--graph_transparent.gif
+  assets\WS-basic\img\logos\hhp_logo.png:
+    link_URL: https://2021.igem.org/wiki/images/8/8e/T--UFlorida--WS-basic--img--logos--hhp_logo.png
+    md5: 84c1d743af1cd8dc40d041ab1e465012
+    upload_filename: T--UFlorida--WS-basic--img--logos--hhp_logo.png
+  assets\WS-basic\img\logos\hp_seagrant_logo.png:
+    link_URL: https://2021.igem.org/wiki/images/a/aa/T--UFlorida--WS-basic--img--logos--hp_seagrant_logo.png
+    md5: 586c8f2f92c4efbef1882980bed3a810
+    upload_filename: T--UFlorida--WS-basic--img--logos--hp_seagrant_logo.png
+  assets\WS-basic\img\logos\hp_zoom1.png:
+    link_URL: https://2021.igem.org/wiki/images/4/46/T--UFlorida--WS-basic--img--logos--hp_zoom1.png
+    md5: 548808e0a33b25edb39318d809bc82da
+    upload_filename: T--UFlorida--WS-basic--img--logos--hp_zoom1.png
+  assets\WS-basic\img\logos\icon-agriculture.png:
+    link_URL: https://2021.igem.org/wiki/images/a/af/T--UFlorida--WS-basic--img--logos--icon-agriculture.png
+    md5: 0379deb8b7bad17ec0b8898fa605303c
+    upload_filename: T--UFlorida--WS-basic--img--logos--icon-agriculture.png
+  assets\WS-basic\img\logos\icon-hygiene.png:
+    link_URL: https://2021.igem.org/wiki/images/f/f1/T--UFlorida--WS-basic--img--logos--icon-hygiene.png
+    md5: 39a303572ac399b15fc3cb86ee08f0d6
+    upload_filename: T--UFlorida--WS-basic--img--logos--icon-hygiene.png
+  assets\WS-basic\img\logos\icon-lab-trans.png:
+    link_URL: https://2021.igem.org/wiki/images/c/c1/T--UFlorida--WS-basic--img--logos--icon-lab-trans.png
+    md5: 18f2672c6255b243b435dc3e8298a404
+    upload_filename: T--UFlorida--WS-basic--img--logos--icon-lab-trans.png
+  assets\WS-basic\img\logos\icon-lab.png:
+    link_URL: https://2021.igem.org/wiki/images/6/65/T--UFlorida--WS-basic--img--logos--icon-lab.png
+    md5: 05459153bf4e37db1ed44111c91aebad
+    upload_filename: T--UFlorida--WS-basic--img--logos--icon-lab.png
+  assets\WS-basic\img\logos\icon-livestock.png:
+    link_URL: https://2021.igem.org/wiki/images/e/ef/T--UFlorida--WS-basic--img--logos--icon-livestock.png
+    md5: b82d4644caca069bc5a754afa7df74b3
+    upload_filename: T--UFlorida--WS-basic--img--logos--icon-livestock.png
+  assets\WS-basic\img\logos\icon-overperscribe.png:
+    link_URL: https://2021.igem.org/wiki/images/3/3a/T--UFlorida--WS-basic--img--logos--icon-overperscribe.png
+    md5: c25084236ec27c7962f862307a16db8e
+    upload_filename: T--UFlorida--WS-basic--img--logos--icon-overperscribe.png
+  assets\WS-basic\img\logos\icon-pill.png:
+    link_URL: https://2021.igem.org/wiki/images/2/2b/T--UFlorida--WS-basic--img--logos--icon-pill.png
+    md5: 501b67ffa91134f6d853b4dac2206a67
+    upload_filename: T--UFlorida--WS-basic--img--logos--icon-pill.png
+  assets\WS-basic\img\logos\ifas_logo.png:
+    link_URL: https://2021.igem.org/wiki/images/5/52/T--UFlorida--WS-basic--img--logos--ifas_logo.png
+    md5: 825f5b80f9a247b6caad3e10be79f386
+    upload_filename: T--UFlorida--WS-basic--img--logos--ifas_logo.png
+  assets\WS-basic\img\logos\ihp_zoom1.png:
+    link_URL: https://2021.igem.org/wiki/images/6/6a/T--UFlorida--WS-basic--img--logos--ihp_zoom1.png
+    md5: a17c9353025fd52fa561a71f6a8a0b43
+    upload_filename: T--UFlorida--WS-basic--img--logos--ihp_zoom1.png
+  assets\WS-basic\img\logos\ihp_zoom2.png:
+    link_URL: https://2021.igem.org/wiki/images/0/0e/T--UFlorida--WS-basic--img--logos--ihp_zoom2.png
+    md5: 08f2f0bf3dfe59c005a88a8f24c879cd
+    upload_filename: T--UFlorida--WS-basic--img--logos--ihp_zoom2.png
+  assets\WS-basic\img\logos\ihp_zoom3.png:
+    link_URL: https://2021.igem.org/wiki/images/d/d1/T--UFlorida--WS-basic--img--logos--ihp_zoom3.png
+    md5: 2f57bb5fb17bac5a8b511e14bfe0b152
+    upload_filename: T--UFlorida--WS-basic--img--logos--ihp_zoom3.png
+  assets\WS-basic\img\logos\ihp_zoom4.png:
+    link_URL: https://2021.igem.org/wiki/images/d/d4/T--UFlorida--WS-basic--img--logos--ihp_zoom4.png
+    md5: 5ebcf860d9c1b5e09c36ce5d78485422
+    upload_filename: T--UFlorida--WS-basic--img--logos--ihp_zoom4.png
+  assets\WS-basic\img\logos\imageedit_1_4581657601.png:
+    link_URL: https://2021.igem.org/wiki/images/a/a6/T--UFlorida--WS-basic--img--logos--imageedit_1_4581657601.png
+    md5: b2e015a3b04933c7ddaaef44f5ab6aa1
+    upload_filename: T--UFlorida--WS-basic--img--logos--imageedit_1_4581657601.png
+  assets\WS-basic\img\logos\implementation_fig1.png:
+    link_URL: https://2021.igem.org/wiki/images/f/f0/T--UFlorida--WS-basic--img--logos--implementation_fig1.png
+    md5: d1181acf845391d2784f9848cabb585e
+    upload_filename: T--UFlorida--WS-basic--img--logos--implementation_fig1.png
+  assets\WS-basic\img\logos\loader_gator.GIF:
+    link_URL: https://2021.igem.org/wiki/images/6/60/T--UFlorida--WS-basic--img--logos--loader_gator.GIF
+    md5: 22025c5cab99e1252ef71bce3c098532
+    upload_filename: T--UFlorida--WS-basic--img--logos--loader_gator.GIF
+  assets\WS-basic\img\logos\loader_gator_crop_resize.gif:
+    link_URL: https://2021.igem.org/wiki/images/a/ab/T--UFlorida--WS-basic--img--logos--loader_gator_crop_resize.gif
+    md5: 4f60ba57bc184cd2a60eeae3741f1a17
+    upload_filename: T--UFlorida--WS-basic--img--logos--loader_gator_crop_resize.gif
+  assets\WS-basic\img\logos\loader_gator_cropped.gif:
+    link_URL: https://2021.igem.org/wiki/images/9/9a/T--UFlorida--WS-basic--img--logos--loader_gator_cropped.gif
+    md5: be1fac7b0791def2f080dd1bbd45de55
+    upload_filename: T--UFlorida--WS-basic--img--logos--loader_gator_cropped.gif
+  assets\WS-basic\img\logos\loading_gator.gif:
+    link_URL: https://2021.igem.org/wiki/images/5/52/T--UFlorida--WS-basic--img--logos--loading_gator.gif
+    md5: 00f5a2d4a96ee8160decd4ee36e3886f
+    upload_filename: T--UFlorida--WS-basic--img--logos--loading_gator.gif
+  assets\WS-basic\img\logos\logo_uf_igem.png:
+    link_URL: https://2021.igem.org/wiki/images/6/6c/T--UFlorida--WS-basic--img--logos--logo_uf_igem.png
+    md5: 71ba574e5935f5b3269a9c1db441f926
+    upload_filename: T--UFlorida--WS-basic--img--logos--logo_uf_igem.png
+  assets\WS-basic\img\logos\mainpagebackground.gif:
+    link_URL: https://2021.igem.org/wiki/images/3/39/T--UFlorida--WS-basic--img--logos--mainpagebackground.gif
+    md5: 76cd2339ac19070a6643f89abd6da4c8
+    upload_filename: T--UFlorida--WS-basic--img--logos--mainpagebackground.gif
+  assets\WS-basic\img\logos\model1.png:
+    link_URL: https://2021.igem.org/wiki/images/7/72/T--UFlorida--WS-basic--img--logos--model1.png
+    md5: 309b6c99f25ac411c2101b3ba82fddbf
+    upload_filename: T--UFlorida--WS-basic--img--logos--model1.png
+  assets\WS-basic\img\logos\model2.png:
+    link_URL: https://2021.igem.org/wiki/images/7/78/T--UFlorida--WS-basic--img--logos--model2.png
+    md5: 9f27f2b7b2ef6cb96e7a3bc9e1e350ff
+    upload_filename: T--UFlorida--WS-basic--img--logos--model2.png
+  assets\WS-basic\img\logos\model3.png:
+    link_URL: https://2021.igem.org/wiki/images/a/aa/T--UFlorida--WS-basic--img--logos--model3.png
+    md5: 224bdde0d83b7fa6dfdc6c2c54fe5a29
+    upload_filename: T--UFlorida--WS-basic--img--logos--model3.png
+  assets\WS-basic\img\logos\model4.png:
+    link_URL: https://2021.igem.org/wiki/images/2/23/T--UFlorida--WS-basic--img--logos--model4.png
+    md5: c6913fd841e3a27c6d109880a2650b1e
+    upload_filename: T--UFlorida--WS-basic--img--logos--model4.png
+  assets\WS-basic\img\logos\model5.png:
+    link_URL: https://2021.igem.org/wiki/images/0/0f/T--UFlorida--WS-basic--img--logos--model5.png
+    md5: 224bdde0d83b7fa6dfdc6c2c54fe5a29
+    upload_filename: T--UFlorida--WS-basic--img--logos--model5.png
+  assets\WS-basic\img\logos\model6.png:
+    link_URL: https://2021.igem.org/wiki/images/3/35/T--UFlorida--WS-basic--img--logos--model6.png
+    md5: 6e244e1498cb50051dbe416288fbd310
+    upload_filename: T--UFlorida--WS-basic--img--logos--model6.png
+  assets\WS-basic\img\logos\model7.png:
+    link_URL: https://2021.igem.org/wiki/images/6/6c/T--UFlorida--WS-basic--img--logos--model7.png
+    md5: 4e1c6d81f4b3d312c37cd6eae45c646f
+    upload_filename: T--UFlorida--WS-basic--img--logos--model7.png
+  assets\WS-basic\img\logos\our-solution-cropped.gif:
+    link_URL: https://2021.igem.org/wiki/images/a/a0/T--UFlorida--WS-basic--img--logos--our-solution-cropped.gif
+    md5: b640397893dcd56dbffa0a2a13b2b574
+    upload_filename: T--UFlorida--WS-basic--img--logos--our-solution-cropped.gif
+  assets\WS-basic\img\logos\oursolutioncroppedfinal.gif:
+    link_URL: https://2021.igem.org/wiki/images/5/5b/T--UFlorida--WS-basic--img--logos--oursolutioncroppedfinal.gif
+    md5: d4d0e960749bf3eb18298460941a128a
+    upload_filename: T--UFlorida--WS-basic--img--logos--oursolutioncroppedfinal.gif
+  assets\WS-basic\img\logos\pamphlet1.png:
+    link_URL: https://2021.igem.org/wiki/images/7/71/T--UFlorida--WS-basic--img--logos--pamphlet1.png
+    md5: b725eb1182b254bb10a18bf7ce36d738
+    upload_filename: T--UFlorida--WS-basic--img--logos--pamphlet1.png
+  assets\WS-basic\img\logos\pamphlet2.png:
+    link_URL: https://2021.igem.org/wiki/images/f/f8/T--UFlorida--WS-basic--img--logos--pamphlet2.png
+    md5: 00a656ac0134aff713988f0ef602b231
+    upload_filename: T--UFlorida--WS-basic--img--logos--pamphlet2.png
+  assets\WS-basic\img\logos\partnership_gif.gif:
+    link_URL: https://2021.igem.org/wiki/images/e/ed/T--UFlorida--WS-basic--img--logos--partnership_gif.gif
+    md5: 2da904816eb4509fce36ed25e90712d5
+    upload_filename: T--UFlorida--WS-basic--img--logos--partnership_gif.gif
+  assets\WS-basic\img\logos\partnership_map_crop.gif:
+    link_URL: https://2021.igem.org/wiki/images/d/de/T--UFlorida--WS-basic--img--logos--partnership_map_crop.gif
+    md5: f6e230b0b0c8c7e39cd18f4bb1efcf46
+    upload_filename: T--UFlorida--WS-basic--img--logos--partnership_map_crop.gif
+  assets\WS-basic\img\logos\project_description_1.jpg:
+    link_URL: https://2021.igem.org/wiki/images/1/12/T--UFlorida--WS-basic--img--logos--project_description_1.jpg
+    md5: d0037fe4e9c4e9811beea68586b29b95
+    upload_filename: T--UFlorida--WS-basic--img--logos--project_description_1.jpg
+  assets\WS-basic\img\logos\project_description_2.jpg:
+    link_URL: https://2021.igem.org/wiki/images/2/28/T--UFlorida--WS-basic--img--logos--project_description_2.jpg
+    md5: 75b1621f8ceb431a67aaf869d76bc849
+    upload_filename: T--UFlorida--WS-basic--img--logos--project_description_2.jpg
+  assets\WS-basic\img\logos\school_logos\denmark.png:
+    link_URL: https://2021.igem.org/wiki/images/f/f9/T--UFlorida--WS-basic--img--logos--school_logos--denmark.png
+    md5: 8f1495c47f035b8728c0d7e86a993934
+    upload_filename: T--UFlorida--WS-basic--img--logos--school_logos--denmark.png
+  assets\WS-basic\img\logos\school_logos\fsu.png:
+    link_URL: https://2021.igem.org/wiki/images/3/38/T--UFlorida--WS-basic--img--logos--school_logos--fsu.png
+    md5: 1d7bdf1a9174a83117df5049c15a4220
+    upload_filename: T--UFlorida--WS-basic--img--logos--school_logos--fsu.png
+  assets\WS-basic\img\logos\school_logos\jhu.png:
+    link_URL: https://2021.igem.org/wiki/images/0/08/T--UFlorida--WS-basic--img--logos--school_logos--jhu.png
+    md5: 828e5c29e2f67566fdc369777a04bb34
+    upload_filename: T--UFlorida--WS-basic--img--logos--school_logos--jhu.png
+  assets\WS-basic\img\logos\school_logos\lhs.png:
+    link_URL: https://2021.igem.org/wiki/images/7/75/T--UFlorida--WS-basic--img--logos--school_logos--lhs.png
+    md5: ea094ddbbe3fcac441dbe513969be66a
+    upload_filename: T--UFlorida--WS-basic--img--logos--school_logos--lhs.png
+  assets\WS-basic\img\logos\school_logos\mit.png:
+    link_URL: https://2021.igem.org/wiki/images/2/29/T--UFlorida--WS-basic--img--logos--school_logos--mit.png
+    md5: afbd6dbbc25fa78b27798743c16e6362
+    upload_filename: T--UFlorida--WS-basic--img--logos--school_logos--mit.png
+  assets\WS-basic\img\logos\school_logos\upenn.png:
+    link_URL: https://2021.igem.org/wiki/images/a/aa/T--UFlorida--WS-basic--img--logos--school_logos--upenn.png
+    md5: 9d14944e3e32860c4df5876621f144ac
+    upload_filename: T--UFlorida--WS-basic--img--logos--school_logos--upenn.png
+  assets\WS-basic\img\logos\uf-campus-example.jpg:
+    link_URL: https://2021.igem.org/wiki/images/0/0c/T--UFlorida--WS-basic--img--logos--uf-campus-example.jpg
+    md5: 89167ae17491bc22f67c37329e3136ba
+    upload_filename: T--UFlorida--WS-basic--img--logos--uf-campus-example.jpg
+  assets\WS-basic\img\photos\abby_hirshberg.png:
+    link_URL: https://2021.igem.org/wiki/images/3/31/T--UFlorida--WS-basic--img--photos--abby_hirshberg.png
+    md5: 01edfec720dfb03bf6c78230191f6468
+    upload_filename: T--UFlorida--WS-basic--img--photos--abby_hirshberg.png
+  assets\WS-basic\img\photos\alessio_barca.jpg:
+    link_URL: https://2021.igem.org/wiki/images/3/38/T--UFlorida--WS-basic--img--photos--alessio_barca.jpg
+    md5: 3a2dc2d15a58096730e30e15ff12e22e
+    upload_filename: T--UFlorida--WS-basic--img--photos--alessio_barca.jpg
+  assets\WS-basic\img\photos\alex_daves.jpeg:
+    link_URL: https://2021.igem.org/wiki/images/d/d9/T--UFlorida--WS-basic--img--photos--alex_daves.jpeg
+    md5: 8852293e2c2f768bbef6a67110104eee
+    upload_filename: T--UFlorida--WS-basic--img--photos--alex_daves.jpeg
+  assets\WS-basic\img\photos\bios\bahsoun.png:
+    link_URL: https://2021.igem.org/wiki/images/c/c7/T--UFlorida--WS-basic--img--photos--bios--bahsoun.png
+    md5: 8ca6e5e8e875a8b2cee0ca086fdd58f7
+    upload_filename: T--UFlorida--WS-basic--img--photos--bios--bahsoun.png
+  assets\WS-basic\img\photos\bios\barca.png:
+    link_URL: https://2021.igem.org/wiki/images/a/a7/T--UFlorida--WS-basic--img--photos--bios--barca.png
+    md5: 689904f6ccf55117714f191b878b93f6
+    upload_filename: T--UFlorida--WS-basic--img--photos--bios--barca.png
+  assets\WS-basic\img\photos\bios\blumenthal.png:
+    link_URL: https://2021.igem.org/wiki/images/8/85/T--UFlorida--WS-basic--img--photos--bios--blumenthal.png
+    md5: 25cb54eb51e7ebf327bd66c3915ab5b4
+    upload_filename: T--UFlorida--WS-basic--img--photos--bios--blumenthal.png
+  assets\WS-basic\img\photos\bios\hanson.png:
+    link_URL: https://2021.igem.org/wiki/images/6/62/T--UFlorida--WS-basic--img--photos--bios--hanson.png
+    md5: 504529db9bf183d24a73e24dd3082386
+    upload_filename: T--UFlorida--WS-basic--img--photos--bios--hanson.png
+  assets\WS-basic\img\photos\bios\hirshberg.png:
+    link_URL: https://2021.igem.org/wiki/images/5/58/T--UFlorida--WS-basic--img--photos--bios--hirshberg.png
+    md5: 846695267f5fdc968f59db3a64f5d30f
+    upload_filename: T--UFlorida--WS-basic--img--photos--bios--hirshberg.png
+  assets\WS-basic\img\photos\bios\mallinger.png:
+    link_URL: https://2021.igem.org/wiki/images/4/44/T--UFlorida--WS-basic--img--photos--bios--mallinger.png
+    md5: 08305cb57c4860ae4e18e9408a6ead02
+    upload_filename: T--UFlorida--WS-basic--img--photos--bios--mallinger.png
+  assets\WS-basic\img\photos\bios\murcia.png:
+    link_URL: https://2021.igem.org/wiki/images/2/2f/T--UFlorida--WS-basic--img--photos--bios--murcia.png
+    md5: d1e901b99f8b30b3d768d7664ba3ce87
+    upload_filename: T--UFlorida--WS-basic--img--photos--bios--murcia.png
+  assets\WS-basic\img\photos\bios\ramic.png:
+    link_URL: https://2021.igem.org/wiki/images/2/2a/T--UFlorida--WS-basic--img--photos--bios--ramic.png
+    md5: bd886c7b79fe61f32fe282a1c05066aa
+    upload_filename: T--UFlorida--WS-basic--img--photos--bios--ramic.png
+  assets\WS-basic\img\photos\bios\thelwell.png:
+    link_URL: https://2021.igem.org/wiki/images/7/7e/T--UFlorida--WS-basic--img--photos--bios--thelwell.png
+    md5: c6ed36eeb43cd327d4eaddd6d72adc9a
+    upload_filename: T--UFlorida--WS-basic--img--photos--bios--thelwell.png
+  assets\WS-basic\img\photos\bios\wilson.png:
+    link_URL: https://2021.igem.org/wiki/images/6/67/T--UFlorida--WS-basic--img--photos--bios--wilson.png
+    md5: c88b73f29ca9f013e22f44da144a08ba
+    upload_filename: T--UFlorida--WS-basic--img--photos--bios--wilson.png
+  assets\WS-basic\img\photos\bokor.jpg:
+    link_URL: https://2021.igem.org/wiki/images/b/b7/T--UFlorida--WS-basic--img--photos--bokor.jpg
+    md5: 7e97cb778694dba86cebbab2f81d9214
+    upload_filename: T--UFlorida--WS-basic--img--photos--bokor.jpg
+  assets\WS-basic\img\photos\celeste_wilson.jpg:
+    link_URL: https://2021.igem.org/wiki/images/e/ee/T--UFlorida--WS-basic--img--photos--celeste_wilson.jpg
+    md5: 7a8be072927dd81ced0a29b2f5b9ccaa
+    upload_filename: T--UFlorida--WS-basic--img--photos--celeste_wilson.jpg
+  assets\WS-basic\img\photos\david_murcia.png:
+    link_URL: https://2021.igem.org/wiki/images/d/d1/T--UFlorida--WS-basic--img--photos--david_murcia.png
+    md5: 9a6e82fae713e3fb3ee15e4c9dfaff0d
+    upload_filename: T--UFlorida--WS-basic--img--photos--david_murcia.png
+  assets\WS-basic\img\photos\donnelly.jpg:
+    link_URL: https://2021.igem.org/wiki/images/1/15/T--UFlorida--WS-basic--img--photos--donnelly.jpg
+    md5: 52a62ccc562a5f30213262478fc84b0d
+    upload_filename: T--UFlorida--WS-basic--img--photos--donnelly.jpg
+  assets\WS-basic\img\photos\ekanayake.png:
+    link_URL: https://2021.igem.org/wiki/images/6/65/T--UFlorida--WS-basic--img--photos--ekanayake.png
+    md5: abbf7b81ca2f819f9eb1d4c994c6954c
+    upload_filename: T--UFlorida--WS-basic--img--photos--ekanayake.png
+  assets\WS-basic\img\photos\engineering1.png:
+    link_URL: https://2021.igem.org/wiki/images/a/aa/T--UFlorida--WS-basic--img--photos--engineering1.png
+    md5: 7e642f0de0a9f008dea7866bfaf67f3b
+    upload_filename: T--UFlorida--WS-basic--img--photos--engineering1.png
+  assets\WS-basic\img\photos\engineering2.png:
+    link_URL: https://2021.igem.org/wiki/images/8/80/T--UFlorida--WS-basic--img--photos--engineering2.png
+    md5: 16250c8a09f54c4c28b7c1a13e3291a0
+    upload_filename: T--UFlorida--WS-basic--img--photos--engineering2.png
+  assets\WS-basic\img\photos\engineering3.png:
+    link_URL: https://2021.igem.org/wiki/images/2/22/T--UFlorida--WS-basic--img--photos--engineering3.png
+    md5: d5bcaeb2ca5c49de111bd28359767776
+    upload_filename: T--UFlorida--WS-basic--img--photos--engineering3.png
+  assets\WS-basic\img\photos\engineering4.png:
+    link_URL: https://2021.igem.org/wiki/images/9/9f/T--UFlorida--WS-basic--img--photos--engineering4.png
+    md5: 57116e3792e4651fc8e5ac2db3c07b53
+    upload_filename: T--UFlorida--WS-basic--img--photos--engineering4.png
+  assets\WS-basic\img\photos\engineering5.png:
+    link_URL: https://2021.igem.org/wiki/images/4/4a/T--UFlorida--WS-basic--img--photos--engineering5.png
+    md5: 42217377549de24ad49af6e9cb020c62
+    upload_filename: T--UFlorida--WS-basic--img--photos--engineering5.png
+  assets\WS-basic\img\photos\engineering6.jpg:
+    link_URL: https://2021.igem.org/wiki/images/5/54/T--UFlorida--WS-basic--img--photos--engineering6.jpg
+    md5: de06ac44d704b49b4877154ca571556a
+    upload_filename: T--UFlorida--WS-basic--img--photos--engineering6.jpg
+  assets\WS-basic\img\photos\engineering7.png:
+    link_URL: https://2021.igem.org/wiki/images/0/05/T--UFlorida--WS-basic--img--photos--engineering7.png
+    md5: 782e5a51a4f974057f58a1d609082c08
+    upload_filename: T--UFlorida--WS-basic--img--photos--engineering7.png
+  assets\WS-basic\img\photos\engineering8.jpg:
+    link_URL: https://2021.igem.org/wiki/images/2/28/T--UFlorida--WS-basic--img--photos--engineering8.jpg
+    md5: 853018ea8b75cddf408323c902713b51
+    upload_filename: T--UFlorida--WS-basic--img--photos--engineering8.jpg
+  assets\WS-basic\img\photos\engineering9.jpg:
+    link_URL: https://2021.igem.org/wiki/images/f/fb/T--UFlorida--WS-basic--img--photos--engineering9.jpg
+    md5: b9e651e75ef56814dcfc859208fb34bc
+    upload_filename: T--UFlorida--WS-basic--img--photos--engineering9.jpg
+  assets\WS-basic\img\photos\engineering_pfciri.png:
+    link_URL: https://2021.igem.org/wiki/images/4/4b/T--UFlorida--WS-basic--img--photos--engineering_pfciri.png
+    md5: 03f6bd88439952afd82247342d7bd37d
+    upload_filename: T--UFlorida--WS-basic--img--photos--engineering_pfciri.png
+  assets\WS-basic\img\photos\engineering_ribitol.png:
+    link_URL: https://2021.igem.org/wiki/images/f/f4/T--UFlorida--WS-basic--img--photos--engineering_ribitol.png
+    md5: 6e863cf6813450980beed5d5852c6ff0
+    upload_filename: T--UFlorida--WS-basic--img--photos--engineering_ribitol.png
+  assets\WS-basic\img\photos\garrett_fullerton.jpg:
+    link_URL: https://2021.igem.org/wiki/images/d/de/T--UFlorida--WS-basic--img--photos--garrett_fullerton.jpg
+    md5: 26c2d1101c192a410025b9ce0432f6fc
+    upload_filename: T--UFlorida--WS-basic--img--photos--garrett_fullerton.jpg
+  assets\WS-basic\img\photos\glover.jpg:
+    link_URL: https://2021.igem.org/wiki/images/a/a3/T--UFlorida--WS-basic--img--photos--glover.jpg
+    md5: b5c32cba2f8f3b111f5c8f9ddf7f2a25
+    upload_filename: T--UFlorida--WS-basic--img--photos--glover.jpg
+  assets\WS-basic\img\photos\harfe.jpg:
+    link_URL: https://2021.igem.org/wiki/images/5/50/T--UFlorida--WS-basic--img--photos--harfe.jpg
+    md5: 96f02d8134a75436d2c3f56392830711
+    upload_filename: T--UFlorida--WS-basic--img--photos--harfe.jpg
+  assets\WS-basic\img\photos\ihp_carr.jpg:
+    link_URL: https://2021.igem.org/wiki/images/8/82/T--UFlorida--WS-basic--img--photos--ihp_carr.jpg
+    md5: 301f450ffddbe7a82d23322d3bdafac2
+    upload_filename: T--UFlorida--WS-basic--img--photos--ihp_carr.jpg
+  assets\WS-basic\img\photos\ihp_gulig.jpg:
+    link_URL: https://2021.igem.org/wiki/images/3/3f/T--UFlorida--WS-basic--img--photos--ihp_gulig.jpg
+    md5: 209c411141c2bac45fc44a47d7647e54
+    upload_filename: T--UFlorida--WS-basic--img--photos--ihp_gulig.jpg
+  assets\WS-basic\img\photos\ihp_maurelli.jpg:
+    link_URL: https://2021.igem.org/wiki/images/1/14/T--UFlorida--WS-basic--img--photos--ihp_maurelli.jpg
+    md5: f81f1d35e84c8f9402d73b15bedb3f7a
+    upload_filename: T--UFlorida--WS-basic--img--photos--ihp_maurelli.jpg
+  assets\WS-basic\img\photos\ihp_seraphin.jpg:
+    link_URL: https://2021.igem.org/wiki/images/8/81/T--UFlorida--WS-basic--img--photos--ihp_seraphin.jpg
+    md5: fb1f159a0ba6df71ee0b00c6938568d2
+    upload_filename: T--UFlorida--WS-basic--img--photos--ihp_seraphin.jpg
+  assets\WS-basic\img\photos\jacob_york.jpeg:
+    link_URL: https://2021.igem.org/wiki/images/0/08/T--UFlorida--WS-basic--img--photos--jacob_york.jpeg
+    md5: c28c4256bd09ea2935269ec2b8129607
+    upload_filename: T--UFlorida--WS-basic--img--photos--jacob_york.jpeg
+  assets\WS-basic\img\photos\jordan_hanson.jpg:
+    link_URL: https://2021.igem.org/wiki/images/5/5f/T--UFlorida--WS-basic--img--photos--jordan_hanson.jpg
+    md5: c50f720a41d67b801a5c78277b4ced73
+    upload_filename: T--UFlorida--WS-basic--img--photos--jordan_hanson.jpg
+  assets\WS-basic\img\photos\julie_mallinger.jpg:
+    link_URL: https://2021.igem.org/wiki/images/d/dc/T--UFlorida--WS-basic--img--photos--julie_mallinger.jpg
+    md5: 4a11a1206c0cfb41f48f6d9c15bce070
+    upload_filename: T--UFlorida--WS-basic--img--photos--julie_mallinger.jpg
+  assets\WS-basic\img\photos\lejla_ramic.jpg:
+    link_URL: https://2021.igem.org/wiki/images/3/3f/T--UFlorida--WS-basic--img--photos--lejla_ramic.jpg
+    md5: 22b0321853f88950d56e72e4b2af09f7
+    upload_filename: T--UFlorida--WS-basic--img--photos--lejla_ramic.jpg
+  assets\WS-basic\img\photos\minecraft\mc1.png:
+    link_URL: https://2021.igem.org/wiki/images/a/ac/T--UFlorida--WS-basic--img--photos--minecraft--mc1.png
+    md5: 7476c491689b7e74179a0a0d108e05d7
+    upload_filename: T--UFlorida--WS-basic--img--photos--minecraft--mc1.png
+  assets\WS-basic\img\photos\minecraft\mc2.png:
+    link_URL: https://2021.igem.org/wiki/images/c/c2/T--UFlorida--WS-basic--img--photos--minecraft--mc2.png
+    md5: ef15bdf33366843d73a18c35e85e4cbc
+    upload_filename: T--UFlorida--WS-basic--img--photos--minecraft--mc2.png
+  assets\WS-basic\img\photos\minecraft\mc3.png:
+    link_URL: https://2021.igem.org/wiki/images/9/9b/T--UFlorida--WS-basic--img--photos--minecraft--mc3.png
+    md5: 4d6f43711b7f815619a0a3854ae31d13
+    upload_filename: T--UFlorida--WS-basic--img--photos--minecraft--mc3.png
+  assets\WS-basic\img\photos\minecraft\mc4.png:
+    link_URL: https://2021.igem.org/wiki/images/c/c9/T--UFlorida--WS-basic--img--photos--minecraft--mc4.png
+    md5: a776b0ef8e0ebfa1f5a1bb77ab945cd4
+    upload_filename: T--UFlorida--WS-basic--img--photos--minecraft--mc4.png
+  assets\WS-basic\img\photos\minecraft\mc5.png:
+    link_URL: https://2021.igem.org/wiki/images/b/b2/T--UFlorida--WS-basic--img--photos--minecraft--mc5.png
+    md5: 289e28712620ff2889b32340c210d938
+    upload_filename: T--UFlorida--WS-basic--img--photos--minecraft--mc5.png
+  assets\WS-basic\img\photos\minecraft\mc6.png:
+    link_URL: https://2021.igem.org/wiki/images/a/a6/T--UFlorida--WS-basic--img--photos--minecraft--mc6.png
+    md5: 24a608e6dd140a9d7f1c2a7040c3414e
+    upload_filename: T--UFlorida--WS-basic--img--photos--minecraft--mc6.png
+  assets\WS-basic\img\photos\minecraft\mc7.png:
+    link_URL: https://2021.igem.org/wiki/images/e/ea/T--UFlorida--WS-basic--img--photos--minecraft--mc7.png
+    md5: b2a9e12cbae75fc6f7e8c8010d38d3a1
+    upload_filename: T--UFlorida--WS-basic--img--photos--minecraft--mc7.png
+  assets\WS-basic\img\photos\minecraft\mc8.png:
+    link_URL: https://2021.igem.org/wiki/images/1/18/T--UFlorida--WS-basic--img--photos--minecraft--mc8.png
+    md5: 73b888a1415e0e8c1cefbd4d9c9236f0
+    upload_filename: T--UFlorida--WS-basic--img--photos--minecraft--mc8.png
+  assets\WS-basic\img\photos\minecraft\mc9.png:
+    link_URL: https://2021.igem.org/wiki/images/7/74/T--UFlorida--WS-basic--img--photos--minecraft--mc9.png
+    md5: 24297a043f2447d66e75170784971f1b
+    upload_filename: T--UFlorida--WS-basic--img--photos--minecraft--mc9.png
+  assets\WS-basic\img\photos\minecraft\mc_tour_crop.mp4:
+    link_URL: https://2021.igem.org/wiki/images/a/a4/T--UFlorida--WS-basic--img--photos--minecraft--mc_tour_crop.mp4
+    md5: dfa44c9fae28ff736a38992144e8e48d
+    upload_filename: T--UFlorida--WS-basic--img--photos--minecraft--mc_tour_crop.mp4
+  assets\WS-basic\img\photos\nick_blumenthal.png:
+    link_URL: https://2021.igem.org/wiki/images/d/d0/T--UFlorida--WS-basic--img--photos--nick_blumenthal.png
+    md5: e03e852bcd538cede8e1127d42fd9a43
+    upload_filename: T--UFlorida--WS-basic--img--photos--nick_blumenthal.png
+  assets\WS-basic\img\photos\norton.jpg:
+    link_URL: https://2021.igem.org/wiki/images/2/25/T--UFlorida--WS-basic--img--photos--norton.jpg
+    md5: 48085656459f0f5d6bd59589b8910c6a
+    upload_filename: T--UFlorida--WS-basic--img--photos--norton.jpg
+  assets\WS-basic\img\photos\outreachpics\carousel1.jpg:
+    link_URL: https://2021.igem.org/wiki/images/0/0a/T--UFlorida--WS-basic--img--photos--outreachpics--carousel1.jpg
+    md5: 1794f7a8a6d7c6dfc0868334e7e264a8
+    upload_filename: T--UFlorida--WS-basic--img--photos--outreachpics--carousel1.jpg
+  assets\WS-basic\img\photos\outreachpics\carousel2.jpg:
+    link_URL: https://2021.igem.org/wiki/images/f/f5/T--UFlorida--WS-basic--img--photos--outreachpics--carousel2.jpg
+    md5: d43ebef815099cfee8152e38218986ff
+    upload_filename: T--UFlorida--WS-basic--img--photos--outreachpics--carousel2.jpg
+  assets\WS-basic\img\photos\outreachpics\carousel3.jpg:
+    link_URL: https://2021.igem.org/wiki/images/7/73/T--UFlorida--WS-basic--img--photos--outreachpics--carousel3.jpg
+    md5: 09a571ce479f1bec9d661f166ac534b3
+    upload_filename: T--UFlorida--WS-basic--img--photos--outreachpics--carousel3.jpg
+  assets\WS-basic\img\photos\outreachpics\carousel4.jpg:
+    link_URL: https://2021.igem.org/wiki/images/7/78/T--UFlorida--WS-basic--img--photos--outreachpics--carousel4.jpg
+    md5: cd03515e355c5653a08faf5293fddd82
+    upload_filename: T--UFlorida--WS-basic--img--photos--outreachpics--carousel4.jpg
+  assets\WS-basic\img\photos\outreachpics\carousel5.jpg:
+    link_URL: https://2021.igem.org/wiki/images/c/c5/T--UFlorida--WS-basic--img--photos--outreachpics--carousel5.jpg
+    md5: 6007f3babbb2b51f8ade67a9458967bd
+    upload_filename: T--UFlorida--WS-basic--img--photos--outreachpics--carousel5.jpg
+  assets\WS-basic\img\photos\placeholder.png:
+    link_URL: https://2021.igem.org/wiki/images/b/bc/T--UFlorida--WS-basic--img--photos--placeholder.png
+    md5: f4a2e2cc6dc13ebc6eb35ae63c6f6370
+    upload_filename: T--UFlorida--WS-basic--img--photos--placeholder.png
+  assets\WS-basic\img\photos\reisch.jpg:
+    link_URL: https://2021.igem.org/wiki/images/1/1d/T--UFlorida--WS-basic--img--photos--reisch.jpg
+    md5: 1df413593c831f9773bcbaa9f51c0db4
+    upload_filename: T--UFlorida--WS-basic--img--photos--reisch.jpg
+  assets\WS-basic\img\photos\results\results1.png:
+    link_URL: https://2021.igem.org/wiki/images/2/24/T--UFlorida--WS-basic--img--photos--results--results1.png
+    md5: 03a52278b6950df7d463531d0fb8ae5f
+    upload_filename: T--UFlorida--WS-basic--img--photos--results--results1.png
+  assets\WS-basic\img\photos\results\results10.png:
+    link_URL: https://2021.igem.org/wiki/images/c/c5/T--UFlorida--WS-basic--img--photos--results--results10.png
+    md5: 43a2a4d600ccfcf5a56513b24c6980ab
+    upload_filename: T--UFlorida--WS-basic--img--photos--results--results10.png
+  assets\WS-basic\img\photos\results\results11.png:
+    link_URL: https://2021.igem.org/wiki/images/3/3f/T--UFlorida--WS-basic--img--photos--results--results11.png
+    md5: 073b7a7f1a2f1db62fd580a06d393459
+    upload_filename: T--UFlorida--WS-basic--img--photos--results--results11.png
+  assets\WS-basic\img\photos\results\results12.png:
+    link_URL: https://2021.igem.org/wiki/images/b/b8/T--UFlorida--WS-basic--img--photos--results--results12.png
+    md5: 2a69f9ac2e9d925072a6270980893c7b
+    upload_filename: T--UFlorida--WS-basic--img--photos--results--results12.png
+  assets\WS-basic\img\photos\results\results13.png:
+    link_URL: https://2021.igem.org/wiki/images/8/8a/T--UFlorida--WS-basic--img--photos--results--results13.png
+    md5: d5bcaeb2ca5c49de111bd28359767776
+    upload_filename: T--UFlorida--WS-basic--img--photos--results--results13.png
+  assets\WS-basic\img\photos\results\results2.png:
+    link_URL: https://2021.igem.org/wiki/images/d/d0/T--UFlorida--WS-basic--img--photos--results--results2.png
+    md5: 5eb1df8c3eb473f4a4d70cbf276936ba
+    upload_filename: T--UFlorida--WS-basic--img--photos--results--results2.png
+  assets\WS-basic\img\photos\results\results3.png:
+    link_URL: https://2021.igem.org/wiki/images/c/c6/T--UFlorida--WS-basic--img--photos--results--results3.png
+    md5: 9de54ca7e873c8e19b897ea2023e903a
+    upload_filename: T--UFlorida--WS-basic--img--photos--results--results3.png
+  assets\WS-basic\img\photos\results\results4.png:
+    link_URL: https://2021.igem.org/wiki/images/c/c5/T--UFlorida--WS-basic--img--photos--results--results4.png
+    md5: 7cd79fe9840634a869b5609c1fe18832
+    upload_filename: T--UFlorida--WS-basic--img--photos--results--results4.png
+  assets\WS-basic\img\photos\results\results5.png:
+    link_URL: https://2021.igem.org/wiki/images/9/92/T--UFlorida--WS-basic--img--photos--results--results5.png
+    md5: ac37bf8285bb7c29a94a1684ef1f26e6
+    upload_filename: T--UFlorida--WS-basic--img--photos--results--results5.png
+  assets\WS-basic\img\photos\results\results6.png:
+    link_URL: https://2021.igem.org/wiki/images/f/f8/T--UFlorida--WS-basic--img--photos--results--results6.png
+    md5: 8ed09587d62af7cdba74827b5f82cf8f
+    upload_filename: T--UFlorida--WS-basic--img--photos--results--results6.png
+  assets\WS-basic\img\photos\results\results7.png:
+    link_URL: https://2021.igem.org/wiki/images/2/28/T--UFlorida--WS-basic--img--photos--results--results7.png
+    md5: da507af5e584a3f13593d6735dd01d7e
+    upload_filename: T--UFlorida--WS-basic--img--photos--results--results7.png
+  assets\WS-basic\img\photos\results\results8.png:
+    link_URL: https://2021.igem.org/wiki/images/d/d7/T--UFlorida--WS-basic--img--photos--results--results8.png
+    md5: ad13854e5b137b3b570457474f69a9af
+    upload_filename: T--UFlorida--WS-basic--img--photos--results--results8.png
+  assets\WS-basic\img\photos\results\results9.png:
+    link_URL: https://2021.igem.org/wiki/images/8/86/T--UFlorida--WS-basic--img--photos--results--results9.png
+    md5: 5db9aa462265b748f5522d1d56f84d22
+    upload_filename: T--UFlorida--WS-basic--img--photos--results--results9.png
+  assets\WS-basic\img\photos\ryanne_thelwell.jpg:
+    link_URL: https://2021.igem.org/wiki/images/c/cc/T--UFlorida--WS-basic--img--photos--ryanne_thelwell.jpg
+    md5: af23c2b200acf6d578f35135e2b3e52e
+    upload_filename: T--UFlorida--WS-basic--img--photos--ryanne_thelwell.jpg
+  assets\WS-basic\img\photos\sarah_bahsoun.jpg:
+    link_URL: https://2021.igem.org/wiki/images/a/a9/T--UFlorida--WS-basic--img--photos--sarah_bahsoun.jpg
+    md5: 177b6ed06739d0733cc9967bbc677112
+    upload_filename: T--UFlorida--WS-basic--img--photos--sarah_bahsoun.jpg
+  assets\WS-basic\img\photos\schuster.png:
+    link_URL: https://2021.igem.org/wiki/images/4/40/T--UFlorida--WS-basic--img--photos--schuster.png
+    md5: a8ddc5ac1e16b13fbe20af74c171e2d8
+    upload_filename: T--UFlorida--WS-basic--img--photos--schuster.png
+  assets\WS-basic\img\photos\shawn_robertson.jpg:
+    link_URL: https://2021.igem.org/wiki/images/9/9d/T--UFlorida--WS-basic--img--photos--shawn_robertson.jpg
+    md5: 708d1a73c0ebffd195df0e27e5852806
+    upload_filename: T--UFlorida--WS-basic--img--photos--shawn_robertson.jpg
+  assets\WS-basic\img\photos\taylor.jpg:
+    link_URL: https://2021.igem.org/wiki/images/3/32/T--UFlorida--WS-basic--img--photos--taylor.jpg
+    md5: 11899277051e84c9badd102186ff3e18
+    upload_filename: T--UFlorida--WS-basic--img--photos--taylor.jpg
+  assets\WS-basic\img\photos\turner.jpg:
+    link_URL: https://2021.igem.org/wiki/images/5/59/T--UFlorida--WS-basic--img--photos--turner.jpg
+    md5: a5d8a594924071bd3fdb6759ae04831d
+    upload_filename: T--UFlorida--WS-basic--img--photos--turner.jpg
+css:
+  css\Page-1.css:
+    link_URL: https://2021.igem.org/Template:UFlorida/css/Page-1CSS?action=raw&ctype=text/css
+    md5: 427c5ef11974bb0152928218fb0a0275
+  css\bootstrap.min.css:
+    link_URL: https://2021.igem.org/Template:UFlorida/css/bootstrap-minCSS?action=raw&ctype=text/css
+    md5: 9d9e4551ea6804461d751a86670b7418
+  css\custom.css:
+    link_URL: https://2021.igem.org/Template:UFlorida/css/customCSS?action=raw&ctype=text/css
+    md5: 9d679a1d69996ecfd2dc949b5c217fd7
+  css\fontawesome.min.css:
+    link_URL: https://2021.igem.org/Template:UFlorida/css/fontawesome-minCSS?action=raw&ctype=text/css
+    md5: 85f9eacf2896c345a5e81a1e34af606f
+  css\nicepage.css:
+    link_URL: https://2021.igem.org/Template:UFlorida/css/nicepageCSS?action=raw&ctype=text/css
+    md5: 855e6d233e5a0b2e7c386804fef7c116
+html:
+  Attributions.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Attributions
+    md5: 35b8d921ebb7eb874938a63b985744cb
+  Collaborations.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Collaborations
+    md5: c05348906b91f438a4f3c599aa3b2b18
+  Communication.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Communication
+    md5: ''
+  Communication_temp.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Communication_temp
+    md5: ''
+  Contribution.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Contribution
+    md5: 90dcdb85c99e1938f22863251d4e775f
+  Description.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Description
+    md5: 67b9a7cedf9d7357c4b83d5223842a95
+  Education_temp.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Education_temp
+    md5: 06a8980cfc8faebf1405785dea88c1e1
+  Engineering.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Engineering
+    md5: fcc5fca74e58462c23739f1abaaf8ce1
+  Excellence.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Excellence
+    md5: 6d267ddb37ffc8e8356b44abba73bc01
+  Excellence_temp.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Excellence_temp
+    md5: 6d267ddb37ffc8e8356b44abba73bc01
+  Experiments.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Experiments
+    md5: 0d7f846c32222e3a04a79a99712910fb
+  Human_Practices.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Human_Practices
+    md5: 124de2889ae40bd5d7f49373d8d08d4b
+  Implementation.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Implementation
+    md5: 904bf9312d9a8856ad72a5a4df2740ec
+  Model.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Model
+    md5: 6bb1ff40553fdf67501754b87c4016f9
+  Page_Template.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Page_Template
+    md5: c3600d12e25ceb781705a8773d80192a
+  Partnership.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Partnership
+    md5: ''
+  Parts.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Parts
+    md5: f819e0e1b832ea8c3c1151ff95000087
+  Results.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Results
+    md5: d98f5bfd6323fcfbdff184ad7576b847
+  Team.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/Team
+    md5: 5f3a79791e9d157c501573a7bda28720
+  UFlorida_Footer.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/UFlorida_Footer
+    md5: 415347c29b85dee6f332cb17e3fe0d78
+  UFlorida_Navbar.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/UFlorida_Navbar
+    md5: 8580de47e85e3249fa103ef5564454d0
+  assets\WS-basic\documents\RISE_ppt.html:
+    link_URL: https://2021.igem.org/Team:UFlorida/assets/WS-basic/documents/RISE_ppt
+    md5: ''
+  index.html:
+    link_URL: https://2021.igem.org/Team:UFlorida
+    md5: 58b50f5de1da303b2d7dd8b427d20af2
+js:
+  js\bootstrap.bundle.min.js:
+    link_URL: https://2021.igem.org/Template:UFlorida/js/bootstrap-bundle-minJS?action=raw&ctype=text/javascript
+    md5: 0aa8d64e726c4a57adb5c88f9115996b
+  js\bootstrap.min.js:
+    link_URL: https://2021.igem.org/Template:UFlorida/js/bootstrap-minJS?action=raw&ctype=text/javascript
+    md5: 14d449eb8876fa55e1ef3c2cc52b0c17
+  js\button-to-top.js:
+    link_URL: https://2021.igem.org/Template:UFlorida/js/button-to-topJS?action=raw&ctype=text/javascript
+    md5: 0276f8cab6360660ef97a889115d03aa
+  js\fade.js:
+    link_URL: https://2021.igem.org/Template:UFlorida/js/fadeJS?action=raw&ctype=text/javascript
+    md5: c602b5f25b923204936aff78dc57181e
+  js\jquery-3.2.1.slim.min.js:
+    link_URL: https://2021.igem.org/Template:UFlorida/js/jquery-3-2-1-slim-minJS?action=raw&ctype=text/javascript
+    md5: e4f60e36fb624b3b4dd616ce75a0bf3c
+  js\jquery.js:
+    link_URL: https://2021.igem.org/Template:UFlorida/js/jqueryJS?action=raw&ctype=text/javascript
+    md5: dc5e7f18c8d36ac1d3d4753a87c98d0a
+  js\loader.js:
+    link_URL: https://2021.igem.org/Template:UFlorida/js/loaderJS?action=raw&ctype=text/javascript
+    md5: ce76587a066178c56239a1118b326049
+  js\nicepage.js:
+    link_URL: https://2021.igem.org/Template:UFlorida/js/nicepageJS?action=raw&ctype=text/javascript
+    md5: ae14807404af96cdddd47d6b03c93d7a
+  js\partnershipmap.js:
+    link_URL: https://2021.igem.org/Template:UFlorida/js/partnershipmapJS?action=raw&ctype=text/javascript
+    md5: 02472155ea96ec4e4f88a35effa90686
+  js\popper.min.js:
+    link_URL: https://2021.igem.org/Template:UFlorida/js/popper-minJS?action=raw&ctype=text/javascript
+    md5: 124bf4d1a7db31dd60d4642dce268035
+  js\timeline.js:
+    link_URL: https://2021.igem.org/Template:UFlorida/js/timelineJS?action=raw&ctype=text/javascript
+    md5: bc5e618e41ec060c966df04001b66017

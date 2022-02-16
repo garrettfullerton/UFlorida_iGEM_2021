@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UF iGEM 2021</title>
+
+    <!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+-->
+    <link
+      href="C:/Users/Garrett/Documents/Documents/wiki/src/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="C:/Users/Garrett/Documents/Documents/wiki/src/css/custom.css"
+      rel="stylesheet"
+    />
+    <link
+      href="C:/Users/Garrett/Documents/Documents/wiki/src/css/nicepage.css"
+      rel="stylesheet"
+    />
+    <link
+      href="C:/Users/Garrett/Documents/Documents/wiki/src/css/page-1.css"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/favicon_uflorida.png"
+      type="image/x-icon"
+    />
+
+    <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@700&display=swap" rel="stylesheet" />
+-->
+    <!--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    -->
+    <link
+      href="C:/Users/Garrett/Documents/Documents/wiki/src/css/fontawesome.min.css"
+      rel="stylesheet"
+    />
+    <script
+      type="text/javascript"
+      src="C:/Users/Garrett/Documents/Documents/wiki/src/js/loader.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="C:/Users/Garrett/Documents/Documents/wiki/src/js/nicepage.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="C:/Users/Garrett/Documents/Documents/wiki/src/js/jquery.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="C:/Users/Garrett/Documents/Documents/wiki/src/js/fade.js"
+    ></script>
+  </head>
+
+  <body>
+    <div id="loader"></div>
+
+    <!--
+      START OF NAVBAR
+    -->
+    <div class="fixed-top">
+      <!--color options: .bg-primary .bg-secondary .bg-success .bg-danger .bg-warning .bg-info .bg-light .bg-dark .bg-white -->
+      <nav
+        class="
+          navbar navbar-default navbar-expand-lg navbar-dark
+          bg-dark
+          sticky-top
+          static
+        "
+      >
+        <div class="container-fluid py-1">
+          <div
+            class="navbar-header"
+            style="padding-top: 0px; padding-bottom: 0px"
+          >
+            <a
+              class="navbar-brand"
+              style="padding-left: 30px"
+              href="C:/Users/Garrett/Documents/Documents/wiki/src/index.html"
+            >
+              <img
+                src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/logo_uf_igem.png"
+                style="object-fit: cover; border-radius: 50%; height: 100px"
+              />
+            </a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse"
+            id="navbarSupportedContent"
+            style="font-size: 18px"
+          >
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown" style="padding-left: 3.5em">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Team.html"
+                  data-toggle="dropdown"
+                  id="dropdown_target"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Team
+                  <span class="caret"></span>
+                </a>
+                <div
+                  class="
+                    dropdown-menu
+                    centerDropdown
+                    dropdown-menu-right
+                    fade-down
+                  "
+                  aria-labelledby="dropdown_target"
+                  style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)"
+                >
+                  <a
+                    class="dropdown-item"
+                    href="C:/Users/Garrett/Documents/Documents/wiki/src/Team.html"
+                    >Team</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item"
+                    href="C:/Users/Garrett/Documents/Documents/wiki/src/Attributions.html"
+                    >Attributions</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item"
+                    href="C:/Users/Garrett/Documents/Documents/wiki/src/Collaborations.html"
+                    >Collaborations</a
+                  >
+                </div>
+              </li>
+
+              <li class="nav-item dropdown" style="padding-left: 3.5em">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Description.html"
+                  data-toggle="dropdown"
+                  id="dropdown_target"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Project
+                  <span class="caret"></span>
+                </a>
+                <div
+                  class="
+                    dropdown-menu
+                    centerDropdown
+                    dropdown-menu-right
+                    fade-down
+                  "
+                  aria-labelledby="dropdown_target"
+                  style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)"
+                >
+                  <a
+                    class="dropdown-item"
+                    href="C:/Users/Garrett/Documents/Documents/wiki/src/Description.html"
+                    >Description</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item"
+                    href="C:/Users/Garrett/Documents/Documents/wiki/src/Results.html"
+                    >Results</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item"
+                    href="C:/Users/Garrett/Documents/Documents/wiki/src/Contribution.html"
+                    >Contribution</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item"
+                    href="C:/Users/Garrett/Documents/Documents/wiki/src/Model.html"
+                    >Model</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item"
+                    href="C:/Users/Garrett/Documents/Documents/wiki/src/Engineering.html"
+                    >Engineering</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item"
+                    href="C:/Users/Garrett/Documents/Documents/wiki/src/Implementation.html"
+                    >Implementation</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item"
+                    href="C:/Users/Garrett/Documents/Documents/wiki/src/Experiments.html"
+                    >Experiments</a
+                  >
+                </div>
+              </li>
+
+              <li class="nav-item" style="padding-left: 3.5em">
+                <a
+                  class="nav-link"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Parts.html"
+                  >Parts</a
+                >
+              </li>
+
+              <li
+                class="nav-item dropdown"
+                style="padding-left: 3.5em; margin-right: 3em"
+              >
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Human_Practices.html"
+                  data-toggle="dropdown"
+                  id="dropdown_target"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Human Practices
+                  <span class="caret"></span>
+                </a>
+                <div
+                  class="
+                    dropdown-menu
+                    centerDropdown
+                    dropdown-menu-right
+                    fade-down
+                  "
+                  aria-labelledby="dropdown_target"
+                  style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)"
+                >
+                  <a
+                    class="dropdown-item"
+                    href="C:/Users/Garrett/Documents/Documents/wiki/src/Human_Practices.html"
+                    >Integrated Human Practices</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item"
+                    href="C:/Users/Garrett/Documents/Documents/wiki/src/Communication.html"
+                    >Education & Communication</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item"
+                    href="C:/Users/Garrett/Documents/Documents/wiki/src/Partnership.html"
+                    >Partnership</a
+                  >
+                  <div class="dropdown-divider"></div>
+                  <a
+                    class="dropdown-item"
+                    href="C:/Users/Garrett/Documents/Documents/wiki/src/Excellence.html"
+                    >Excellence in Another Area</a
+                  >
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="progress" style="height: 4px">
+        <div
+          style="height: 4px; width: 0px; background: black"
+          class="progress-bar"
+          id="myBar"
+        ></div>
+      </div>
+    </div>
+    <!--
+        END OF NAVBAR
+      -->
+
+    <section
+      class="u-align-center u-clearfix u-image u-shading u-section-1"
+      src=""
+      data-image-width="256"
+      data-image-height="256"
+      id="sec-fc45"
+      style="
+        background-image: linear-gradient(
+            0deg,
+            rgba(241, 241, 241, 0.4),
+            rgba(135, 0, 231, 0.4)
+          ),
+          url('C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/mainpagebackground.gif');
+      "
+    >
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h1
+          class="u-text u-title u-text-1"
+          style="
+            font-family: 'Mali', cursive;
+            color: #0a0a0a;
+            text-shadow: 4px 4px rgba(0, 0, 0, 0.5);
+            letter-spacing: 10px;
+            font-size: 6rem;
+          "
+        >
+          EDUCATION & COMMUNICATION
+        </h1>
+        <div style="justify-content: center; padding-top: 100px">
+          <a href="#page-content" class="button-link">
+            <button
+              type="button"
+              class="btn btn-dark btn-circle btn-xl"
+              href="#page-content"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="30"
+                height="30"
+                fill="currentColor"
+                class="bi bi-caret-down-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+                />
+              </svg>
+            </button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="dna-divider" style="margin-top: 3em"></div>
+    <div id="page-content">
+      <div class="container-fluid">
+        <div class="row">
+          <h1>UF iGEM x UF CPET</h1>
+          <h3>RISE Presentation Summary</h3>
+        </div>
+      </div>
+
+      <div class="container">
+        <h3>Introduction</h3>
+        <p>
+          During our team’s preliminary research into the project, we realized
+          that while the moving parts would largely utilize principles of
+          synthetic biology, the application of our project had implications
+          branching from public health to even climate change. Whilst doing
+          this, the team realized that reaching out into the community and
+          explaining a complex scientific topic in easily digestible and
+          relatable terms could not only increase the awareness of our issue but
+          also spark an interest in science for those who previously felt it too
+          dense.
+        </p>
+      </div>
+
+      <div class="container">
+        <h3>Determining our Target Audience</h3>
+        <p>
+          As such, we realized that we could have the greatest impact in science
+          communication and inspiring others by focusing on a younger audience,
+          such as high school students. We decided to seek out high school
+          students over other cohorts, such as elementary school students,
+          because we felt that the students having taken introductory biology
+          already would be better able to digest the material of our project
+          without risk of alienation. <br><br>
+          Once we determined what we wanted to do, the team discussed the best
+          delivery methods of information in order to engage students at the
+          highest level. We recognized that with restrictions still in place in
+          many areas to reduce the transmission of COVID-19 that the likelihood
+          of working with students in-person was a low possibility, especially
+          during our time frame in the summer. After searching for opportunities
+          to interact with high-school students in some form during the summer,
+          we discovered the University of Florida’s Research Immersion in
+          Science and Engineering (RISE) program. This program featured high
+          achieving 10th grade students in the United States interested in
+          accelerated scientific research and learning, lasting for 2 weeks
+          virtually during the summer. The team determined that this group of
+          students would not only be a perfect fit for our target demographic,
+          but that their interest in the camp would suggest they have some
+          existing interest in science research.
+          <br><br>
+        </p>
+        <img
+          class="shadow-sm"
+          src="assets/WS-basic/img/photos/bokor.jpg"
+          style="float: right; margin-left: 2.5%; margin-bottom: 1%"
+        />
+        <p>
+          After reaching out to the program sponsor, UF’s Center for
+          Precollegiate Education and Training, we were put into contact with
+          <strong>Dr. Julie Bokor</strong>, the RISE program lead. <br><br>
+          It was during this meeting that we learned the program was being
+          delivered solely through the virtual Zoom platform, and that there was
+          no in-person component to the program. Despite this serving as a
+          potential obstacle for reaching our goal of creating an interactive
+          presentation to inform and entertain a young audience, we persevered
+          nonetheless. Dr. Bokor had indicated that she may have either a 1 or 2
+          hour time slot available for us, to let us know as we were closer to
+          the presentation date. Nonetheless, we planned on preparing at least 2
+          hours of content to accommodate for this possibility.
+          <br><br>
+          Given Dr. Bokor’s expertise in the field of education and science
+          communication, we also decided to utilize our meeting time with her to
+          brainstorm ideas on how to construct and deliver our presentation and
+          seek advice on how to maintain a balance between entertaining and
+          informing our audience. She provided a wide array of helpful
+          suggestions that we considered and ended up pursuing for our
+          presentation.
+          <br><br>
+          After our meeting with Dr. Bokor and subsequent meetings with the rest
+          of our iGEM team, we planned on incorporating the following for a
+          2-hour presentation:
+        </p>
+      </div>
+      <div class="container" style="align-content: center; text-align: center">
+        <div class="container">
+          <ul class="list-unstyled">
+            <li>A PowerPoint presentation</li>
+            <li>An interactive infographic competition</li>
+            <li>A tour of our iGEM lab</li>
+          </ul>
+        </div>
+      </div>
+
+      <div
+        class="container"
+        style="
+          text-align: center;
+          padding-left: 10%;
+          padding-right: 10%;
+          padding-top: 2.5%;
+          padding-bottom: 2.5%;
+        "
+      >
+        <div
+          class="container shadow"
+          style="
+            background-color: white;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 2.5%;
+            padding-bottom: 2.5%;
+            border-radius: 10px;
+          "
+        >
+          <div class="container">
+            <p>
+              As a team, we collectively decided that a PowerPoint presentation
+              would be the most effective and efficient vehicle for delivering
+              information pertaining to the science behind our project. Since we
+              also assumed that most students in the audience would not know
+              what iGEM is, we decided to also use the presentation as an
+              opportunity to introduce the competition to the students. We thus
+              decided on the appropriate structure for our presentation:
+            </p>
+          </div>
+
+          <div class="container">
+            <ul class="list-unstyled">
+              <li>Part 1: Introduction of iGEM and the UF iGEM team</li>
+              <li>
+                Part 2: Our Project: The problem, context behind it and our
+                goals
+              </li>
+              <li>
+                Part 3: Our Project: The Science behind our procedure and goals
+              </li>
+              <li>Part 4: Tools & Skills we Employ in the Lab</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <p>
+          Following the presentation, we planned on introducing an
+          <strong>infographic</strong> competition to the students, leaving in
+          some time for them to complete it.
+        </p>
+      </div>
+
+      <div
+        class="container"
+        style="
+          text-align: center;
+          padding-left: 20%;
+          padding-right: 20%;
+          padding-bottom: 2.5%;
+        "
+      >
+        <p
+          class="shadow"
+          style="
+            background-color: white;
+            padding-left: 10%;
+            padding-right: 10%;
+            padding-top: 5%;
+            padding-bottom: 5%;
+            border-radius: 10px;
+          "
+        >
+          Our plan for an infographic competition involved having the students
+          create a quick infographic about their favorite part of our
+          presentation. The students would be invited to use a variety of
+          different tools and softwares to design this infographic and would
+          send it to our email. We would give them about 15 minutes to create
+          the best work they can. Our “top picks” would be featured on our Team
+          Instagram, and the students would be credited on our wiki page.
+        </p>
+      </div>
+
+      <div class="container">
+        <p>
+          Following the infographic competition and the small time window we
+          give the students to complete this competition, we would enter the
+          final phase of our presentation, a tour of the lab we use for our
+          work. This was a suggestion from Dr. Bokor, which we thought would
+          help excite the students to see what kind of exciting research exists
+          in the next stages of their education. Although we were still not
+          certain on the date or time slot for the presentation, we were aware
+          that it would be sometime between 12 PM and 3 PM, which was also a
+          good time for us to tour around the lab. Specifically, we planned on
+          showing the students the layout of the lab, followed by all of the
+          equipment and plates that we used in our experiments.
+          <br><br>
+          As we arrived closer to the presentation date, Dr. Bokor informed us
+          that we were only given a one hour slot to present. We then had to
+          decide what to remove from our 2 hour presentation, keeping in mind
+          that we wanted to maximize both the information and entertainment
+          factors of our presentation. We decided to keep the PowerPoint
+          presentation component of the presentation and shorten the infographic
+          competition at the end in order to maximize the information aspects of
+          the presentation, which we believed were the biggest components of our
+          partnership with RISE.
+          <br><br>
+          When our presentation day came, our content filled in the entire hour
+          slot. We introduced the iGEM foundation, the iGEM competition, and
+          this year’s team members for UF iGEM. Following this, we introduced
+          our project and provided important contextual information to ensure
+          every student could understand the premise of our project. When we
+          began explaining the science behind our project, we made sure to
+          simplify and condense the information, keeping in mind that some of
+          our students had only taken biology at a high school level; therefore,
+          they had little exposure to principles of genetics, microbiology and
+          synthetic biology in general. We closed our presentation by explaining
+          some important and relevant procedures that we perform in the lab,
+          keeping in mind that these are procedures the students themselves may
+          perform in the future.
+        </p>
+      </div>
+      <div class="dna-divider"></div>
+      <div class="container" style="text-align: center">
+        <h3>Check out our presentation below!</h3>
+      </div>
+
+      <!--
+        <div class="container"
+            style="text-align: center; align-content: center; width:max-content; height: max-content;">
+            <iframe src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/documents/RISE_ppt.html"
+                height="500rem" width="1000rem"></iframe>
+            <br><br>
+        </div>
+      -->
+      <div class="dna-divider"></div>
+
+      <div class="container figure">
+        <p style="font-size: 1.5em">
+          <strong>Snapshot of the Zoom presentation with RISE</strong>
+        </p>
+        <img
+          style="width: 60%; height: auto"
+          src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/communication_zoom1.png"
+        />
+        <p style="font-size: 0.6em">
+          All the faces and names of minors have been blurred out.
+        </p>
+
+        <br><br>
+      </div>
+    </div>
+
+    <div class="dna-divider"></div>
+
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+-->
+    <script src="C:/Users/Garrett/Documents/Documents/wiki/src/js/bootstrap.bundle.min.js"></script>
+    <script>
+      // When the user scrolls the page, execute myFunction
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      function myFunction() {
+        var winScroll =
+          document.body.scrollTop || document.documentElement.scrollTop;
+        var height =
+          document.documentElement.scrollHeight -
+          document.documentElement.clientHeight;
+        var scrolled = (winScroll / height) * 100;
+        document.getElementById("myBar").style.width = scrolled + "%";
+      }
+    </script>
+  </body>
+</html>

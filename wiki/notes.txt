@@ -1,0 +1,90 @@
+ - results section, add text
+ - add fade scroll class to all pages
+ - update fonts
+ - change title font to REM - RESPONSIVE
+ - lab notebook -> would recommend incorporating a table of contents
+ - make references consistent
+ - download bootstrap, fonts, jquery, etc. MUST BE LOCALLY HOSTED
+ - remove modal from team members without it
+ - change navbar hrefs to be the actual links
+
+
+ - delete
+    proof of concept
+    notebook
+    parts collection
+    improve
+    safety
+    delete everything else in awards
+
+title education -> education & communication
+-> move to under human practices
+-> rename to communication (EDUCATION IS NOW COMMUNICATION)
+
+
+
+
+standard pages:
+Attributions x
+Description x
+Contribution x
+Engineering x 
+Collaborations x
+Human_Practices x 
+Implementation x
+Human_Practices x
+Model x
+Partnership x
+communication x
+Excellence x
+Team x
+index x
+
+
+Sitemap (check off when done)
+- index #
+- Team
+--- team #
+--- attributions #
+--- collaborations
+- project #
+--- Description #
+--- results  #
+--- contribution
+--- Model #
+--- engineering #
+--- implementation #
+--- experiments #
+- parts #
+- human practices #
+--- integrated human practices #
+--- education & communication #
+--- partnership
+--- excellence in another area #
+
+
+done:
+- changed navbar code to make it a template
+- homepage
+- attributions page
+- parts page
+- model page
+- navbar code
+- footer code
+- description page
+- implementation
+- results
+- contribution
+- excellence
+- engineering
+- experiments
+- integrated human practices
+- education & communication
+- partnership
+
+
+
+
+todo:
+- collaborations
+- footer

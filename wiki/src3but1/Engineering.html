@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UF iGEM 2021</title>
+
+    <!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+-->
+<link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/bootstrap.min.css" rel="stylesheet" />
+    
+    <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/custom.css" rel="stylesheet">
+    <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/nicepage.css" rel="stylesheet">
+    <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/page-1.css" rel="stylesheet">
+
+    <link rel="shortcut icon"
+        href="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/favicon_uflorida.png"
+        type="image/x-icon" />
+
+ <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@700&display=swap" rel="stylesheet" />
+-->
+    <!--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    -->
+    <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/fontawesome.min.css" rel="stylesheet" />
+
+   <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/loader.js"></script>
+    <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/nicepage.js"></script>
+    <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/jquery.js"></script>
+    <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/fade.js"></script>
+
+
+</head>
+
+<body>
+    <div id="loader"></div>
+   
+    <!--
+      START OF NAVBAR
+    -->
+<div class="fixed-top">
+  <!--color options: .bg-primary .bg-secondary .bg-success .bg-danger .bg-warning .bg-info .bg-light .bg-dark .bg-white -->
+  <nav
+    class="
+      navbar navbar-default navbar-expand-lg navbar-dark
+      bg-dark
+      sticky-top
+      static
+    "
+  >
+    <div class="container-fluid py-1">
+      <div class="navbar-header" style="padding-top: 0px; padding-bottom: 0px">
+        <a
+          class="navbar-brand"
+          style="padding-left: 30px"
+          href="C:/Users/Garrett/Documents/Documents/wiki/src/index.html"
+        >
+          <img
+            src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/logo_uf_igem.png"
+            style="object-fit: cover; border-radius: 50%; height: 100px"
+          />
+        </a>
+      </div>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse"
+        id="navbarSupportedContent"
+        style="font-size: 18px"
+      >
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown" style="padding-left: 3.5em">
+            <a
+              class="nav-link dropdown-toggle"
+              href="C:/Users/Garrett/Documents/Documents/wiki/src/Team.html"
+              data-toggle="dropdown"
+              id="dropdown_target"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Team
+              <span class="caret"></span>
+            </a>
+            <div
+              class="dropdown-menu centerDropdown dropdown-menu-right fade-down"
+              aria-labelledby="dropdown_target"
+              style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)"
+            >
+              <a
+                class="dropdown-item"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Team.html"
+                >Team</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Attributions.html"
+                >Attributions</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Collaborations.html"
+                >Collaborations</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item dropdown" style="padding-left: 3.5em">
+            <a
+              class="nav-link dropdown-toggle"
+              href="C:/Users/Garrett/Documents/Documents/wiki/src/Description.html"
+              data-toggle="dropdown"
+              id="dropdown_target"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Project
+              <span class="caret"></span>
+            </a>
+            <div
+              class="dropdown-menu centerDropdown dropdown-menu-right fade-down"
+              aria-labelledby="dropdown_target"
+              style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)"
+            >
+              <a
+                class="dropdown-item"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Description.html"
+                >Description</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Results.html"
+                >Results</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Contribution.html"
+                >Contribution</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Model.html"
+                >Model</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Engineering.html"
+                >Engineering</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Implementation.html"
+                >Implementation</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Experiments.html"
+                >Experiments</a
+              >
+            </div>
+          </li>
+
+          <li class="nav-item" style="padding-left: 3.5em">
+            <a
+              class="nav-link"
+              href="C:/Users/Garrett/Documents/Documents/wiki/src/Parts.html"
+              >Parts</a
+            >
+          </li>
+
+          <li
+            class="nav-item dropdown"
+            style="padding-left: 3.5em; margin-right: 3em"
+          >
+            <a
+              class="nav-link dropdown-toggle"
+              href="C:/Users/Garrett/Documents/Documents/wiki/src/Human_Practices.html"
+              data-toggle="dropdown"
+              id="dropdown_target"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Human Practices
+              <span class="caret"></span>
+            </a>
+            <div
+              class="dropdown-menu centerDropdown dropdown-menu-right fade-down"
+              aria-labelledby="dropdown_target"
+              style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)"
+            >
+              <a
+                class="dropdown-item"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Human_Practices.html"
+                >Integrated Human Practices</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Communication.html"
+                >Education & Communication</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Partnership.html"
+                >Partnership</a
+              >
+              <div class="dropdown-divider"></div>
+              <a
+                class="dropdown-item"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Excellence.html"
+                >Excellence in Another Area</a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="progress" style="height: 4px">
+    <div
+      style="height: 4px; width: 0px; background: black"
+      class="progress-bar"
+      id="myBar"
+    ></div>
+  </div>
+</div>
+<!--
+      END OF NAVBAR
+    -->
+
+
+    <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="256"
+        data-image-height="256" id="sec-fc45" style="background-image: linear-gradient(
+    0deg,
+    rgba(241, 241, 241, 0.4),
+    rgba(135, 0, 231, 0.4)
+  ),
+  url('C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/mainpagebackground.gif');">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+            <h1 class="u-text u-title u-text-1"
+                style="font-family: 'Mali', cursive; color: #0a0a0a; text-shadow: 4px 4px rgba(0, 0, 0, 0.5); letter-spacing: 10px; font-size: 6rem;">
+                ENGINEERING</h1>
+            <div style="justify-content: center; padding-top:100px;">
+                <a href="#page-content" class="button-link">
+                    <button type="button" class="btn btn-dark btn-circle btn-xl" href="#page-content">
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+
+                    </button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="dna-divider" style="margin-top: 3em;"></div>
+    <div id="page-content" style="padding-left: 10%; padding-right: 10%">
+        
+
+
+       <div class="container">
+           <h2>Header</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum adipisci delectus nostrum, possimus dolore excepturi eum accusamus dolorem repellat necessitatibus facilis ad nisi amet! Sunt omnis earum officia. Eius inventore, expedita aut porro voluptas laborum vitae? Et aut eveniet, aspernatur hic accusantium nisi in repellendus! Rerum sed, omnis ipsam eius quibusdam modi in vitae, id ducimus, maiores sapiente aspernatur accusantium et inventore sit facilis magni. Aspernatur dolor rerum alias blanditiis dolorum harum praesentium inventore provident delectus consequatur dolorem eius eos illo optio rem, quos qui cupiditate in tempore non. Tenetur nobis mollitia voluptatum quas facere corporis odit doloremque quae autem earum ea, iure nam consequuntur exercitationem dolorum quasi consequatur, quos temporibus. Harum ex nostrum optio architecto reprehenderit autem nesciunt recusandae inventore veritatis, fugit repudiandae assumenda quis quisquam, expedita illum saepe distinctio quasi accusantium esse aperiam corrupti officiis nihil animi? Dicta voluptates, unde laborum similique iure nihil blanditiis fugit sint sit dolores in nesciunt aperiam nam possimus aut suscipit voluptatum repellendus. Tempore sit nemo debitis. Cum, doloribus ducimus, autem quidem voluptate sit provident magni beatae impedit quasi atque velit exercitationem aspernatur perspiciatis dolore similique vero, quibusdam recusandae iste aperiam id? Nemo nostrum dolore numquam culpa cumque dolorem a eos aspernatur veritatis expedita eaque tenetur esse repellat mollitia illo harum voluptas iste, dolor placeat minima at eius. Tempore exercitationem nobis voluptates rem! Delectus minima quasi ratione optio accusamus magni enim, repudiandae dicta voluptatibus, provident error. Omnis dolorum voluptatem aspernatur voluptates distinctio dolorem ratione qui similique. Ipsa delectus quam enim quos reiciendis labore cumque maiores, voluptates quo corporis autem aperiam quia facere at hic iusto ratione consequatur nobis illo accusamus doloremque ipsum. Modi minima inventore maxime dignissimos magni sed temporibus esse et dicta. Odit id est, mollitia fugiat tempora illum sed suscipit reiciendis pariatur voluptatum, saepe soluta. Atque ex esse vel ad. Accusamus nostrum, quaerat totam tempore iure optio animi eius veniam reprehenderit iste voluptas molestiae nesciunt eum corporis alias autem. Sit, fugit! Esse quam dolorem earum cum ipsum cupiditate tempora hic natus similique aliquam officia veniam dolores, iste fugiat quis dolorum maiores unde quo eligendi enim recusandae et. Sint quos doloremque magni aliquid at facilis, ducimus saepe adipisci non animi dolor et doloribus odit sit molestiae minus nesciunt, a inventore dolorum. Voluptatibus doloribus quidem vitae laudantium totam natus cupiditate harum! Temporibus necessitatibus molestiae voluptas architecto quidem ducimus reiciendis, porro, ratione hic vero non incidunt blanditiis cumque nisi quia. Minus necessitatibus vero illo quibusdam molestiae delectus. Explicabo, quod eius. Expedita ducimus modi molestiae, repellat possimus labore architecto at recusandae dicta iusto, cupiditate amet autem aliquam ad fugit aliquid aut! Dolore, enim quasi molestias non, nulla culpa doloremque autem eligendi soluta quidem consequatur neque nisi quod exercitationem quam. Autem quibusdam quod assumenda culpa voluptates iusto esse aliquam excepturi rem consectetur, aut, quas molestiae porro at velit odio laudantium nulla commodi illo, reprehenderit nisi soluta? Itaque repudiandae reprehenderit impedit ratione consequatur aspernatur dolor ea dignissimos est in esse quia obcaecati, aperiam debitis, veritatis perferendis, minima praesentium! Pariatur ipsam excepturi dolor minus quam doloribus, impedit ex dolores sint obcaecati eligendi ad alias cumque quidem architecto vel delectus a nulla culpa, veniam fuga at similique, aliquid accusantium! Ad modi exercitationem provident optio itaque repellat, consectetur dicta officiis? Sapiente neque, inventore non quidem minus ratione quis temporibus, natus iusto ex nemo, nisi enim assumenda et praesentium dolorum! Vero reprehenderit fuga laudantium obcaecati consequatur saepe labore vel quos explicabo quidem, ipsa suscipit adipisci temporibus facere doloribus, ipsam maiores aspernatur eos magnam. Error sunt amet aspernatur dolores et illo debitis quasi aperiam ex dolorum. Soluta illo velit ipsam adipisci nobis. Laborum voluptate veritatis nesciunt pariatur corrupti repudiandae fugit tempore ratione?</p>
+        </div>
+
+        <div class="container">
+            <h2>Header</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa similique ullam mollitia. Repudiandae est nobis numquam dignissimos quaerat, labore veniam, quis nam enim expedita corporis vel optio voluptatibus repellendus maxime incidunt? Illum adipisci porro repellat suscipit dolor molestiae tempora iure quas esse, ex asperiores laudantium necessitatibus dolorem eveniet dolorum ab repellendus hic magnam! Vel esse impedit, nulla minima ullam culpa, corrupti enim blanditiis, architecto earum iste. Iusto eveniet suscipit magnam? Libero soluta provident consequatur eum voluptas dolorum sunt atque itaque omnis illo eveniet accusamus eius fugit error numquam corporis explicabo voluptatum, veritatis enim fuga, sit vero officia praesentium! Dignissimos est quo iusto rem labore rerum modi tempora quaerat beatae. Laborum consectetur consequatur enim vero incidunt soluta, nihil tempore quos eum qui saepe rem error eaque quidem ea earum cum, perspiciatis voluptate eveniet hic sint. Odit molestiae illo labore dolorem ducimus! Quia rem fuga illum rerum quis sit reprehenderit laudantium ea numquam ab provident iste neque et deleniti, alias eligendi. Vero enim expedita suscipit, doloremque quasi sint error asperiores quam, consequuntur corrupti facere aut. Iste animi similique corporis distinctio voluptatibus tenetur ea rerum labore? Error maxime, fugit eum obcaecati, consectetur in aut doloribus quisquam iusto natus, vel saepe animi provident doloremque!</p>
+            <div class="container" style="text-align: center;">            <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/placeholder.png" style="width:500px; height: 500px;">
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus ad quam rerum fuga debitis accusamus possimus aperiam harum ex soluta quia explicabo, nisi dolor repudiandae culpa illum similique aliquam ipsum atque optio provident accusantium perspiciatis mollitia vel? At velit vel voluptatibus ea? Sint quia earum, unde nemo provident, officiis nihil, ab labore odit ipsa nostrum deleniti. Explicabo, modi provident reprehenderit quis eligendi amet voluptates illum ab necessitatibus? Illum itaque velit veniam adipisci in sint, accusantium rem hic molestiae eligendi accusamus dicta delectus rerum voluptate iure ab officiis tenetur nobis esse dolor optio aspernatur eveniet. Ab excepturi dolore in incidunt. Maxime, ullam vero eligendi hic saepe illum error provident. Asperiores, nihil nesciunt cumque ullam omnis fuga quibusdam ut laudantium, a aspernatur velit tempore totam perspiciatis vel? Sed eveniet iure, nesciunt modi assumenda, repellat provident quasi molestias quas consectetur accusamus numquam dicta quam voluptates. Assumenda enim explicabo eligendi, possimus earum distinctio officiis impedit exercitationem consectetur aliquid et, omnis, cupiditate neque. Saepe dignissimos nesciunt neque. Porro, alias iure? Optio porro doloremque nam excepturi, dolore tempore, magni amet fuga nulla sint aliquam, laboriosam soluta vel iusto distinctio officia illum nemo sed commodi veniam deleniti? Modi officia accusamus, aut id harum et pariatur! Mollitia, ab?</p>
+        </div>
+
+        <div class="container">
+            <h2>Header</h2>
+            <div class="container" style="text-align: center;">
+            <table class="table table-hover table-bordered table-striped table-light">
+                <thead>
+                  <tr class="table-primary">
+                    <th scope="col">#</th>
+                    <th scope="col">Header 1</th>
+                    <th scope="col">Header 2</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Element 1</td>
+                    <td>Element 2</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Element 3</td>
+                    <td>Element 4</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2">Element 5</td>
+                  </tr>
+                </tbody>
+              </table>
+              </div>
+              <div class="container row">
+              <div class="container col">
+                 
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-light">Text 1</li>
+                <li class="list-group-item list-group-item-light">Text 2</li>
+                <li class="list-group-item list-group-item-light">Text 3</li>
+                <li class="list-group-item list-group-item-light">Text 4</li>
+                <li class="list-group-item list-group-item-light">Text 5</li>
+              </ul>
+              </div>
+              <div class="container col">
+                <ul class="list-unstyled">
+                  <li>Text 1</li>
+                  <li>Text 2</li>
+                  <li>Text 3</li>
+                  <li>Text 4</li>
+                  <li>Text 5</li>
+                </ul>
+            </div>
+            <div class="container col">
+                <ul>
+                  <li>Text 1</li>
+                  <li>Text 2</li>
+                  <li>Text 3</li>
+                  <li>Text 4</li>
+                  <li>Text 5</li>
+                </ul>
+            </div>
+            </div>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt placeat, cum reprehenderit eos alias sapiente culpa, quaerat labore, consequatur dignissimos animi accusamus sed voluptatem rerum eaque dolore unde tenetur quia distinctio! Maxime ad eaque, recusandae, ratione consequuntur, earum suscipit asperiores fugit repellendus labore magnam vel vitae! Ullam sunt fuga accusamus labore quo, architecto, dignissimos consequatur esse, magnam nihil at! Voluptates similique iure fugiat. Aliquid necessitatibus laborum reprehenderit pariatur fuga ducimus, aspernatur cupiditate, sint quis eum blanditiis voluptas minus nisi vitae totam est consequuntur dolore, in modi doloribus ipsam eligendi nesciunt maxime? Dolorum quos optio iusto quis! Illo molestias, aliquam mollitia dolores beatae ut est consequatur earum excepturi dolorem distinctio nihil iste explicabo vitae ipsum itaque sapiente ex blanditiis id, nemo ad optio saepe. Necessitatibus fuga atque recusandae sed officia totam id iste quo repudiandae quis non, magnam nisi, error aliquam voluptatibus explicabo minus dolor voluptas a maxime. Asperiores, odio atque! Corporis ratione, ad quod deleniti quisquam perspiciatis animi, natus, vero error quae voluptatum molestiae blanditiis itaque eos minima odio quidem velit hic nobis eveniet maxime voluptates dolores. Facere vel ipsum consectetur aperiam natus eos consequuntur labore at eius aliquid, sint, quidem non, sunt beatae sequi magnam repellat. Animi, vero totam.</p>
+              <div class="container" style="text-align: center;">
+                  <div class="row">
+                      <div class="col">
+                        <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/placeholder.png" style="height: 50px; width: 400px;">
+                      </div>
+                      <div class="col">
+                        <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/placeholder.png" style="height: 50px; width: 400px;">
+                      </div>
+                  </div>
+              </div>
+        </div>
+
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias voluptatum ipsa, magni consequatur mollitia corrupti praesentium maiores aperiam numquam eaque? Nam harum maiores voluptatibus doloremque, ducimus maxime ipsam dolorum quaerat. Debitis quasi in cupiditate ducimus eius aut alias autem repellat blanditiis iure, quos nihil molestiae iste velit culpa nulla beatae obcaecati dolorum. Cupiditate saepe, eveniet velit quos ex cumque neque. Officia modi assumenda adipisci in omnis fugit, eaque ea nihil est fuga autem temporibus facilis natus explicabo laboriosam eum nisi dolorem obcaecati illum quisquam voluptates aliquam quos! Debitis voluptates quidem beatae facere ex. Architecto impedit adipisci, modi voluptatem fugit mollitia?</p>
+            <div class="container figure"><img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/placeholder.png" style="width: 500px; height: 500px;">
+            <p>CAPTION</p></div>
+            <div class="container figure"><img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/placeholder.png" style="width: 500px; height: 500px;">
+                <p>CAPTION</p></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores ipsa nam, et esse voluptas hic facilis sequi harum natus in numquam eaque cupiditate at dignissimos asperiores! Quos, molestiae, maxime id odio aliquam cum laboriosam dolores fugit libero beatae autem ipsam dignissimos soluta consequuntur inventore non odit eum illo, accusantium quibusdam! Nihil doloremque modi provident numquam rerum magnam animi quos pariatur doloribus ut tempore earum, ullam, quis consectetur excepturi blanditiis asperiores perferendis sapiente incidunt perspiciatis quas nesciunt distinctio dicta qui? Error provident molestiae accusantium minus adipisci quibusdam nam magnam atque eveniet assumenda necessitatibus dolorem tenetur doloremque ipsa quam laborum, quia tempora consequuntur culpa laboriosam ad consequatur, sunt distinctio officia. Quibusdam perferendis voluptate ipsum amet, ducimus illum quisquam? Eum minima voluptates velit beatae tempore fuga animi blanditiis consectetur maiores, dolores enim sapiente voluptate, quos id error aut doloribus reprehenderit quaerat expedita. Nesciunt libero quam veniam a facilis, esse cupiditate commodi sapiente officia saepe optio hic adipisci fugiat impedit obcaecati recusandae doloribus necessitatibus molestias porro soluta, accusamus quaerat eum alias! Maiores optio, provident vitae officia dolore excepturi enim sint qui saepe assumenda ducimus suscipit adipisci neque, nihil ipsa exercitationem. Quae, corrupti nobis at laborum nostrum voluptas repellat. Dolor saepe corrupti et quis ullam.</p>
+            
+        </div>
+        
+        <div class="container">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab accusamus qui inventore. Mollitia animi fuga deleniti consequatur facere? Repellendus sunt quisquam, dolore consectetur maiores consequatur voluptas eligendi ipsa ullam itaque, laboriosam adipisci sequi nulla enim doloremque. Magnam culpa a aliquid corporis adipisci voluptatibus quidem labore voluptates praesentium, minus optio? Culpa minus quas, aut provident, nobis id vitae maxime quaerat sit unde similique aliquid accusantium suscipit fugit! Eos expedita consectetur commodi nisi dolores, facilis quae reiciendis hic error possimus dolorum quo laboriosam non enim? Quibusdam distinctio alias ab porro quae sequi ullam eaque autem quod laboriosam? Minus obcaecati error ipsum cupiditate fugit, illo provident ab voluptatem non soluta id quo quibusdam, nulla eum, eos ducimus ut eaque vero saepe aperiam. Sit amet a odit ab consectetur officia voluptatum nulla. Hic provident ab nobis non. Rerum aut sit incidunt harum odit fuga necessitatibus omnis? Explicabo quasi, delectus hic praesentium dolores quod. Aspernatur omnis cupiditate deserunt earum reiciendis laudantium beatae, amet architecto molestias soluta eaque ut veniam dignissimos repudiandae tenetur. Quam, illo. Ipsum earum similique consectetur qui, incidunt recusandae itaque dolore repellat sed adipisci sit voluptatibus velit reiciendis ut nesciunt quidem maiores modi tenetur, mollitia maxime ratione architecto exercitationem. Consectetur distinctio, eligendi natus nemo vero excepturi error autem iste nam? Illo cumque totam rerum unde explicabo veritatis quia perferendis voluptas ipsam voluptate! Quae reprehenderit illum magni sed exercitationem, voluptate earum nam minus suscipit repellendus reiciendis itaque temporibus facere deserunt omnis fuga a ullam quo cupiditate totam, quisquam quidem? Deleniti quo doloribus quisquam commodi dolorum laudantium sequi dicta a expedita itaque consequuntur magni possimus, facere similique illum unde nemo voluptatem eligendi omnis molestiae laborum corrupti odio? Voluptates amet ullam soluta ratione, necessitatibus modi fugiat impedit veritatis nemo voluptas optio excepturi esse maxime dolorum quasi et asperiores voluptatibus, adipisci inventore labore rerum reiciendis quibusdam repellat ab! Nobis, reiciendis expedita. Quasi, molestiae? Dolorem, quo? Odit aliquid atque similique amet cum, consequuntur voluptates commodi quas? Eos voluptate minus itaque modi ea inventore, iure omnis voluptatem iusto, fuga illum non. Illum ipsum asperiores commodi neque laborum optio sunt iusto animi inventore. Inventore qui commodi voluptate sit nostrum aut, nesciunt ullam doloribus reiciendis harum sequi enim delectus accusantium saepe tempore voluptatibus esse eos debitis molestias! Laboriosam deserunt sunt amet magni earum ea recusandae iste, dolor dolore culpa quod rerum, enim fugit nulla! Illo architecto libero ullam necessitatibus cumque beatae nulla, dolores, corporis, illum ut suscipit sequi mollitia nisi a veritatis quaerat omnis exercitationem. Quia deserunt animi voluptatibus molestias quaerat alias placeat, a possimus fugit maxime odit quo, voluptate, commodi assumenda illum doloremque consequuntur magnam excepturi dicta omnis saepe perferendis. Aliquid animi accusamus enim cum illum expedita, alias quia libero perspiciatis, in nemo vitae, sint iste! Alias ipsa iure quae, ut deleniti consectetur suscipit non commodi doloribus dolore nulla eveniet officia nihil, saepe dolores atque unde corporis eaque? Vel aperiam atque, qui possimus beatae obcaecati! Magnam cumque fugiat eum reprehenderit dignissimos nisi iusto! Nesciunt, atque commodi sint consectetur alias ea eius nobis eum, eveniet inventore cumque adipisci hic quaerat ad.</p>
+        </div>
+
+
+        
+        
+    </div>
+    <div class="dna-divider"></div>
+
+    
+
+
+
+    
+     <!--
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+-->
+<script src="C:/Users/Garrett/Documents/Documents/wiki/src/js/bootstrap.bundle.min.js"></script>
+   
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+</body>
+
+</html>

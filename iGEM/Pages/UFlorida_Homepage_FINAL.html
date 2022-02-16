@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link href="../CSS/custom.css" rel="stylesheet">
+  <link href="../nicepage/Page-1.css" rel="stylesheet">
+  <link href="../nicepage/nicepage.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mali:wght@700&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="../JS/loader.js"></script>
+  <script type="text/javascript" src="../nicepage/nicepage.js"></script>
+  <script type="text/javascript" src="../nicepage/jquery.js"></script>
+  <script type="text/javascript" src="../JS/fade.js"></script>
+
+</head>
+
+<body style="background: white;">
+  <div id="loader"></div>
+  <!--
+    START OF CONTENT
+  -->
+  <div id="content">
+    <!--
+    <div class="jumbotron text-md-center" style="margin-bottom: 0px; padding: 100px; background: white;">
+      <h1>Everything you ever wanted to know about UF</h1>
+      <p>Keep reading to learn more!</p>
+    </div>
+  -->
+
+    <!--
+      START OF NAVBAR
+    -->
+    <div class="sticky-top">
+      <!--color options: .bg-primary .bg-secondary .bg-success .bg-danger .bg-warning .bg-info .bg-light .bg-dark .bg-white -->
+      <nav class="
+        navbar navbar-default navbar-expand-lg navbar-dark
+        bg-dark
+        sticky-top
+        static
+      ">
+        <div class="container-fluid py-1">
+          <div class="navbar-header" style="padding-top:0px; padding-bottom:0px;">
+
+
+            <a class="navbar-brand" style="padding-left: 30px" href="UFlorida_Homepage_FINAL.html">
+              <img src="../DesignDocs/logos/logo_uf_igem.png" style="
+                object-fit: cover;
+                border-radius: 50%;
+                height: 100px;
+              " />
+            </a>
+
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size:18px;">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item dropdown" style="padding-left: 3.5em">
+                <a class="nav-link dropdown-toggle" href="UFlorida_Teampage_FINAL.html" data-toggle="dropdown" id="dropdown_target" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Team
+                  <span class="caret"></span>
+                </a>
+                <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down"
+                  aria-labelledby="dropdown_target" style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
+                  <a class="dropdown-item" href="UFlorida_Teampage_FINAL.html">Team</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Attributions</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Collaborations</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown" style="padding-left: 3.5em">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="dropdown_target" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Project
+                  <span class="caret"></span>
+                </a>
+                <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down"
+                  aria-labelledby="dropdown_target" style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
+                  <a class="dropdown-item" href="#">Communication</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Contribution</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Description</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Engineering</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Experiments</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Implementation</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Notebook</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Partnership</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Proof Of Concept</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Results</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown" style="padding-left: 3.5em">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="dropdown_target" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Parts
+                  <span class="caret"></span>
+                </a>
+                <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down"
+                  aria-labelledby="dropdown_target" style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
+                  <a class="dropdown-item" href="#">Parts Collection</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Parts</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Improve</a>
+                </div>
+              </li>
+
+
+              <li class="nav-item" style="padding-left: 3.5em">
+                <a class="nav-link" href="#">Safety</a>
+              </li>
+              <li class="nav-item" style="padding-left: 3.5em">
+                <a class="nav-link" href="#">Human Practices</a>
+              </li>
+
+              <li class="nav-item dropdown" style="padding-left: 3.5em; margin-right: 2em;">
+                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="dropdown_target" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Awards
+                  <span class="caret"></span>
+                </a>
+                <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down"
+                  aria-labelledby="dropdown_target" style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
+                  <a class="dropdown-item" href="#">Education</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Entrepreneurship</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Hardware</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Inclusivity</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Measurement</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Model</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Plant</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Software</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Sustainable</a>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="progress" style="height: 4px;">
+        <div style="height: 4px; width: 0px; background:black;" class="progress-bar" id="myBar"></div>
+      </div>
+
+    </div>
+    <!--
+    END OF NAVBAR
+  -->
+    <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="256"
+      data-image-height="256" id="sec-fc45">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <h1 class="u-text u-title u-text-1"
+          style="font-family: 'Mali', cursive; color: #0a0a0a; text-shadow: 4px 4px rgba(0, 0, 0, 0.5); letter-spacing: 10px; font-size: 6rem;">
+          TEAM UFLORIDA 2021</h1>
+        <div style="justify-content: center; padding-top:100px;">
+          <button type="button" class="btn btn-dark btn-circle btn-xl" href="#content">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height=30" fill="currentColor"
+              class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path
+                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </section>
+    <div id="content">
+      <section class="u-clearfix u-valign-middle u-white u-section-2" id="carousel_65bf" style="background: #ede1ef">
+        <div class="u-clearfix u-layout-wrap u-layout-wrap-1 fade-scroll">
+          <div class="u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-left u-container-style u-layout-cell u-left-cell u-size-23 u-layout-cell-1">
+                <div class="u-container-layout u-valign-middle u-container-layout-1">
+                  <!--<div class="u-border-6 u-line u-line-horizontal u-line-1" style="color: #3f3f3f; "></div>-->
+                  
+                  <h1 class=""
+                    style="font-family: 'Mali', cursive; color: #3d3d3d; text-shadow:2px 2px rgba(0, 0, 0, 0.2);">
+                    ANTIBIOTIC RESISTANCE</h1>
+                    <div class="dna-divider"></div>
+                  <p class="u-text u-text-2" style="color: #3d3d3d;"> From the discovery of penicillin in 1928,
+                    antibiotics have revolutionized the medical field saving thousands of lives each year. However, by
+                    random mutation, bacteria have evolved to withstand antibiotics and multiply at an exponential rate
+                    spreading their immunity to future generations. As bacteria have become more immune to antibiotics,
+                    there is an increasing struggle to develop stronger drugs to combat equally strong bacteria.
+                    Unfortunately, as the treatment options dwindle, these superbugs are winning the fight. Globally,
+                    antibiotic resistance results in 700,000 deaths each year. This number is expected to rise to 10
+                    million by 2050, overburdening healthcare systems and exerting a projected economic burden of 100
+                    trillion dollars.</p>
+                  </p>
+                </div>
+              </div>
+              <div class="u-container-style u-image u-layout-cell u-right-cell u-size-37 u-image-1"
+                data-image-width="1318" data-image-height="1080">
+                <div class="u-container-layout u-container-layout-2"
+                  style="justify-content: center; align-items: center; text-align: center;">
+                  <img src="../DesignDocs/logos/graph_transparent.gif" style="height: 40em;">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="u-align-center u-clearfix u-palette-2-base u-section-3" id="carousel_d409"
+        style="background: #faf8ed">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1 fade-scroll">
+          <h1 class="u-text u-text-default u-text-1"
+            style="font-family: 'Mali', cursive; color: #3d3d3d; text-shadow: 2px 2px rgba(0, 0, 0, 0.5);">WHAT CAUSES
+            ANTIBIOTIC RESISTANCE?</h1>
+          <div class="u-expanded-width u-list u-list-1">
+            <div class="u-repeater u-repeater-1" style="padding-top: 30px;">
+              <div
+                class="u-align-center u-container-style u-list-item u-radius-15 u-repeater-item u-shape-round u-white u-list-item-1">
+                <div class="u-container-layout u-similar-container u-container-layout-1" style="color: #3f3f3f"><span
+                    class="u-icon u-icon-circle u-palette-2-light-3 u-spacing-27 u-text-palette-2-base u-icon-1" style="color: #3f3f3f"><svg
+                      class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="color: #3f3f3f">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7976"></use>
+                    </svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-7976" style="color: #3f3f3f">
+                      <g>
+                        <path
+                          d="m299.452 386.371c-27.984 9.338-58.852 9.336-86.916-.004-7.863-2.618-16.354 1.635-18.969 9.495-2.616 7.86 1.635 16.354 9.496 18.97 17.09 5.688 35.031 8.531 52.967 8.531s35.868-2.846 52.918-8.535c7.858-2.622 12.103-11.118 9.48-18.977-2.621-7.857-11.116-12.1-18.976-9.48z">
+                        </path>
+                        <path
+                          d="m430.736 97.999c-6.384-45.79-45.703-81.932-94.402-81.932h-17.134v-1.067c0-8.284-6.716-15-15-15h-96.4c-8.284 0-15 6.716-15 15v1.066h-17.133c-48.291 0-87.664 35.638-94.36 81.922-28.118 6.399-49.173 31.584-49.173 61.611v128.534c0 41.106 33.483 57.859 48.692 61.474 6.868 92.539 84.571 162.393 175.174 162.393 92.396 0 168.358-71.705 175.167-162.389 39.424-9.36 48.699-45.128 48.699-61.477v-128.534c.001-30.012-21.034-55.187-49.13-61.601zm-111.536-51.933h17.133c42.442 0 59.975 34.701 63.62 50.334h-80.753zm-96.4-16.066h66.4v66.4h-66.4zm-47.133 16.066h17.133v50.334h-80.691c9.729-40.756 46.651-50.334 63.558-50.334zm80.333 435.934c-74.035 0-137.32-56.086-144.904-130.667h73.97c18.407 0 36.417-7.459 49.412-20.464.077-.077.153-.155.229-.234 5.643-5.52 13.385-8.679 21.293-8.679 7.91 0 15.652 3.16 21.294 8.68.075.078.151.156.229.233 12.995 13.005 31.005 20.464 49.413 20.464h73.963c-7.533 73.301-69.642 130.667-144.899 130.667zm193.867-193.866c0 18.564-15.131 33.199-33.2 33.199h-89.731c-10.392 0-20.558-4.161-27.948-11.428-.081-.085-.163-.169-.246-.253-11.246-11.246-26.824-17.696-42.741-17.696-15.916 0-31.494 6.45-42.74 17.696-.083.083-.166.167-.247.252-7.391 7.268-17.557 11.429-27.948 11.429h-89.733c-18.012 0-33.2-14.572-33.2-33.199v-128.534c0-18.306 14.894-33.199 33.2-33.199h321.333c18.307 0 33.2 14.894 33.2 33.199v128.534z">
+                        </path>
+                      </g>
+                    </svg></span>
+                  <h5 class="u-custom-font u-font-raleway u-text u-text-default u-text-palette-2-base u-text-3">
+                    ANTIBIOTIC OVERPRESCRIPTION</h5>
+                  <p class="u-text u-text-palette-2-dark-2 u-text-4">The CDC estimates at least 30% of outpatient
+                    antibiotic prescriptions are unnecessary. Most inappropriate use of antibiotics in outpatient
+                    facilities occurs when antibiotics are prescribed for viral respiratory infections, such as viral
+                    bronchitis, otitis, and sinusitis.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="u-align-center u-container-style u-list-item u-radius-15 u-repeater-item u-shape-round u-white u-list-item-2">
+                <div class="u-container-layout u-similar-container u-container-layout-2"><span
+                    class="u-icon u-icon-circle u-palette-2-light-3 u-spacing-27 u-text-palette-2-base u-icon-2"><svg
+                      class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512.158 512.158" style="">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-6873"></use>
+                    </svg><svg class="u-svg-content" viewBox="0 0 512.158 512.158" id="svg-6873">
+                      <g>
+                        <path
+                          d="m255.553 62.311c-30.324 0-54.994 24.619-54.994 54.881s24.67 54.882 54.994 54.882 54.994-24.62 54.994-54.882-24.67-54.881-54.994-54.881zm0 79.824c-13.782 0-24.994-11.189-24.994-24.943s11.212-24.942 24.994-24.942 24.994 11.189 24.994 24.942-11.212 24.943-24.994 24.943z">
+                        </path>
+                        <path
+                          d="m431.706 24.558c-46.875-15.797-109.067-24.496-175.119-24.496-66.109 0-128.473 8.691-175.6 24.473-66.936 22.415-80.987 51.198-80.987 71.397v338.286c0 22.847 16.26 38.811 29.899 48.18 16.846 11.571 41.195 21.402 72.374 29.222 8.537 2.418 19.016-4.69 18.656-14.518v-114.41c22.131-5.141 47.296-9.095 73.696-11.568 1.976.83 4.019 1.536 6.124 2.093v80.89c0 31.945 26.043 57.935 58.055 57.935 32.011 0 58.054-25.99 58.054-57.935v-81.767c.932-.314 1.847-.663 2.751-1.034 25.328 2.46 49.782 6.356 71.617 11.396v113.343c-.165 8.896 8.998 17.217 18.656 14.518 31.179-7.82 55.528-17.652 72.373-29.223 13.64-9.369 29.899-25.333 29.899-48.18l.004-337.202c0-20.205-13.958-48.994-80.452-71.4zm-340.776 452.795c-38.505-12.039-60.93-27.697-60.93-43.135v-290.371c13.76 9.571 33.354 18.794 60.93 26.809zm230.946-244.806c-.005.082-.008.165-.011.248l-3.287 96.295c-.504 8.848-7.828 15.763-16.721 15.763-8.284 0-15 6.702-15 14.969v92.665c0 15.437-12.585 27.996-28.054 27.996-15.47 0-28.055-12.559-28.055-27.996v-92.665c0-8.267-6.716-14.969-15-14.969h-2.822c-2.897 0-5.614-.733-7.991-2.013-.113-.065-.226-.128-.341-.19-4.561-2.595-7.779-7.267-8.334-12.856l-5.767-96.434c-.009-.144-.02-.287-.032-.43-.345-3.886 1.504-6.538 2.637-7.774s3.618-3.308 7.528-3.308h111.057c2.824 0 5.451 1.125 7.396 3.167 1.946 2.043 2.94 4.718 2.797 7.532zm160.278 200.613c0 15.438-22.424 31.096-60.929 43.135v-305.396c27.576-7.951 47.172-17.16 60.932-26.749zm-79.656-288.197c-6.141 1.567-11.405 7.501-11.272 14.5v192.564c-14.371-3.101-29.66-5.738-45.462-7.844 1.573-4.295 2.538-8.889 2.781-13.687.005-.082.008-.164.011-.247l3.288-96.327c.515-10.881-3.498-21.638-11.021-29.535-7.554-7.931-18.175-12.479-29.14-12.479h-111.056c-11.252 0-22.062 4.751-29.658 13.033-7.541 8.222-11.328 19.286-10.41 30.388l5.771 96.495c.009.144.02.287.032.43.36 4.056 1.228 7.94 2.524 11.604-16.812 2.16-32.948 4.902-47.956 8.151v-192.761c.002-6.33-4.442-12.869-11.235-14.49-58.759-15.202-79.695-35.19-79.695-48.826 0-7.626 7.236-14.956 13.308-19.763 10.649-8.431 26.979-16.472 47.224-23.251 44.132-14.778 103.105-22.917 166.056-22.917 62.874 0 121.657 8.141 165.521 22.921 44.274 14.92 60.05 32.013 60.05 43.036-.001 13.831-20.928 33.967-79.661 49.005z">
+                        </path>
+                      </g>
+                    </svg></span>
+                  <h5 class="u-custom-font u-font-raleway u-text u-text-default u-text-palette-2-base u-text-5">
+                    UNFINISHED PRESCRIPTIONS</h5>
+                  <p class="u-text u-text-palette-2-dark-2 u-text-6">Antibiotics should be taken exactly as prescribed
+                    for their full course. Failure to take complete dosages gives any bacteria left behind the
+                    opportunity to mutate and develop antibiotic resistance. </p>
+                </div>
+              </div>
+              <div
+                class="u-align-center u-container-style u-list-item u-radius-15 u-repeater-item u-shape-round u-white u-list-item-3">
+                <div class="u-container-layout u-similar-container u-container-layout-3"><span
+                    class="u-icon u-icon-circle u-palette-2-light-3 u-spacing-27 u-text-palette-2-base u-icon-3"><svg
+                      class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4501"></use>
+                    </svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-4501">
+                      <g>
+                        <path
+                          d="m447 211h-6v-45c0-8.284-6.716-15-15-15s-15 6.716-15 15v45h-346c-35.841 0-65 29.159-65 65v140c0 35.841 29.159 65 65 65h117.148c20.659 0 38.965-12.394 46.637-31.575 4.478-11.193 15.16-18.425 27.215-18.425s22.737 7.232 27.214 18.426c7.673 19.18 25.979 31.574 46.638 31.574h117.148c35.841 0 65-29.159 65-65v-140c0-35.841-29.159-65-65-65zm35 205c0 19.299-15.701 35-35 35h-117.148c-8.32 0-15.693-4.991-18.783-12.716-9.059-22.649-30.675-37.284-55.069-37.284s-46.01 14.635-55.069 37.283c-3.09 7.726-10.463 12.717-18.783 12.717h-117.148c-19.299 0-35-15.701-35-35v-140c0-19.299 15.701-35 35-35h382c19.299 0 35 15.701 35 35z">
+                        </path>
+                        <circle cx="256" cy="286" r="15"></circle>
+                        <circle cx="316" cy="286" r="15"></circle>
+                        <circle cx="196" cy="286" r="15"></circle>
+                        <circle cx="256" cy="165.943" r="15"></circle>
+                        <path
+                          d="m181.754 91.697c19.795-19.796 46.163-30.697 74.246-30.697s54.451 10.901 74.246 30.697c2.93 2.93 6.768 4.394 10.607 4.394 3.838 0 7.678-1.465 10.606-4.394 5.858-5.857 5.858-15.355 0-21.213-25.461-25.462-59.362-39.484-95.459-39.484s-69.998 14.022-95.46 39.484c-5.857 5.857-5.857 15.355 0 21.213 5.858 5.858 15.356 5.858 21.214 0z">
+                        </path>
+                        <path
+                          d="m298.426 138.517c3.838 0 7.678-1.465 10.606-4.394 5.858-5.857 5.858-15.355 0-21.213-14.166-14.166-33-21.967-53.033-21.967s-38.868 7.801-53.033 21.967c-5.857 5.857-5.857 15.355 0 21.213 5.857 5.857 15.355 5.857 21.213 0 8.499-8.499 19.799-13.18 31.819-13.18s23.32 4.681 31.819 13.18c2.932 2.93 6.77 4.394 10.609 4.394z">
+                        </path>
+                      </g>
+                    </svg></span>
+                  <h5 class="u-custom-font u-font-raleway u-text u-text-default u-text-palette-2-base u-text-7">
+                    LIVESTOCK</h5>
+                  <p class="u-text u-text-palette-2-dark-2 u-text-8">The United States uses more antibiotics per pound
+                    of meat than any other nation. Almost all intensively farmed animals in the U.S. receive regular low
+                    levels of antibiotics in feed or water, opening the opportunity for natural selection of resistant
+                    bacteria to proliferate. </p>
+                </div>
+              </div>
+            </div>
+            <div class="u-repeater u-repeater-1" style="padding-top: 75px;">
+              <div
+                class="u-align-center u-container-style u-list-item u-radius-15 u-repeater-item u-shape-round u-white u-list-item-1">
+                <div class="u-container-layout u-similar-container u-container-layout-1"><span
+                    class="u-icon u-icon-circle u-palette-2-light-3 u-spacing-27 u-text-palette-2-base u-icon-1"><svg
+                      class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7976"></use>
+                    </svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-7976">
+                      <g>
+                        <path
+                          d="m299.452 386.371c-27.984 9.338-58.852 9.336-86.916-.004-7.863-2.618-16.354 1.635-18.969 9.495-2.616 7.86 1.635 16.354 9.496 18.97 17.09 5.688 35.031 8.531 52.967 8.531s35.868-2.846 52.918-8.535c7.858-2.622 12.103-11.118 9.48-18.977-2.621-7.857-11.116-12.1-18.976-9.48z">
+                        </path>
+                        <path
+                          d="m430.736 97.999c-6.384-45.79-45.703-81.932-94.402-81.932h-17.134v-1.067c0-8.284-6.716-15-15-15h-96.4c-8.284 0-15 6.716-15 15v1.066h-17.133c-48.291 0-87.664 35.638-94.36 81.922-28.118 6.399-49.173 31.584-49.173 61.611v128.534c0 41.106 33.483 57.859 48.692 61.474 6.868 92.539 84.571 162.393 175.174 162.393 92.396 0 168.358-71.705 175.167-162.389 39.424-9.36 48.699-45.128 48.699-61.477v-128.534c.001-30.012-21.034-55.187-49.13-61.601zm-111.536-51.933h17.133c42.442 0 59.975 34.701 63.62 50.334h-80.753zm-96.4-16.066h66.4v66.4h-66.4zm-47.133 16.066h17.133v50.334h-80.691c9.729-40.756 46.651-50.334 63.558-50.334zm80.333 435.934c-74.035 0-137.32-56.086-144.904-130.667h73.97c18.407 0 36.417-7.459 49.412-20.464.077-.077.153-.155.229-.234 5.643-5.52 13.385-8.679 21.293-8.679 7.91 0 15.652 3.16 21.294 8.68.075.078.151.156.229.233 12.995 13.005 31.005 20.464 49.413 20.464h73.963c-7.533 73.301-69.642 130.667-144.899 130.667zm193.867-193.866c0 18.564-15.131 33.199-33.2 33.199h-89.731c-10.392 0-20.558-4.161-27.948-11.428-.081-.085-.163-.169-.246-.253-11.246-11.246-26.824-17.696-42.741-17.696-15.916 0-31.494 6.45-42.74 17.696-.083.083-.166.167-.247.252-7.391 7.268-17.557 11.429-27.948 11.429h-89.733c-18.012 0-33.2-14.572-33.2-33.199v-128.534c0-18.306 14.894-33.199 33.2-33.199h321.333c18.307 0 33.2 14.894 33.2 33.199v128.534z">
+                        </path>
+                      </g>
+                    </svg></span>
+                  <h5 class="u-custom-font u-font-raleway u-text u-text-default u-text-palette-2-base u-text-3">
+                    INEFFECTIVE LAB TESTING</h5>
+                  <p class="u-text u-text-palette-2-dark-2 u-text-4">Rapid laboratory testing is essential in the effort
+                    to combat antibiotic resistance. The ability to quickly identify whether an illness is viral or
+                    bacterial in origin helps physicians avoid overprescription of antibiotics and assists public health
+                    bodies to surveil levels of bacterial infections.</p>
+                </div>
+              </div>
+              <div
+                class="u-align-center u-container-style u-list-item u-radius-15 u-repeater-item u-shape-round u-white u-list-item-2">
+                <div class="u-container-layout u-similar-container u-container-layout-2"><span
+                    class="u-icon u-icon-circle u-palette-2-light-3 u-spacing-27 u-text-palette-2-base u-icon-2"><svg
+                      class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512.158 512.158" style="">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-6873"></use>
+                    </svg><svg class="u-svg-content" viewBox="0 0 512.158 512.158" id="svg-6873">
+                      <g>
+                        <path
+                          d="m255.553 62.311c-30.324 0-54.994 24.619-54.994 54.881s24.67 54.882 54.994 54.882 54.994-24.62 54.994-54.882-24.67-54.881-54.994-54.881zm0 79.824c-13.782 0-24.994-11.189-24.994-24.943s11.212-24.942 24.994-24.942 24.994 11.189 24.994 24.942-11.212 24.943-24.994 24.943z">
+                        </path>
+                        <path
+                          d="m431.706 24.558c-46.875-15.797-109.067-24.496-175.119-24.496-66.109 0-128.473 8.691-175.6 24.473-66.936 22.415-80.987 51.198-80.987 71.397v338.286c0 22.847 16.26 38.811 29.899 48.18 16.846 11.571 41.195 21.402 72.374 29.222 8.537 2.418 19.016-4.69 18.656-14.518v-114.41c22.131-5.141 47.296-9.095 73.696-11.568 1.976.83 4.019 1.536 6.124 2.093v80.89c0 31.945 26.043 57.935 58.055 57.935 32.011 0 58.054-25.99 58.054-57.935v-81.767c.932-.314 1.847-.663 2.751-1.034 25.328 2.46 49.782 6.356 71.617 11.396v113.343c-.165 8.896 8.998 17.217 18.656 14.518 31.179-7.82 55.528-17.652 72.373-29.223 13.64-9.369 29.899-25.333 29.899-48.18l.004-337.202c0-20.205-13.958-48.994-80.452-71.4zm-340.776 452.795c-38.505-12.039-60.93-27.697-60.93-43.135v-290.371c13.76 9.571 33.354 18.794 60.93 26.809zm230.946-244.806c-.005.082-.008.165-.011.248l-3.287 96.295c-.504 8.848-7.828 15.763-16.721 15.763-8.284 0-15 6.702-15 14.969v92.665c0 15.437-12.585 27.996-28.054 27.996-15.47 0-28.055-12.559-28.055-27.996v-92.665c0-8.267-6.716-14.969-15-14.969h-2.822c-2.897 0-5.614-.733-7.991-2.013-.113-.065-.226-.128-.341-.19-4.561-2.595-7.779-7.267-8.334-12.856l-5.767-96.434c-.009-.144-.02-.287-.032-.43-.345-3.886 1.504-6.538 2.637-7.774s3.618-3.308 7.528-3.308h111.057c2.824 0 5.451 1.125 7.396 3.167 1.946 2.043 2.94 4.718 2.797 7.532zm160.278 200.613c0 15.438-22.424 31.096-60.929 43.135v-305.396c27.576-7.951 47.172-17.16 60.932-26.749zm-79.656-288.197c-6.141 1.567-11.405 7.501-11.272 14.5v192.564c-14.371-3.101-29.66-5.738-45.462-7.844 1.573-4.295 2.538-8.889 2.781-13.687.005-.082.008-.164.011-.247l3.288-96.327c.515-10.881-3.498-21.638-11.021-29.535-7.554-7.931-18.175-12.479-29.14-12.479h-111.056c-11.252 0-22.062 4.751-29.658 13.033-7.541 8.222-11.328 19.286-10.41 30.388l5.771 96.495c.009.144.02.287.032.43.36 4.056 1.228 7.94 2.524 11.604-16.812 2.16-32.948 4.902-47.956 8.151v-192.761c.002-6.33-4.442-12.869-11.235-14.49-58.759-15.202-79.695-35.19-79.695-48.826 0-7.626 7.236-14.956 13.308-19.763 10.649-8.431 26.979-16.472 47.224-23.251 44.132-14.778 103.105-22.917 166.056-22.917 62.874 0 121.657 8.141 165.521 22.921 44.274 14.92 60.05 32.013 60.05 43.036-.001 13.831-20.928 33.967-79.661 49.005z">
+                        </path>
+                      </g>
+                    </svg></span>
+                  <h5 class="u-custom-font u-font-raleway u-text u-text-default u-text-palette-2-base u-text-5">
+                    AGRICULTURE</h5>
+                  <p class="u-text u-text-palette-2-dark-2 u-text-6">The use of antibiotics in agricultural practices
+                    can result in the materialization of resistant bacteria to the diets of consumers. Consumption of
+                    crops that are free of antibiotic use is an efficient way to mitigate the spread of such bacteria.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="u-align-center u-container-style u-list-item u-radius-15 u-repeater-item u-shape-round u-white u-list-item-3">
+                <div class="u-container-layout u-similar-container u-container-layout-3"><span
+                    class="u-icon u-icon-circle u-palette-2-light-3 u-spacing-27 u-text-palette-2-base u-icon-3"><svg
+                      class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 512 512" style="">
+                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4501"></use>
+                    </svg><svg class="u-svg-content" viewBox="0 0 512 512" id="svg-4501">
+                      <g>
+                        <path
+                          d="m447 211h-6v-45c0-8.284-6.716-15-15-15s-15 6.716-15 15v45h-346c-35.841 0-65 29.159-65 65v140c0 35.841 29.159 65 65 65h117.148c20.659 0 38.965-12.394 46.637-31.575 4.478-11.193 15.16-18.425 27.215-18.425s22.737 7.232 27.214 18.426c7.673 19.18 25.979 31.574 46.638 31.574h117.148c35.841 0 65-29.159 65-65v-140c0-35.841-29.159-65-65-65zm35 205c0 19.299-15.701 35-35 35h-117.148c-8.32 0-15.693-4.991-18.783-12.716-9.059-22.649-30.675-37.284-55.069-37.284s-46.01 14.635-55.069 37.283c-3.09 7.726-10.463 12.717-18.783 12.717h-117.148c-19.299 0-35-15.701-35-35v-140c0-19.299 15.701-35 35-35h382c19.299 0 35 15.701 35 35z">
+                        </path>
+                        <circle cx="256" cy="286" r="15"></circle>
+                        <circle cx="316" cy="286" r="15"></circle>
+                        <circle cx="196" cy="286" r="15"></circle>
+                        <circle cx="256" cy="165.943" r="15"></circle>
+                        <path
+                          d="m181.754 91.697c19.795-19.796 46.163-30.697 74.246-30.697s54.451 10.901 74.246 30.697c2.93 2.93 6.768 4.394 10.607 4.394 3.838 0 7.678-1.465 10.606-4.394 5.858-5.857 5.858-15.355 0-21.213-25.461-25.462-59.362-39.484-95.459-39.484s-69.998 14.022-95.46 39.484c-5.857 5.857-5.857 15.355 0 21.213 5.858 5.858 15.356 5.858 21.214 0z">
+                        </path>
+                        <path
+                          d="m298.426 138.517c3.838 0 7.678-1.465 10.606-4.394 5.858-5.857 5.858-15.355 0-21.213-14.166-14.166-33-21.967-53.033-21.967s-38.868 7.801-53.033 21.967c-5.857 5.857-5.857 15.355 0 21.213 5.857 5.857 15.355 5.857 21.213 0 8.499-8.499 19.799-13.18 31.819-13.18s23.32 4.681 31.819 13.18c2.932 2.93 6.77 4.394 10.609 4.394z">
+                        </path>
+                      </g>
+                    </svg></span>
+                  <h5 class="u-custom-font u-font-raleway u-text u-text-default u-text-palette-2-base u-text-7">HYGIENE
+                  </h5>
+                  <p class="u-text u-text-palette-2-dark-2 u-text-8">Frequent hygienic maintenance, especially
+                    handwashing, prevents the spread of germs. By doing so, individuals mitigate the spread of bacteria
+                    which may possibly harbor resistance genes to certain antibiotics. In clinical settings such as
+                    hospitals, this only becomes increasingly necessary, as many patients receiving care may be
+                    experiencing bacterial infections.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="u-align-center u-clearfix u-section-4" id="sec-ff8c" style="background:#8CA3D0; margin-top: 0; margin-bottom: 0; padding-top:0;">
+        <div class="u-clearfix u-sheet u-valign-middle u-sheet-1"
+          style="margin-top: 0px; margin-bottom: 0px; padding:0px;">
+          <div class="u-clearfix u-expanded-width-sm u-expanded-width-xs u-layout-wrap u-layout-wrap-1" style="margin-top: 0; margin-bottom: 0;">
+            <div class="u-layout" style="margin-top: 0; margin-bottom: 0;">
+              <div class="u-layout-row" style="padding-top:0; margin-top: 0; margin-bottom: 0;">
+                <div style="padding-top:0; margin-top: 0; margin-bottom: 0;"
+                  class="u-container-style u-image u-layout-cell u-left-cell u-size-24-lg u-size-24-xl u-size-29-md u-size-29-sm u-size-29-xs u-image-1"
+                  data-image-width="800" data-image-height="1000">
+                  <div class="u-container-layout u-valign-middle u-container-layout-1" style="padding-top:0; margin:0;">
+                    <img src="../DesignDocs/logos/our-solution-cropped.gif">
+                  </div>
+                </div>
+                <div
+                  class="u-align-left u-container-style u-layout-cell u-right-cell u-size-31-md u-size-31-sm u-size-31-xs u-size-36-lg u-size-36-xl u-layout-cell-2">
+                  <div
+                    class="u-container-layout u-valign-middle-lg u-valign-middle-xl u-valign-middle-xs u-container-layout-2 fade-scroll">
+                    <!--<h6 class="u-text u-text-palette-2-base u-text-1">HEADING</h6>-->
+                    <h1 class="u-text u-text-default u-text-1" style="font-family: 'Mali', cursive; color: #3d3d3d; text-shadow: 2px 2px rgba(0, 0, 0, 0.5);">OUR SOLUTION<br>
+                    </h1>
+                    <p class="u-custom-font u-heading-font u-text u-text-3">Team UFlorida has tackled the global
+                      healthcare crisis of antibiotic resistance through wet lab experiments and outreach. The wet lab
+                      portion of our project was completed in two parts: creating alternative selectable markers to
+                      antibiotic resistance genes, and creating a two plasmid conjugation system to deliver CRISPR to
+                      create lethal double stranded breaks in the target bacterial chromosome. Our human practices
+                      division has devoted much time raising awareness in our community on the basics of antibiotic
+                      resistance, personal hygiene, and selecting food free of antibiotics for consumption. Read our
+                      project description for more information!</p>
+                    </p>
+                    <div class="dna-divider"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+
+
+    <!--END OF CONTENT-->
+  </div>
+
+  <footer class="u-clearfix u-footer u-grey-80" id="sec-9b24">
+    <div class="u-clearfix u-sheet u-sheet-1">
+      <h2 class="u-subtitle u-text u-text-default u-text-1">THANK YOU TO OUR SPONSORS</h2>
+      <div class="u-clearfix u-expanded-width u-gutter-30 u-layout-wrap u-layout-wrap-1">
+        <div class="u-gutter-0 u-layout">
+          <div class="u-layout-row">
+            <div
+              class="u-align-left u-container-style u-layout-cell u-left-cell u-size-20 u-size-20-md u-layout-cell-1">
+              <div class="u-container-layout u-container-layout-1">
+                <!--position-->
+                <div data-position="" class="u-position">
+                  <!--block-->
+                  <div class="u-block">
+                    <div class="u-block-container u-clearfix">
+                      <!--block_header-->
+                      <h5 class="u-block-header u-text">
+                        <!--block_header_content--> COMPANY 1
+                        <!--/block_header_content-->
+                      </h5>
+                      <!--/block_header-->
+                      <!--block_content-->
+                    </div>
+                  </div>
+                  <!--/block-->
+                </div>
+                <!--/position-->
+              </div>
+            </div>
+            <div class="u-align-left u-container-style u-layout-cell u-size-20 u-size-20-md u-layout-cell-2">
+              <div class="u-container-layout u-container-layout-2">
+                <!--position-->
+                <div data-position="" class="u-position">
+                  <!--block-->
+                  <div class="u-block">
+                    <div class="u-block-container u-clearfix">
+                      <!--block_header-->
+                      <h5 class="u-block-header u-text">
+                        <!--block_header_content--> COMPANY 2
+                        <!--/block_header_content-->
+                      </h5>
+                      <!--/block_header-->
+                      <!--block_content-->
+                    </div>
+                  </div>
+                  <!--/block-->
+                </div>
+                <!--/position-->
+              </div>
+            </div>
+            <div
+              class="u-align-left u-container-style u-layout-cell u-right-cell u-size-20 u-size-20-md u-layout-cell-3">
+              <div class="u-container-layout u-container-layout-3">
+                <!--position-->
+                <div data-position="" class="u-position">
+                  <!--block-->
+                  <div class="u-block">
+                    <div class="u-block-container u-clearfix">
+                      <!--block_header-->
+                      <h5 class="u-block-header u-text">
+                        <!--block_header_content--> COMPANY 3
+                        <!--/block_header_content-->
+                      </h5>
+                      <!--/block_header-->
+                      <!--block_content-->
+                    </div>
+                  </div>
+                  <!--/block-->
+                </div>
+                <!--/position-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="u-border-1 u-border-white u-expanded-width u-line u-line-horizontal u-opacity u-opacity-50 u-line-1">
+      </div>
+      <a href="https://nicepage.com" class="u-image u-logo u-image-1" data-image-width="2500" data-image-height="2500">
+        <img src="../DesignDocs/logos/uf-campus-example.jpg" class="u-logo-image u-logo-image-1" data-image-width="64">
+      </a>
+      <div class="u-social-icons u-spacing-10 u-social-icons-1">
+        <a class="u-social-url" title="facebook" target="_blank" href="https://facebook.com/name"><span
+            class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link"
+              preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4cfa"></use>
+            </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-4cfa">
+              <path fill="currentColor" d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2
+c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path>
+            </svg></span>
+        </a>
+        <a class="u-social-url" title="twitter" target="_blank" href="https://twitter.com/name"><span
+            class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-2"><svg class="u-svg-link"
+              preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8cbe"></use>
+            </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-8cbe">
+              <path fill="currentColor" d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2
+c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7
+c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2
+c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5
+c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path>
+            </svg></span>
+        </a>
+        <a class="u-social-url" title="instagram" target="_blank" href="https://instagram.com/name"><span
+            class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-3"><svg class="u-svg-link"
+              preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style="">
+              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-43f6"></use>
+            </svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-43f6">
+              <path fill="currentColor" d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z
+M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path>
+              <path fill="#FFFFFF"
+                d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path>
+              <path fill="currentColor" d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7
+V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7
+c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path>
+            </svg></span>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function () { myFunction() };
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+</body>
+
+</html>

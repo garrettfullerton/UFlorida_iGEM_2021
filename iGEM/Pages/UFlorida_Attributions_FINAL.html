@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link href="../CSS/custom.css" rel="stylesheet">
+    <link href="../nicepage/Page-1.css" rel="stylesheet">
+    <link href="../nicepage/nicepage.css" rel="stylesheet">
+    <script type="text/javascript" src="../JS/loader.js"></script>
+    <script type="text/javascript" src="../nicepage/nicepage.js"></script>
+    <script type="text/javascript" src="../nicepage/jquery.js"></script>
+    <script type="text/javascript" src="../JS/fade.js"></script>
+
+
+
+</head>
+
+<body style="background:  #ede1ef;">
+    <div id="loader"></div>
+    <!--
+    START OF CONTENT
+  -->
+    <div id="content">
+
+
+        <!--
+      START OF NAVBAR
+    -->
+        <div class="sticky-top">
+            <!--color options: .bg-primary .bg-secondary .bg-success .bg-danger .bg-warning .bg-info .bg-light .bg-dark .bg-white -->
+            <nav class="
+        navbar navbar-default navbar-expand-lg navbar-dark
+        bg-dark
+        sticky-top
+        static
+      ">
+                <div class="container-fluid py-1">
+                    <div class="navbar-header" style="padding-top:0px; padding-bottom:0px;">
+
+
+                        <a class="navbar-brand" style="padding-left: 30px" href="#">
+                            <img src="../DesignDocs/logos/logo_uf_igem.png" style="
+                object-fit: cover;
+                border-radius: 50%;
+                height: 100px;
+              " />
+                        </a>
+
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size:18px;">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item dropdown" style="padding-left: 3.5em">
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="dropdown_target"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Team
+                                    <span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down"
+                                    aria-labelledby="dropdown_target"
+                                    style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
+                                    <a class="dropdown-item" href="#">Team</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Attributions</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Collaborations</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown" style="padding-left: 3.5em">
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="dropdown_target"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Project
+                                    <span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down"
+                                    aria-labelledby="dropdown_target"
+                                    style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
+                                    <a class="dropdown-item" href="#">Communication</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Contribution</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Description</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Engineering</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Experiments</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Implementation</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Notebook</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Partnership</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Proof Of Concept</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Results</a>
+                                </div>
+                            </li>
+
+                            <li class="nav-item dropdown" style="padding-left: 3.5em">
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="dropdown_target"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Parts
+                                    <span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down"
+                                    aria-labelledby="dropdown_target"
+                                    style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
+                                    <a class="dropdown-item" href="#">Parts Collection</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Parts</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Improve</a>
+                                </div>
+                            </li>
+
+
+                            <li class="nav-item" style="padding-left: 3.5em">
+                                <a class="nav-link" href="#">Safety</a>
+                            </li>
+                            <li class="nav-item" style="padding-left: 3.5em">
+                                <a class="nav-link" href="#">Human Practices</a>
+                            </li>
+
+                            <li class="nav-item dropdown" style="padding-left: 3.5em; margin-right: 2em;">
+                                <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="dropdown_target"
+                                    role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Awards
+                                    <span class="caret"></span>
+                                </a>
+                                <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down"
+                                    aria-labelledby="dropdown_target"
+                                    style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);">
+                                    <a class="dropdown-item" href="#">Education</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Entrepreneurship</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Hardware</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Inclusivity</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Measurement</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Model</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Plant</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Software</a>
+                                    <div class="dropdown-divider"></div>
+                                    <a class="dropdown-item" href="#">Sustainable</a>
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="progress" style="height: 4px;">
+                <div style="height: 4px; width: 0px; background:black;;" class="progress-bar" id="myBar"></div>
+            </div>
+
+        </div>
+        <!--
+    END OF NAVBAR
+  -->
+        <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="256"
+            data-image-height="256" id="sec-fc45">
+            <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+                <h1 class="u-text u-title u-text-1"
+                    style="font-weight: bold; font-family: 'Mali', cursive; color: #0a0a0a; text-shadow: 4px 4px rgba(0, 0, 0, 0.5); letter-spacing: 10px; font-size: 6rem;">
+                    ATTRIBUTIONS</h1>
+                <div style="justify-content: center; padding-top:100px;">
+                    <button type="button" class="btn btn-dark btn-circle btn-xl" href="#content">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height=30" fill="currentColor"
+                            class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <div class="dna-divider" style="margin-top: 3em;"></div>
+        <div style="justify-content: center; text-align:center;">
+            <h3 class="u-text u-title u-text-1"
+                style="font-weight: bold; font-family: 'Mali', cursive; color: #3d3d3d; text-shadow: 2px 2px rgba(0, 0, 0, 0.2); letter-spacing: 8px; font-size: 4rem;">
+                Lab</h3>
+        </div>
+
+        <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal"
+            style="align-items: center; justify-content: center; margin: auto; margin-left: 5em; margin-right: 5em;">
+            <div class="col-12 col-sm-6 col-lg-3 headshot-container" style="vertical-align: top;">
+                <img class="headshot-attributions" src="../DesignDocs/photos/reisch.jpg"
+                    style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+                <h5>Dr. Christopher Reisch</h5>
+                <h6>Assistant Professor, Microbiology & Cell Science</h6>
+                <p>We would like to thank Dr. Reisch for his continuous support of the UF iGEM team and for providing us
+                    lab space to carry out our experiments. We would also like to thank him for his mentorship and
+                    regular presence in team meetings in the beginning stages of our project. He provided us with the
+                    necessary materials to carry out experiments vital to our project, and provided guidance along the
+                    way. Thank you, Dr. Reisch! </p>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 headshot-container" style="vertical-align: top;">
+                <img class="headshot-attributions" src="../DesignDocs/photos/donnelly.jpg"
+                    style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+                <h5>Dr. Anne Donnelly</h5>
+                <h6>Director of Center for Undergraduate Research</h6>
+                <p>Dr. Donnelly played a huge role in helping fundraise and maneuvering through iGEM. She helped us
+                    navigate the important aspects of iGEM, recruit team members and diversify the team before getting
+                    started on the project.</p>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 headshot-container" style="vertical-align: top;">
+                <img class="headshot-attributions" src="../DesignDocs/photos/schuster.png"
+                    style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+                <h5>Layla Schuster</h5>
+                <h6>Ph.D. Candidate</h6>
+                <p>Layla played a crucial role in the wet lab component of our project by helping the wet lab team carry
+                    out their experiments. We would like to thank her for her guidance and support in the lab as well as
+                    communicating with the team outside of the lab for further analysis of our results. Thank you,
+                    Layla!
+                </p>
+            </div>
+        </div>
+        <div style="justify-content: center; text-align:center;">
+            <h3 class="u-text u-title u-text-1"
+                style="font-weight: bold; font-family: 'Mali', cursive; color: #3d3d3d; text-shadow: 2px 2px rgba(0, 0, 0, 0.2); letter-spacing: 8px; font-size: 4rem;">
+                Donors</h3>
+        </div>
+        <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal" style="align-items: center; justify-content: center; margin: auto; margin-left: 5em; margin-right: 5em;">
+            <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+                <img class="headshot-attributions" src="../DesignDocs/photos/harfe.jpg"
+                    style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+                <h5>Dr. Brian Harfe</h5>
+                <h6>Associate Dean, College of Liberal Arts & Sciences</h6>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+                <img class="headshot-attributions" src="../DesignDocs/photos/glover.jpg"
+                    style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+                <h5>Dr. Joseph Glover</h5>
+                <h6>Provost for the University of Florida</h6>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+                <img class="headshot-attributions" src="../DesignDocs/photos/taylor.jpg"
+                    style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+                <h5>Dr. Curtis Taylor</h5>
+                <h6>Associate Dean of Student Affairs for the University of Florida</h6>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+                <img class="headshot-attributions" src="../DesignDocs/photos/norton.jpg"
+                    style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+                <h5>Dr. David Norton</h5>
+                <h6>Vice President of Research at the University of Florida</h6>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+                <img class="headshot-attributions" src="../DesignDocs/photos/julie_mallinger.jpg"
+                    style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+                <h5>Microbiology Department</h5>
+                <h6>University of Florida</h6>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+                <img class="headshot-attributions" src="../DesignDocs/photos/julie_mallinger.jpg"
+                    style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+                <h5>College of Health and Human Performance</h5>
+                <h6>University of Florida</h6>
+            </div>
+        </div>
+        <div style="justify-content: center; text-align:center;">
+            <h3 class="u-text u-title u-text-1"
+                style="font-weight: bold; font-family: 'Mali', cursive; color: #3d3d3d; text-shadow: 2px 2px rgba(0, 0, 0, 0.2); letter-spacing: 8px; font-size: 4rem;">
+                Undergraduates</h3>
+        </div>
+        <div style="justify-content: center; text-align:center;">
+            <h4 class="u-text u-title u-text-1"
+                style="font-weight: bold; font-family: 'Mali', cursive; color: #3d3d3d; text-shadow: 2px 2px rgba(0, 0, 0, 0.2); letter-spacing: 8px; font-size: 3rem;">
+                Team Captains</h4>
+        </div>
+        <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal"
+            style="align-items: center; justify-content: center; margin: auto; margin-left: 5em; margin-right: 5em;">
+            <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+                <img class="headshot-attributions" src="../DesignDocs/photos/julie_mallinger.jpg"
+                    style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+                <h5>Julie Mallinger</h5>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+                <img class="headshot-attributions" src="../DesignDocs/photos/david_murcia.png"
+                    style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+                <h5>David Murcia</h5>
+            </div>
+        </div>
+
+    </div>
+
+    <div style="justify-content: center; text-align:center;">
+        <h4 class="u-text u-title u-text-1"
+            style="font-weight: bold; font-family: 'Mali', cursive; color: #3d3d3d; text-shadow: 2px 2px rgba(0, 0, 0, 0.2); letter-spacing: 8px; font-size: 3rem;">
+            Wet Lab</h4>
+    </div>
+
+    <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal"
+        style="align-items: center; justify-content: center; margin: auto; margin-left: 5em; margin-right: 5em;">
+        <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+            <img class="headshot-attributions" src="../DesignDocs/photos/julie_mallinger.jpg"
+                style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+            <h5>Julie Mallinger</h5>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+            <img class="headshot-attributions" src="../DesignDocs/photos/david_murcia.png"
+                style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+            <h5>David Murcia</h5>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+            <img class="headshot-attributions" src="../DesignDocs/photos/nick_blumenthal.png"
+                style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+            <h5>Nick Blumenthal</h5>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+            <img class="headshot-attributions" src="../DesignDocs/photos/abby_hirshberg.png"
+                style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+            <h5>Abigail Hirshberg</h5>
+        </div>
+    </div>
+
+    <div style="justify-content: center; text-align:center;">
+        <h4 class="u-text u-title u-text-1"
+            style="font-weight: bold; font-family: 'Mali', cursive; color: #3d3d3d; text-shadow: 2px 2px rgba(0, 0, 0, 0.2); letter-spacing: 8px; font-size: 3rem;">
+            Human Practices</h4>
+    </div>
+
+    <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal"
+        style="align-items: center; justify-content: center; margin: auto; margin-left: 5em; margin-right: 5em;">
+        <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+            <img class="headshot-attributions" src="../DesignDocs/photos/celeste_wilson.jpg"
+                style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+            <h5>Celeste Wilson</h5>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+            <img class="headshot-attributions" src="../DesignDocs/photos/ryanne_thelwell.jpg"
+                style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+            <h5>Ryanne Thelwell</h5>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+            <img class="headshot-attributions" src="../DesignDocs/photos/sarah_bahsoun.jpg"
+                style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+            <h5>Sarah Bahsoun</h5>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+            <img class="headshot-attributions" src="../DesignDocs/photos/alessio_barca.jpg"
+                style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+            <h5>Alessio Barca</h5>
+        </div>
+    </div>
+
+    <div style="justify-content: center; text-align:center;">
+        <h4 class="u-text u-title u-text-1"
+            style="font-weight: bold; font-family: 'Mali', cursive; color: #3d3d3d; text-shadow: 2px 2px rgba(0, 0, 0, 0.2); letter-spacing: 8px; font-size: 3rem;">
+            Dry Lab</h4>
+    </div>
+
+    <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal"
+        style="align-items: center; justify-content: center; margin: auto; margin-left: 5em; margin-right: 5em;">
+        <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+            <img class="headshot-attributions" src="../DesignDocs/photos/julie_mallinger.jpg"
+                style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+            <h5>Jacob York</h5>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+            <img class="headshot-attributions" src="../DesignDocs/photos/julie_mallinger.jpg"
+                style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+            <h5>Alex Daves</h5>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+            <img class="headshot-attributions" src="../DesignDocs/photos/julie_mallinger.jpg"
+                style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+            <h5>Lucas Budd</h5>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+            <img class="headshot-attributions" src="../DesignDocs/photos/julie_mallinger.jpg"
+                style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+            <h5>Shawn Robertson</h5>
+        </div>
+
+        <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+            <img class="headshot-attributions" src="../DesignDocs/photos/julie_mallinger.jpg"
+                style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+            <h5>Vedic Sharma</h5>
+        </div>
+        <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+            <img class="headshot-attributions" src="../DesignDocs/photos/david_murcia.png"
+                style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+            <h5>David Murcia</h5>
+        </div>
+
+        <div style="justify-content: center; text-align:center;">
+            <h4 class="u-text u-title u-text-1"
+                style="font-weight: bold; font-family: 'Mali', cursive; color: #3d3d3d; text-shadow: 2px 2px rgba(0, 0, 0, 0.2); letter-spacing: 8px; font-size: 3rem;">
+                Wiki Design</h4>
+        </div>
+        <div class="row" id="gallery" data-toggle="modal" data-target="#exampleModal"
+            style="align-items: center; justify-content: center; margin: auto; margin-left: 5em; margin-right: 5em;">
+            <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+                <img class="headshot-attributions" src="../DesignDocs/photos/jordan_hanson.jpg"
+                    style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+                <h5>Matt Hanson</h5>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 headshot-container">
+                <img class="headshot-attributions" src="../DesignDocs/photos/julie_mallinger.jpg"
+                    style="box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);">
+                <h5>Garrett Fullerton</h5>
+            </div>
+
+        </div>
+    </div>
+    <div class="dna-divider"></div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script>
+        // When the user scrolls the page, execute myFunction 
+        window.onscroll = function () { myFunction() };
+
+        function myFunction() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

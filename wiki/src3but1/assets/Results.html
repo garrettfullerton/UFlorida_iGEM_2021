@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UF iGEM 2021</title>
+
+
+  <!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+-->
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/custom.css" rel="stylesheet">
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/nicepage.css" rel="stylesheet">
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/page-1.css" rel="stylesheet">
+
+  <link rel="shortcut icon"
+    href="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/favicon_uflorida.png"
+    type="image/x-icon" />
+
+
+  <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@700&display=swap" rel="stylesheet" />
+-->
+  <!--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    -->
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/fontawesome.min.css" rel="stylesheet" />
+
+  <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/loader.js"></script>
+  <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/nicepage.js"></script>
+  <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/jquery.js"></script>
+  <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/fade.js"></script>
+
+
+</head>
+
+<body>
+  <div id="loader"></div>
+
+  <!--
+      START OF NAVBAR
+    -->
+  <div class="fixed-top">
+    <!--color options: .bg-primary .bg-secondary .bg-success .bg-danger .bg-warning .bg-info .bg-light .bg-dark .bg-white -->
+    <nav class="
+          navbar navbar-default navbar-expand-lg navbar-dark
+          bg-dark
+          sticky-top
+          static
+        ">
+      <div class="container-fluid py-1">
+        <div class="navbar-header" style="padding-top: 5px; padding-bottom: 0px">
+          <a class="navbar-brand" style="padding-left: 30px"
+            href="C:/Users/Garrett/Documents/Documents/wiki/src/index.html">
+            <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/logo_uf_igem.png"
+              style="object-fit: cover; border-radius: 50%; height: 100px" />
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 18px">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown" style="padding-left: 3.5em">
+              <a class="nav-link dropdown-toggle" href="C:/Users/Garrett/Documents/Documents/wiki/src/Team.html"
+                data-toggle="dropdown" id="dropdown_target" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Team
+                <span class="caret"></span>
+              </a>
+              <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down" aria-labelledby="dropdown_target"
+                style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)">
+                <a class="dropdown-item" href="C:/Users/Garrett/Documents/Documents/wiki/src/Team.html">Team</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Attributions.html">Attributions</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Collaborations.html">Collaborations</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown" style="padding-left: 3.5em">
+              <a class="nav-link dropdown-toggle" href="C:/Users/Garrett/Documents/Documents/wiki/src/Description.html"
+                data-toggle="dropdown" id="dropdown_target" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Project
+                <span class="caret"></span>
+              </a>
+              <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down" aria-labelledby="dropdown_target"
+                style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)">
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Description.html">Description</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="C:/Users/Garrett/Documents/Documents/wiki/src/Results.html">Results</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Contribution.html">Contribution</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="C:/Users/Garrett/Documents/Documents/wiki/src/Model.html">Model</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Engineering.html">Engineering</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Implementation.html">Implementation</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Experiments.html">Experiments</a>
+              </div>
+            </li>
+
+            <li class="nav-item" style="padding-left: 3.5em">
+              <a class="nav-link" href="C:/Users/Garrett/Documents/Documents/wiki/src/Parts.html">Parts</a>
+            </li>
+
+            <li class="nav-item dropdown" style="padding-left: 3.5em; margin-right: 3em">
+              <a class="nav-link dropdown-toggle"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Human_Practices.html" data-toggle="dropdown"
+                id="dropdown_target" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Human Practices
+                <span class="caret"></span>
+              </a>
+              <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down" aria-labelledby="dropdown_target"
+                style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)">
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Human_Practices.html">Integrated Human
+                  Practices</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Communication.html">Education & Communication</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Partnership.html">Partnership</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="C:/Users/Garrett/Documents/Documents/wiki/src/Excellence.html">Excellence
+                  in Another Area</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="progress" style="height: 4px">
+      <div style="height: 4px; width: 0px; background: black" class="progress-bar" id="myBar"></div>
+    </div>
+  </div>
+  <!--
+          END OF NAVBAR
+        -->
+
+
+  <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="256"
+    data-image-height="256" id="sec-fc45" style="background-image: linear-gradient(
+    0deg,
+    rgba(241, 241, 241, 0.4),
+    rgba(135, 0, 231, 0.4)
+  ),
+  url('C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/mainpagebackground.gif');">
+    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+      <h1 class="u-text u-title u-text-1"
+        style="font-family: 'Mali', cursive; color: #0a0a0a; text-shadow: 4px 4px rgba(0, 0, 0, 0.5); letter-spacing: 10px; font-size: 6rem;">
+        RESULTS</h1>
+      <div style="justify-content: center; padding-top:100px;">
+        <a href="#page-content" class="button-link">
+          <button type="button" class="btn btn-dark btn-circle btn-xl" href="#page-content">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+              class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path
+                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            </svg>
+
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="dna-divider" style="margin-top: 3em;"></div>
+  <div id="page-content" style="padding-left: 10%; padding-right: 10%">
+
+
+    <div class="container">
+      <h2 style="text-align:center;">Summary</h2>
+      <p>
+        We used existing methods of transforming bacterial cells with a given plasmid in order to confer bacteria with
+        the ability to grow on a carbon source atypical of that species. In order to later assess whether or not both
+        the transformation and the plasmid design itself were successful, we ran control experiments that verified the
+        lack of certain sugar dehydrogenase pathways in <em>E. Coli</em> or <em>P. Putida</em>. For these experiments and all experiments
+        moving forward, the carbon sources used in our analyses were glucose, sucrose, ribitol, and D-arabitol. Given
+        these initial experiments, we moved forward with isolating the individual pathways that allowed our bacteria to
+        grow on their carbon source of choice and purified these parts.
+        <br><br>
+        Isolation and purification of these pathways allowed us to then amplify the corresponding parts such that we
+        could combine them into a plasmid of our design. Using Gibson HiFi assembly enzymes, these plasmids were
+        generated before being transformed into the appropriate bacteria via heat shock methods. Following this,
+        sequencing was used in order to determine whether or not our design had been properly incorporated into the
+        bacteria’s plasmid.
+        <br><br>
+        Once the cells were verified to have been successfully transformed, we moved forward in our experiment to assess
+        the bacteria’s responses to plasmid uptake in terms of whether or not the necessary enzymes would be produced.
+        In order to do so, we cultured the various transformed bacteria on those carbon sources on which they were not
+        initially able to grow to determine the extent to which the plasmid conferred to these bacteria the ability to
+        produce previously not present sugar dehydrogenase proteins. To test these newfound characteristics, time of
+        transformation, the concentration of the respective inducers, and concentration of sugar in the media were
+        varied and the results were observed.
+        <br><br>
+      </p>
+    </div>
+
+    <div class="container">
+      <h2 style="text-align: center;">Project Achievements</h2>
+      <h3>Successful Results</h3>
+      <p>Over the course of the experiment we were successfully able to:</p>
+    </div>
+
+    <div class="container">
+      <ul>
+        
+        <li>
+          Utilize PCR to amplify the sugar dehydrogenase pathways in the respective bacteria
+        </li>
+        <li>
+          Amplify parts isolated from the bacteria
+          <ul style="margin:0;">
+            <li>
+              origin of replication, a regulator of enzyme production, antibiotic resistance, respective sugar pathway
+            </li>
+          </ul>
+        </li>
+        <li>
+          Use gel electrophoresis in order to verify the presence of the correct amplified parts (see Figure 13)
+        </li>
+        <li>
+          Produce these plasmids: pFLtAb5, pFCiAb5, pFLtSc5, pFCiRi5, pFLtRi5 (see Figure 14)
+        </li>
+        <li>
+          Verify the sequence of these plasmids using sequencing programs (as seen in the image above)
+        </li>
+        <li>
+          Incorporate the aforementioned plasmids into <em>P. Putida</em> or <em>E. Coli</em> using heat shock or electroshock
+          transformation
+        </li>
+        <li>
+          Observe the growth of these transformed bacteria
+        </li>
+      </ul>
+    </div>
+
+    <div class="container" style="
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+  ">
+<div class="container shadow" style="
+      background-color: white;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-top: 2.5%;
+      padding-bottom: 2.5%;
+      border-radius: 10px;
+    ">
+
+  <div class="container">
+    <ul class="list-unstyled">
+      <li>&bull; Establish negative controls for both <em>E. Coli</em> and <em>P. Putida</em>
+      <br><br>
+      </li>
+      <li>
+        &bull; Amplify parts isolated from the bacteria (origin of replication, a regulator of enzyme production, antibiotic resistance, respective sugar pathway)
+        <br><br></li>
+      </li>
+      
+      <li>
+        &bull; Use gel electrophoresis in order to verify the presence of the correct amplified parts (see Figure 13)
+        <br><br></li>
+      <li>
+        &bull; Produce these plasmids: pFLtAb5, pFCiAb5, pFLtSc5, pFCiRi5, pFLtRi5 (see Figure 14)
+        <br><br></li>
+      <li>
+        &bull; Verify the sequence of these plasmids using sequencing programs (as seen in the image above)
+        <br><br></li>
+      <li>
+        &bull; Incorporate the aforementioned plasmids into <em>P. Putida</em> or <em>E. Coli</em> using heat shock or electroshock
+        transformation
+        <br><br></li>
+      <li>
+        &bull; Observe the growth of these transformed bacteria
+      </li>
+    </ul>
+  </div>
+</div>
+</div>
+
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 figure">
+          <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/results/results1.png">
+          <p>Figure 1 - Establishing growth of <em>P. Putida</em> provided known usable carbon source (glucose)</p>
+        </div>
+        <div class="col-12 col-md-6 figure">
+          <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/results/results2.png">
+          <p>Figure 2 - Establishing growth of <em>E. Coli</em> provided known usable carbon source (glucose)</p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 figure">
+          <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/results/results3.png">
+          <p>Figure 3 - Control establishing no growth of <em>P. Putida</em> provided no usable carbon source </p>
+        </div>
+        <div class="col-12 col-md-6 figure">
+          <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/results/results4.png">
+          <p>Figure 4 - Control establishing no growth of <em>E. Coli</em> provided no usable carbon source</p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 figure">
+          <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/results/results5.png">
+          <p>Figure 5 - Establishing natural growth of <em>P. Putida</em> provided experimental carbon source (Arabitol)</p>
+        </div>
+        <div class="col-12 col-md-6 figure">
+          <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/results/results6.png">
+          <p>Figure 6 - Establishing natural growth of <em>E. Coli</em> provided experimental carbon source (Arabitol)</p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 figure">
+          <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/results/results7.png">
+          <p>Figure 7 - Establishing natural growth of <em>P. Putida</em> provided experimental carbon source (Ribitol)</p>
+        </div>
+        <div class="col-12 col-md-6 figure">
+          <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/results/results8.png">
+          <p>Figure 8 - Establishing natural growth of <em>E. Coli</em> provided experimental carbon source (Ribitol)</p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 figure">
+          <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/results/results9.png">
+          <p>Figure 9 - Establishing natural growth of <em>P. Putida</em> provided experimental carbon source (Sucrose)</p>
+        </div>
+        <div class="col-12 col-md-6 figure">
+          <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/results/results10.png">
+          <p>Figure 10 - Establishing natural growth of <em>E. Coli</em> provided experimental carbon source (Sucrose)</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+<p><br><br></p>
+    </div>
+
+
+    <div class="container">
+      <div class="container" style="text-align: center;">
+        <table class="table table-hover table-bordered table-striped table-light">
+          <thead>
+            <tr class="table-primary">
+              <th scope="col"></th>
+              <th scope="col">Glucose</th>
+              <th scope="col">Arabitol</th>
+              <th scope="col">Ribitol</th>
+              <th scope="col">No sugar</th>
+              <th scope="col">Sucrose</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row"><em>E. Coli</em></th>
+              <td>18 &times; 10<sup>7</sup> colonies/mL</td>
+              <td>30 &times; 10<sup>7</sup> colonies/mL</td>
+              <td>30 &times; 10<sup>7</sup> colonies/mL</td>
+              <td>30 &times; 10<sup>7</sup> colonies/mL</td>
+              <td>20 &times; 10<sup>7</sup> colonies/mL</td>
+            </tr>
+            <tr>
+              <th scope="row"><em>P. Putida</em></th>
+              <td>29 &times; 10<sup>7</sup> colonies/mL</td>
+              <td>31 &times; 10<sup>7</sup> colonies/mL</td>
+              <td>50 &times; 10<sup>7</sup> colonies/mL</td>
+              <td>27 &times; 10<sup>7</sup> colonies/mL</td>
+              <td>48 &times; 10<sup>7</sup> colonies/mL</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="container figure">
+      <p>Figure 11 - Table establishes colony counts for baseline growth on control and on each type of provided sugar.
+        Note: Although colony counts might be similar between glucose and other three experimental carbon sources,
+        colony morphology is much clearer in glucose than the minute pinpoints observed with other sugars.<br><br><br></p>
+    </div>
+
+
+    <div class="container figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/results/results11.png" style="max-width:80%; height: auto;">
+      <p>Figure 12 - Electrophoresis gel depicting verification of ribitol part of pFLtRi5 plasmid. The first band
+        (first from left) is a ladder dye used to delineate size of parts in 0.5kb increments. The second band (second
+        from left) was segmented using a forward primer in front of the respective regulator part (Ltet02) and reverse
+        primer internal to ribitol part at 1.5kb. The third band (third from left) depicts the entire ribitol metabolic
+        pathway as amplified through PCR at 2.5kb.<br><br><br></p>
+    </div>
+
+    <div class="container figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/results/results12.png" style="max-width:80%; height: auto;">
+      <p>Figure 13 - Example of contamination often encountered over the course of experimentation. Spotted dilutions of
+        various plasmids on their respective sugars demonstrated highly dense growth among the supposedly least
+        concentrated spots (bottom right of both plates at bottom of image). When each contamination site was struck
+        onto plates, colony morphology was similar and not that of expected <em>E. Coli</em> (plate at top/middle of image).<br><br><br></p>
+    </div>
+
+    <div class="container figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/results/results13.png" style="max-width:80%; height: auto;">
+      <p>Figure 14 - The sequenced pFLtRi5 plasmid designed by UFlorida iGEM 2021</p>
+    </div>
+
+    <div class="dna-divider"></div>
+
+    <div class="container">
+      <h3>Unsuccessful Results</h3>
+      <p>Prior to optimizing transformation efficiency, it was necessary to establish solely transformed cells’
+        utilization of respective sugars to colonize. Initial experimentation appeared promising as transformed growth
+        occurred; however, its inconsistency even among sugars proved it ultimately inconclusive. In an effort to
+        establish that introduction of our plasmid allowed for selective growth, we attempted to control for numerous
+        factors that might have confounded our results.
+        <br><br>
+        There were several factors we considered that might have potentially inhibited the success of our sugar
+        selection. The first of these cases was the phase of the parent colony. Initially, whenever we subcultured from
+        the parent colony which we had already found and proven to have successfully taken up our sugar plasmid, we
+        would subculture and immediately add the respective inducer for either the Ltet or Cin regulator and begin an
+        experiment. We hypothesized the issue with this being that the parent colony, having already grown, existed in a
+        stationary growth phase where minimal further colony growth may be observed and biochemical processes are
+        stabilized to that required for continued survival. Given a new metabolic enzyme to produce may have either been
+        downregulated due to the importance of other factors necessary towards survival and thus enzyme production
+        occurring at a very slow rate or rather not enough necessary cellular machinery already present to produce the
+        enzyme due to high levels during growth being depleted. To address this issue, we performed an experiment in
+        which we took two subcultures from the same parent colony. One subculture, our control, was immediately treated
+        with the appropriate inducer; the other subculture was again quickly subcultured to obtain a colony in
+        exponential phase which was only then treated with the respective inducer. While the stationary phase may have
+        inhibited enzyme production, we hypothesized that the addition of an inducer during an exponential phase of
+        growth would allow for a greater availability of cellular resources and machinery to be dedicated towards
+        enzymatic production. Moreover, the exponential phase subculture had more time to produce the desired sugar
+        enzymes.
+        <br><br>
+        Rather than the phase of growth when conducting an experiment, another variable we sought to regulate was
+        whether the concentration of the respective inducer influenced the amount of enzyme produced. There are two
+        important implications regarding the effect of the inducer unto the regulator. With too little induced
+        production of the enzyme, the cell may not be able to produce enough of the enzyme to metabolize the respective
+        sugar and thus will die. However, too much of the enzyme produced might draw cellular resources and machinery
+        otherwise vital to growth and survival, likewise leading to cellular death. In order to account for both these
+        possibilities, we conducted an experiment varying our inducer concentration from that we regularly used to those
+        both lower and higher amounts. No colonies grew on the respective sugar regardless of inducer concentration.
+        <br><br>
+        With neither the growth phase nor inducer concentration ultimately being the cause for why our transformed
+        plasmids were yet unable to consistently grow on their respective sugars, we next turned towards the
+        concentration of the sugars. Because cells would only be able to survive if able to produce enough of the
+        respective enzymes to metabolize the provided sugar, the concentration present could have impacted cell
+        survival. Too little sugar might yield not enough of an energy source to power other integral cellular activity
+        and likewise limit growth potential whilst ample sugar should theoretically allow for much greater growth
+        potential than what had been observed with the concentration provided through previous experiments. In order to
+        test the significance of sugar concentration on our transformed cells’ survival, we set up a liquid culture
+        experiment. To test the effect of sugar concentration, a single one of our plasmids were considered at a time.
+        Within liquid media, five various sugar concentrations were suspended and then inoculated with a subculture. One
+        set of five liquid cultures contained transformed cells that retained the appropriate enzyme for the suspended
+        sugar as the other set of five liquid cultures were inoculated with transformed cells retaining a different
+        plasmid for another sugar not present. As such, we were able to use our successfully transformed cells to
+        evaluate survivability. Ultimately, however, equivalent growth was observed in both the positive and negative
+        controls at lower sugar concentrations and cell debris in both the positive and negative at higher
+        concentrations. A potential cause of this unexpected result at higher sugar concentrations could have been that
+        cellular resources were exhausted in producing the desired enzyme in the presence of greater energy supply that
+        other necessary cell functions were inhibited or downregulated per the result of the present enzymatic activity.
+        <br><br>
+        An important factor was discovered later in our lab work that resulted in our needing to repeat experiments to
+        retain validity in our results. When exploring potential factors that might be causing our transformed cells to
+        not display expected select growth, we discovered the supplementary strain of <em>E. Coli</em> used was an auxotroph. As
+        a result of the strain utilized having been engineered to better be able to take up and retain genetic material,
+        certain experimentally designed strains are known to necessitate something not needed in the wild type. In our
+        case, we discovered that it was necessary to supplement amino acid Leucine in experimental design in order for
+        the cell to perform a variety of vital functions. This alteration in design was incorporated into all subsequent
+        experiments in addition to asserting prior experimental results.
+        <br><br>
+        Finally, as growth phase, inducer influence, and sugar concentration were proven to not be primarily responsible
+        for the lack of expected select growth, we decided to further verify enzymatic production. With evidence
+        supporting the accuracy of our new engineered genetic part and inability to observe the expected growth of
+        transformed cells, we instead looked to any potential issue in the process of enzyme production itself. We were
+        able to assess the production of the desired enzymes coded for by our plasmids through an assay analysis. In
+        opting to evaluate the presence of coded-for dehydrogenase enzymes, we were able to take advantage of the
+        NAD/NADH cofactor system commonly present in a variety of metabolic systems through various lineages. By lysing
+        varying amounts of our transformed cells and immediately screening for a change in ratio of NAD:NADH present
+        over time, we were able to evaluate for the expected trend of greater transformed cellular lysate equating to
+        greater changes of the NAD:NADH ratio in the observed time interval. Nevertheless, we found that compared to a
+        control in which no cell lysate and thus no dehydrogenase enzyme present to hasten the NAD:NADH conversion, the
+        observed varying concentration did not prove any conclusive association that evidenced greater dehydrogenase
+        present in lysate resulting in greater changes in the cofactor over time.
+        <br><br>
+        Although we were unable to demonstrate sugar introduction as an alternative selectable marker, we were able to
+        successfully engineer and introduce a novel plasmid with the code for transferable sugar-metabolizing pathways
+        to <em>Pseudomonas.putida</em> and <em>Escherichia.coli</em>. Numerous complications exist in the manifestation of full
+        transference of a metabolic pathway. Many metabolites serve as complex intermediates within several systemic
+        pathways that play integral roles in cell function. Introducing mechanisms to metabolize new substances likely
+        incur innumerable opportunities to confound a natural pathway integral to the survival of a cell. Even with
+        fully analyzing the biochemical interactions responsible for metagenomic-derived processes, there are always
+        more details to be yet discovered to truly uncover why our system was unable to materialize. Moreover, there
+        additionally could have been complications arising from the aspect of synthetic biology. As we commonly used
+        transformed cells of one sugar as the positive control in an experiment meant to test another sugar, it may be
+        that the respective inducer added to stimulate the included regulator might have potential crossover with common
+        promoters among the other control. Finally, an exhaustion of cellular resources necessary to construct the coded
+        enzymes may have had compounding effects on those available for other cell functions as well. Further testing is
+        needed to establish a basis of consistency in expected selection prior to systemic optimization and judging
+        efficacy as a potential replacement for alternative selectable markers to traditional antibiotics; however, we
+        considered numerous variables integral to and were able to successfully produce the genetic parts to enable the
+        eventual creation of such a system.
+        <br><br>
+      </p>
+    </div>
+
+    <div class="container">
+      <h3>Design considerations for future teams interested in markers:</h3>
+      <p>Team UFLORIDA understands the importance of collaboration and building upon previous work. We hope our project
+        can provide the educational means to inspire and help future teams continue the synthetic biology aspects in
+        alternative selection markers. We were able to work on the wet lab aspect of this project through the summer. We
+        understand that science takes time and with this opportunity, we have provided a list of controls and additional
+        work we think future things should consider for further applications</p>
+    </div>
+
+    <div class="container" style="
+          text-align: center;
+          padding-left: 20%;
+          padding-right: 20%;
+          padding-top: 2.5%;
+          padding-bottom: 2.5%;
+        ">
+      <div class="container shadow" style="
+            background-color: white;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 2.5%;
+            padding-bottom: 2.5%;
+            border-radius: 10px;
+          ">
+
+        <div class="container">
+          <ul class="list-unstyled">
+            <li>
+              1. Set up an additional control: ordering a fully assembled plasmid from a different company we got some of
+              our parts from and check if the plasmid worked. This would serve as an extra control in order to narrow
+              down the options of things that could have gone wrong: probability of a mutation shifting the reading
+              frame of our desired circuit.<br><br>
+            </li>
+            <li>
+              2. Design a plasmid with a localization signal<br><br>
+            </li>
+            <li>
+              3. Obtain sequencing data from a different company
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="dna-divider"></div>
+
+    <div class="container">
+      <h2 style="text-align:center;">References</h2>
+      <p style="text-align: left;">
+        Becker, N. A., Peters, J. P., Lionberger, T. A., & Maher, L. J. (2012). Mechanism of promoter repression by LAC
+        repressor–DNA loops. Nucleic Acids Research, 41(1), 156–166. https://doi.org/10.1093/nar/gks1011
+        <br><br>
+        Debowski, A. W., Verbrugghe, P., Sehnal, M., Marshall, B. J., & Benghezal, M. (2013). Development of a
+        tetracycline-inducible gene expression system for the study of helicobacter pylori pathogenesis. Applied and
+        Environmental Microbiology, 79(23), 7351–7359. https://doi.org/10.1128/aem.02701-13
+        <br><br>
+        Kluge, J., Terfehr, D., & Kück, U. (2018). Inducible promoters and functional genomic approaches for the genetic
+        engineering of filamentous fungi. Applied Microbiology and Biotechnology, 102(15), 6357–6372.
+        https://doi.org/10.1007/s00253-018-9115-1
+        <br><br>
+        Lecturio. (2020, October 2). Biochemical pathways: The Pentose Phosphate Pathway: Lecturio. The Lecturio Online
+        Medical Library. Retrieved October 20, 2021, from https://www.lecturio.com/magazine/pentose-phosphate-pathway/.
+        <br><br>
+        Meyer, A. J., Segall-Shapiro, T. H., Glassey, E., Zhang, J., & Voigt, C. A. (2018). Escherichia coli
+        “marionette” strains with 12 highly optimized small-molecule sensors. Nature Chemical Biology, 15(2), 196–204.
+        https://doi.org/10.1038/s41589-018-0168-3
+        <br><br>
+        Pathway: D-arabitol degradation. MetaCyc D-arabitol degradation. (1998, August 21). Retrieved October 20, 2021,
+        from https://biocyc.org/META/NEW-IMAGE?type=PATHWAY&object=DARABITOLUTIL-PWY.
+        <br><br>
+        Pathway: ribitol degradatio. MetaCyc ribitol degradation. (1998, August 21). Retrieved October 20, 2021, from
+        https://metacyc.org/META/NEW-IMAGE?type=PATHWAY&object=RIBITOLUTIL-PWY.
+        <br><br>
+        Pathway: sucrose degradation VII (sucrose 3-dehydrogenase). MetaCyc sucrose degradation VII (sucrose
+        3-dehydrogenase). (1998, September 9). Retrieved October 20, 2021, from
+        https://biocyc.org/META/NEW-IMAGE?type=PATHWAY&object=SUCROSEUTIL2-PWY.
+        <br><br>
+        Scholz, P., Haring, V., Wittmann-Liebold, B., Ashman, K., Bagdasarian, M., & Scherzinger, E. (1989). Complete
+        nucleotide sequence and gene organization of the broad-host-range plasmid RSF1010. Gene, 75(2), 271–288.
+        https://doi.org/10.1016/0378-1119(89)90273-4
+        <br><br>
+        Schuster, L. A., & Reisch, C. R. (2021). A plasmid toolbox for controlled gene expression across the
+        Proteobacteria. Nucleic Acids Research, 49(12), 7189–7202. https://doi.org/10.1093/nar/gkab496
+        <br><br>
+        Sequence analyzer: PFCIKM7 sequencing result. Addgene pFCiKm7 Sequencing Result - Sequence Analyzer. (n.d.).
+        Retrieved October 20, 2021, from https://www.addgene.org/browse/sequence/332932/.
+        <br><br>
+        Sequence analyzer: PFLTR5 sequencing result. Addgene pFLtR5 Sequencing Result - Sequence Analyzer. (n.d.).
+        Retrieved October 20, 2021, from https://www.addgene.org/browse/sequence/332638/.
+        <br><br>
+        Shin, J., Zhang, S., Der, B. S., Nielsen, A. A. K., & Voigt, C. A. (2020). Programming escherichia coli to
+        function as a digital display. Molecular Systems Biology, 16(3). https://doi.org/10.15252/msb.20199401
+        <br><br>
+        Wilkinson, A., Danino, V., Wisniewski-Dyé F., Lithgow, J. K., & Downie, J. A. (2002). N -acyl-homoserine
+        lactone inhibition of rhizobial growth is mediated by two quorum-sensing genes that regulate plasmid transfer.
+        Journal of Bacteriology, 184(16), 4510–4519. https://doi.org/10.1128/jb.184.16.4510-4519.2002
+        <br><br>
+
+      </p>
+
+    </div>
+
+
+
+
+
+
+
+
+  </div>
+  <div class="dna-divider"></div>
+
+
+
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+-->
+  <script src="C:/Users/Garrett/Documents/Documents/wiki/src/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function () { myFunction() };
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+</body>
+
+</html>

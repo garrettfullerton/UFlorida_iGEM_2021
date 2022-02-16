@@ -1,0 +1,33 @@
+2021-10-21 22:14:41,046 : INFO : iGEM_login : Already logged in.
+2021-10-21 22:14:49,581 : INFO : iGEM_upload_file : Uploaded T--UFlorida--WS-basic--img--photos--engineering_ribitol.png to https://2021.igem.org/wiki/images/f/f4/T--UFlorida--WS-basic--img--photos--engineering_ribitol.png.
+2021-10-21 22:14:50,351 : ERROR : build_and_upload : Could not open/read assets\WS-basic\documents\RISE_ppt.html. Skipping.
+2021-10-21 22:14:50,375 : INFO : build_and_upload : Contents of css\bootstrap.min.css have been uploaded previously. Skipping.
+2021-10-21 22:14:50,381 : INFO : iGEM_URL : C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/loading_gator.gif was changed to https://2021.igem.org/wiki/images/5/52/T--UFlorida--WS-basic--img--logos--loading_gator.gif in css\custom.css.
+2021-10-21 22:14:50,384 : INFO : iGEM_URL : C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/dna_repeat2.png was changed to https://2021.igem.org/wiki/images/7/77/T--UFlorida--WS-basic--img--logos--dna_repeat2.png in css\custom.css.
+2021-10-21 22:14:50,387 : WARNING : iGEM_URL : C:\Users\Garrett\Documents\Documents\wiki\src\img\cd-arrow.svg is referenced in C:\Users\Garrett\Documents\Documents\wiki\src\css\custom.css but was not found.
+2021-10-21 22:14:50,390 : WARNING : iGEM_URL : ../img/cd-arrow.svg is referenced in css\custom.css but was not found.
+2021-10-21 22:14:50,395 : INFO : build_and_upload : Contents of css\custom.css have been uploaded previously. Skipping.
+2021-10-21 22:14:50,403 : WARNING : iGEM_URL : C:\Users\Garrett\Documents\Documents\wiki\src\fonts\fontawesome-webfont.eot is referenced in C:\Users\Garrett\Documents\Documents\wiki\src\css\fontawesome.min.css but was not found.
+2021-10-21 22:14:50,413 : WARNING : iGEM_URL : ../fonts/fontawesome-webfont.eot is referenced in css\fontawesome.min.css but was not found.
+2021-10-21 22:14:50,431 : WARNING : iGEM_URL : C:\Users\Garrett\Documents\Documents\wiki\src\fonts\fontawesome-webfont.woff2 is referenced in C:\Users\Garrett\Documents\Documents\wiki\src\css\fontawesome.min.css but was not found.
+2021-10-21 22:14:50,455 : WARNING : iGEM_URL : ../fonts/fontawesome-webfont.woff2 is referenced in css\fontawesome.min.css but was not found.
+2021-10-21 22:14:50,474 : WARNING : iGEM_URL : C:\Users\Garrett\Documents\Documents\wiki\src\fonts\fontawesome-webfont.woff is referenced in C:\Users\Garrett\Documents\Documents\wiki\src\css\fontawesome.min.css but was not found.
+2021-10-21 22:14:50,494 : WARNING : iGEM_URL : ../fonts/fontawesome-webfont.woff is referenced in css\fontawesome.min.css but was not found.
+2021-10-21 22:14:50,523 : WARNING : iGEM_URL : C:\Users\Garrett\Documents\Documents\wiki\src\fonts\fontawesome-webfont.ttf is referenced in C:\Users\Garrett\Documents\Documents\wiki\src\css\fontawesome.min.css but was not found.
+2021-10-21 22:14:50,533 : WARNING : iGEM_URL : ../fonts/fontawesome-webfont.ttf is referenced in css\fontawesome.min.css but was not found.
+2021-10-21 22:14:50,565 : WARNING : iGEM_URL : C:\Users\Garrett\Documents\Documents\wiki\src\fonts\fontawesome-webfont.svg is referenced in C:\Users\Garrett\Documents\Documents\wiki\src\css\fontawesome.min.css but was not found.
+2021-10-21 22:14:50,569 : WARNING : iGEM_URL : ../fonts/fontawesome-webfont.svg is referenced in css\fontawesome.min.css but was not found.
+2021-10-21 22:14:50,578 : INFO : build_and_upload : Contents of css\fontawesome.min.css have been uploaded previously. Skipping.
+2021-10-21 22:14:50,611 : INFO : build_and_upload : Contents of css\nicepage.css have been uploaded previously. Skipping.
+2021-10-21 22:14:50,613 : INFO : build_and_upload : Contents of css\Page-1.css have been uploaded previously. Skipping.
+2021-10-21 22:14:50,617 : INFO : build_and_upload : Contents of js\bootstrap.bundle.min.js have been uploaded previously. Skipping.
+2021-10-21 22:14:50,619 : INFO : build_and_upload : Contents of js\bootstrap.min.js have been uploaded previously. Skipping.
+2021-10-21 22:14:50,620 : INFO : build_and_upload : Contents of js\button-to-top.js have been uploaded previously. Skipping.
+2021-10-21 22:14:50,622 : INFO : build_and_upload : Contents of js\fade.js have been uploaded previously. Skipping.
+2021-10-21 22:14:50,627 : INFO : build_and_upload : Contents of js\jquery-3.2.1.slim.min.js have been uploaded previously. Skipping.
+2021-10-21 22:14:50,631 : INFO : build_and_upload : Contents of js\jquery.js have been uploaded previously. Skipping.
+2021-10-21 22:14:50,633 : INFO : build_and_upload : Contents of js\loader.js have been uploaded previously. Skipping.
+2021-10-21 22:14:50,640 : INFO : build_and_upload : Contents of js\nicepage.js have been uploaded previously. Skipping.
+2021-10-21 22:14:50,642 : INFO : build_and_upload : Contents of js\partnershipmap.js have been uploaded previously. Skipping.
+2021-10-21 22:14:50,644 : INFO : build_and_upload : Contents of js\popper.min.js have been uploaded previously. Skipping.
+2021-10-21 22:14:50,645 : INFO : build_and_upload : Contents of js\timeline.js have been uploaded previously. Skipping.

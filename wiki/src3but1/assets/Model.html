@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UF iGEM 2021</title>
+
+  <!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+-->
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/custom.css" rel="stylesheet">
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/nicepage.css" rel="stylesheet">
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/page-1.css" rel="stylesheet">
+
+  <link rel="shortcut icon"
+    href="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/favicon_uflorida.png"
+    type="image/x-icon" />
+  <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@700&display=swap" rel="stylesheet" />
+-->
+  <!--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    -->
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/fontawesome.min.css" rel="stylesheet" />
+
+  <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/loader.js"></script>
+  <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/nicepage.js"></script>
+  <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/jquery.js"></script>
+  <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/fade.js"></script>
+
+
+</head>
+
+<body>
+  <div id="loader"></div>
+
+  <!--
+      START OF NAVBAR
+    -->
+  <div class="fixed-top">
+    <!--color options: .bg-primary .bg-secondary .bg-success .bg-danger .bg-warning .bg-info .bg-light .bg-dark .bg-white -->
+    <nav class="
+      navbar navbar-default navbar-expand-lg navbar-dark
+      bg-dark
+      sticky-top
+      static
+    ">
+      <div class="container-fluid py-1">
+        <div class="navbar-header" style="padding-top: 5px; padding-bottom: 0px">
+          <a class="navbar-brand" style="padding-left: 30px"
+            href="C:/Users/Garrett/Documents/Documents/wiki/src/index.html">
+            <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/logo_uf_igem.png"
+              style="object-fit: cover; border-radius: 50%; height: 100px" />
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 18px">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown" style="padding-left: 3.5em">
+              <a class="nav-link dropdown-toggle" href="C:/Users/Garrett/Documents/Documents/wiki/src/Team.html"
+                data-toggle="dropdown" id="dropdown_target" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Team
+                <span class="caret"></span>
+              </a>
+              <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down" aria-labelledby="dropdown_target"
+                style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)">
+                <a class="dropdown-item" href="C:/Users/Garrett/Documents/Documents/wiki/src/Team.html">Team</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Attributions.html">Attributions</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Collaborations.html">Collaborations</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown" style="padding-left: 3.5em">
+              <a class="nav-link dropdown-toggle" href="C:/Users/Garrett/Documents/Documents/wiki/src/Description.html"
+                data-toggle="dropdown" id="dropdown_target" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Project
+                <span class="caret"></span>
+              </a>
+              <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down" aria-labelledby="dropdown_target"
+                style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)">
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Description.html">Description</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="C:/Users/Garrett/Documents/Documents/wiki/src/Results.html">Results</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Contribution.html">Contribution</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="C:/Users/Garrett/Documents/Documents/wiki/src/Model.html">Model</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Engineering.html">Engineering</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Implementation.html">Implementation</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Experiments.html">Experiments</a>
+              </div>
+            </li>
+
+            <li class="nav-item" style="padding-left: 3.5em">
+              <a class="nav-link" href="C:/Users/Garrett/Documents/Documents/wiki/src/Parts.html">Parts</a>
+            </li>
+
+            <li class="nav-item dropdown" style="padding-left: 3.5em; margin-right: 3em">
+              <a class="nav-link dropdown-toggle"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Human_Practices.html" data-toggle="dropdown"
+                id="dropdown_target" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Human Practices
+                <span class="caret"></span>
+              </a>
+              <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down" aria-labelledby="dropdown_target"
+                style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)">
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Human_Practices.html">Integrated Human
+                  Practices</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Communication.html">Education & Communication</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Partnership.html">Partnership</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="C:/Users/Garrett/Documents/Documents/wiki/src/Excellence.html">Excellence
+                  in Another Area</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="progress" style="height: 4px">
+      <div style="height: 4px; width: 0px; background: black" class="progress-bar" id="myBar"></div>
+    </div>
+  </div>
+  <!--
+      END OF NAVBAR
+    -->
+
+
+  <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="256"
+    data-image-height="256" id="sec-fc45" style="background-image: linear-gradient(
+    0deg,
+    rgba(241, 241, 241, 0.4),
+    rgba(135, 0, 231, 0.4)
+  ),
+  url('C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/mainpagebackground.gif');">
+    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+      <h1 class="u-text u-title u-text-1"
+        style="font-family: 'Mali', cursive; color: #0a0a0a; text-shadow: 4px 4px rgba(0, 0, 0, 0.5); letter-spacing: 10px; font-size: 6rem;">
+        MODEL</h1>
+      <div style="justify-content: center; padding-top:100px;">
+        <a href="#page-content" class="button-link">
+          <button type="button" class="btn btn-dark btn-circle btn-xl" href="#page-content">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+              class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path
+                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            </svg>
+
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="dna-divider" style="margin-top: 3em;"></div>
+  <div id="page-content" style="padding-left: 10%; padding-right: 10%">
+
+
+
+    <div class="container">
+      <h2 style="text-align: center;">Overview</h2>
+      <p>
+        Our project attempts to reduce antibiotic resistance spread within bacterial populations by utilizing an
+        inducible CRISPR-Cas9 circuit to stochastically cleave locations on bacterial genomes. In final implementation,
+        we foresee horizontal gene transfer or conjugation as being a promising route for quick and non-invasive
+        bacterial population modification.
+        <br><br>
+        We have selected conjugation as a vector for population level editing for two main reasons: ease of transfer and
+        non-invasiveness. Regarding the former rationale, bacterial populations are well known to share genetic
+        information between both individuals within a species and between species (Wang et al., 2019). This phenomena
+        will allow us to spread our circuit through a population and kill only target bacteria rather than utilizing
+        broad spectrum antibiotics.
+        <br><br>
+        With regards to the latter reason, gene-editing techniques remain a novel technology. We propose a strain of
+        engineered bacteria could be edited in vitro, and delivered to a target bacterial colony via impregnated
+        bandages for surface wounds, injection for internal injuries, or probiotic supplement for microbiome therapy.
+        While the regulatory and safety concerns for introduction of an engineered bacteria are immense, once a pathway
+        has been approved, a treatment comparable in invasives to a vaccination could be used to eliminate antibiotic
+        resistant species
+        <br><br>
+        Synthetic Biology is a “model-first” discipline, and we could not experimentally validate our desired
+        implementation. Because of these factors we created a model of the final product. We have modeled our
+        conjugation network as a series of first-order differential equations with respect to time, each tracking the
+        concentration of different biochemical molecules. Our model was inspired by the conjugation model designed by
+        team SDU-Denmark in 2019 (SDU-Denmark, 2019). We modified our equation with a new framework outlined in the
+        paper by Dong, et.al (2020) to include growth terms and track the donor and conjugant sources for transforming
+        wild-type bacteria.
+      </p>
+    </div>
+
+    <div class="container">
+      <h2 style="text-align: center;">Conjugation</h2>
+      <p>
+        Discovery of bacteriological conjugation, back in the year of 1946, is considered to be one of the rudimentary
+        findings in the bacteriological science as it led to uncovering of many important bacterial concepts such as
+        proof of genetic recombination (in bacteria), circular chromosomes, transfer of antibiotic resistance between
+        bacteria, and development of plasmid transformation (Low, 2001). Conjugation is an exchange of genetic material
+        between donor and recipient bacteria, where the recipient bacteria acquires a part of the donor's bacteria
+        genome which is then incorporated into the original genome of the recipient, generating a now modified host
+        bacteria (Raleigh & Low, 2013; Frost, 2009). This process is executed by horizontal gene transfer (HGT) and its
+        significance keeps growing in the field of microbiology as it serves as one of the main tools for human driven
+        transformations in delivering desired characteristics and fight antibiotic resistance, and it reaches beyond the
+        contact between same species (Frost, 2009). However, HGT plasmid conjugation is also considered as one of the
+        main drivers of antibiotic resistance spread within the bacterial populations (Lopatkin et al., 2016).
+      </p>
+    </div>
+    <div class="container figure" style="text-align: center;">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/model1.png"
+        style="width:500px; height: 500px;">
+      <p>Figure From: (Griffiths, et. al, 2000)</p>
+    </div>
+    <div class="container">
+      <p>Dynamics of conjugation in bacteria (<em>depicted above</em>) is determined by the rate of conjugation
+        (conjugation efficiency) and the rate of growth of transconjugants, and these rates are affected by the type of
+        bacteria and their environment (Lopatkin et al., 2016; Dong et al., 2020). It is proven that the biggest effect
+        on promoting bacteria dynamics are states before and during conjugation. Physiological state of the cell
+        <em>before conjugation</em> has the highest impact on the rate of conjugation, while energy access of the cell
+        during conjugation is the greatest contributor to efficiency of conjugation (Lopatkin et al., 2016). Antibiotics
+        as well drive the conjugation in smaller quantities (Lopatkin et al., 2016). On the other hand, when it comes to
+        the rate of growth of transconjugants, it was found that <i>de novo</i> transconjugants replicated with
+        significantly more lag at a slower rate, while transconjugants that have been replicating by generations have a
+        faster rate of replication without significant lagging (Prensky et al., 2021).</p>
+    </div>
+
+    <div class="dna-divider"></div>
+
+    <div class="container">
+      <h2 style="text-align: center;">Equations</h2>
+      <h3 style="text-align: center;">The Denmark Model</h3>
+      <p>Our final population system stemmed from the SDU-Denmark (2019) model of their third system. Their system is
+        defined by two populations: recipients, R, and transconjugants, TCN, that have received the plasmid.
+      </p>
+    </div>
+
+    <div class="container" style="
+          text-align: center;
+          padding-left: 20%;
+          padding-right: 20%;
+          padding-top: 2.5%;
+          padding-bottom: 2.5%;
+        ">
+      <div class="container shadow" style="
+            background-color: white;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 2.5%;
+            padding-bottom: 2.5%;
+            border-radius: 10px;
+          ">
+
+        <div class="container">
+          <ul class="list-unstyled">
+            <li><strong>(A)</strong> <em>dR &frasl; dt = -&gamma;R(CN + TCN)</em></li>
+            <li><strong>(B)</strong> <em>dTCN &frasl; dt = &gamma;R(CN + TCN)</em></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>Equation A represents the time rate of change of the recipient population.
+        <br><br>
+        Equation B represents the time rate of change of the transconjugants population. 
+        <br><br>
+        The conjugation parameter (Demark, 2019), <em>&gamma;</em>, describes the rate at which a plasmid is able to be transmitted via conjugation to other cells.
+      <br><br>
+      The parameter <em>CN</em> (Denmark, 2019) represents the initial concentration of Plasmid Donor cells. 
+      </p>
+    </div>
+
+
+
+
+
+    <div class="container" style="text-align: center;padding-left: 10%;padding-right: 10%;">
+      <table class="table table-hover table-bordered table-striped table-light">
+        <thead>
+          <tr class="table-primary">
+            <th scope="col">Parameters</th>
+            <th scope="col">Value</th>
+            <th scope="col">Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><em>&gamma;</em></th>
+            <td>2.174 &times; 10<sup>-11</sup> [<em>mL cells<sup>-1</sup> hour<sup>-1</sup></em>]</td>
+            <td>Rate of Conjugation</td>
+          </tr>
+          <tr>
+            <th scope="row"><em>CN</em></th>
+            <td>2.5 &times; 10<sup>9</sup> [<em>cells mL<sup>-1</sup></em>]</td>
+            <td>Population of Plasmid Donors</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container">
+      <p>
+      The two bacteria populations that exist in our model are <em>E. Coli</em> and <em>P. Putida</em>. For the purpose of our design, the <em>E. Coli</em> cell count, D, will be treated as a constant with our goal of tracking <em>P. Putida</em> (SDU-Denmark, 2019). The population of <em>P. Putida</em> is categorized into two groups, the cells susceptible to conjugation, S,  and cells that have received the transmitted plasmid, R. We assume plasmid transmission through transformation to be negligible. The population model equations we created are derived from the Denmark model as well as from a conjugation paper by Dong, Russo, and Sampson (Dong et al., 2020; SDU Denmark, 2019). The following equations apply their relationships to our own context. 
+</p>
+    </div>
+
+
+    <div class="container" style="
+          text-align: center;
+          padding-left: 20%;
+          padding-right: 20%;
+          padding-top: 2.5%;
+          padding-bottom: 2.5%;
+        ">
+      <div class="container shadow" style="
+            background-color: white;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 2.5%;
+            padding-bottom: 2.5%;
+            border-radius: 10px;
+          ">
+
+        <div class="container">
+          <ul class="list-unstyled">
+            <li><strong>(A)</strong> <em>dS &frasl; dt = b<sub>R</sub> S - (&gamma;<sub>D</sub> D S) - (&gamma;<sub>R</sub> R S)</em></li>
+            <li><strong>(B)</strong> <em>dR &frasl; dt = b<sub>R</sub> R + (&gamma;<sub>D</sub> D S) + (&gamma;<sub>R</sub> R S)</em></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>
+        Equation 1 represents the time rate of change of the susceptible <em>P. Putida</em> population. 
+        <br><br>
+        Equation 2 represents the time rate of change of the plasmid recipient <em>P. Putida</em> population. 
+<br><br>
+The conjugation parameter, <em>&gamma;<sub>R</sub></em>, describes the rate at which <em>P. Putida</em> is able to transmit a plasmid via conjugation to other <em>P. Putida</em> cells (Wang et al., 2019). 
+<br><br>
+The conjugation parameter, <em>&gamma;<sub>D</sub></em>, describes the rate at which <em>E. Coli</em> is able to transmit a plasmid via conjugation to other <em>P. Putida</em> cells (Pei & Gunsch, 2009) . 
+<br><br>
+Lastly, the parameter <em>b<sub>R</sub></em> is the growth rate of <em>P. Putida</em>.
+</p>
+    </div>
+
+    <div class="container" style="text-align: center;padding-left: 10%;padding-right: 10%;">
+      <table class="table table-hover table-bordered table-striped table-light">
+        <thead>
+          <tr class="table-primary">
+            <th scope="col">Parameters</th>
+            <th scope="col">Value</th>
+            <th scope="col">Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row"><em>&gamma;<sub>R</sub></em></th>
+            <td>1.5 &times; 10<sup>-1</sup> [<em>mL cells<sup>-1</sup> hour<sup>-1</sup></em>]</td>
+            <td>Rate of Conjugation <em>E. Coli</em> &rarr; <em>P. Putida</em></td>
+          </tr>
+          <tr>
+            <th scope="row"><em>&gamma;<sub>D</sub></em></th>
+            <td>2 &times; 10<sup>-3</sup> [<em>mL cells<sup>-1</sup> hour<sup>-1</sup></em>]</td>
+            <td>Rate of Conjugation <em>P. Putida</em> &rarr; <em>P. Putida</em></td>
+          </tr>
+          <tr>
+            <th scope="row"><em>b<sub>R</sub></em></th>
+            <td>0.61 [<em>hour<sup>-1</sup></em>]</td>
+            <td>Growth Rate of <em>P. Putida</em></td>
+          </tr>
+          <tr>
+            <th scope="row"><em>D</em></th>
+            <td>3.2 &times; 10<sup>9</sup> [<em>cells mL<sup>-1</sup></em>]</td>
+            <td><em>E. Coli</em> Population</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="dna-divider"></div>
+
+    <div class="container">
+      <h2 style="text-align: center;">Results</h2>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 figure">
+          <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/model2.png">
+        </div>
+        <div class="col-12 col-md-6 figure">
+          <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/model3.png">
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>In replicating the SDU-Denmark model for 2019, we saw a marked increase in the speed of our conjugation (<em>right</em>) when compared to their (<em>left</em>) original “System 3” framework (SDU-Denmark, 2019). This was likely due to the higher initial concentration of donor cells in our model 3.2e9 vs 2.5e9 for Denmark (2019) and a higher conjugation rate found in our literature 1.5e-1 (Pei & Gunsch, 2009) vs 2.2e-11 for Denmark (2019). As seen above, our model produces a more “step-like” behavior than Denmark’s model. As we did not experimentally validate our model, we felt the initial condition of non-conjugated (henceforth referred to as <strong>“susceptible”</strong> with conjugated cells dubbed <strong>“recipient”</strong>) cells was arbitrary and opted to make the concentrations of donor and “susceptible” and cells equal. </p>
+    </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-md-6 figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/model4.png">
+    </div>
+    <div class="col-12 col-md-6 figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/model5.png">
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <p>However, when substituting Denmark’s initial donor concentration with ours (<em>left</em>) or Denmark’s conjugation rate (<em>right</em>) it becomes fairly clear that the dominant driving factor in our differences is the conjugation rate. In order to further develop on the Denmark framework, we added bacterial growth terms in accordance with the paper by Dong, et.al (2020) and captured conjugation behavior by both the original donor cells and newly conjugated bacteria. When plotted on the same scale as the Denmark models (<em>below</em>) we find that the conjugation rate is rapid and exceeds the bounds of the frame of reference. This is likely due to the inclusion of a growth term creating an exponential positive feedback where conjugated cells both increase passively and can transfer their status to other cells. 
+  </p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/model5.png">
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<p>When plotted on a semi-logarithmic scale (<em>below</em>) however, two pieces of behavior become obvious. Firstly, at the fractional percentage scale, we observe oscillations in the “susceptible” cell concentration, displaying almost a “predator-prey” dynamic in which once a certain threshold is reached then their population drops precipitously. Secondly, once the initial concentration of susceptible cells is depleted, a new driving force, the aforementioned oscillation, appears to generate more “recipient” cells via the cycle described in the preceding paragraph.The validity of these results may be questioned given a series of assumptions and omissions described in the “Discussion”.
+</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-12 figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/model6.png">
+      <br><br><br>
+    </div>
+  </div>
+</div>
+
+
+<div class="dna-divider"></div>
+
+<div class="container">
+  <h2 style="text-align: center;">Discussion</h2>
+  <p>
+    While modelling the systems, we made assumptions which limit the extent of biological and environmental dynamics the model tracks. The value of <em>&gamma;<sub>D</sub></em> used in the model served as a proxy for a more accurate growth rate that could be retrieved from experimental data. A lack of experimental validation is also a major limitation to the model, as it would confirm the population behaviors we observed and provide constants and initial conditions such as the growth rate (<em>&gamma;<sub>D</sub></em>) described previously and the initial concentration of bacteria (S<sub>0</sub>). Experimental data would allow us to reach a more concrete conclusion in the certainty of the population dynamics shown in the model. 
+<br><br>
+The model also does not consider all the mechanistic forces involved in the transfer of the target plasmid. The role of lysing in the reduction of the population was not reflected in the equations. The environment was assumed to be nutrient rich, and therefore, cell death was not considered. Plasmid transformation was also not considered to focus on conjugation as the singular pathway for horizontal gene transfer. The model does not track whether all cells in the population are conjugated. The model does not capture <em>E. Coli</em> growth or death mechanisms. It does not consider the stochasticity of cellular contact and its role in facilitating conjugation. 
+<br><br>
+Experimentation of the modelled system would greatly improve the validity of the model, and is the foremost recommendation for how future teams can build upon the work of this section. An experiment that successfully integrates the CRISPR/Cas-9 system and the conjugative genes into one plasmid and provides constants and values specific to the experiment will prove the validity of the assumptions we made, the model itself, and the pathway that could be taken to combat antibiotic resistance. 
+<br><br>
+</p>
+</div>
+
+<div class="dna-divider"></div>
+
+<div class="container">
+  <h2 style="text-align: center;">References</h2>
+  <p>Dahlberg, C., Bergstro¨m, M., Andreasen, M., Christensen, B. B., Molin, S., & Hermansson, M. (1998). Interspecies Bacterial Conjugation by Plasmids from Marine Environments Visualized by gfp Expression. Molecular Biology and Evolution, 15(4), pp. 385-390. Retrieved From: https://doi.org/10.1093/oxfordjournals.molbev.a025935.
+    <br><br>
+    Denmark, S. D. U. (n.d.). CONJUGATION MODEL Kinetics of conjugative plasmid transfer. Team:SDU-Denmark/model. Retrieved October 19, 2021, from https://2019.igem.org/Team:SDU-Denmark/Model.
+    <br><br>
+    Dong, J. J., Russo, J. D., & Sampson, K., (2020, September 9). Population dynamics model and analysis for bacteria transformation and conjugation. Journal of Physics Communications, 4. Retrieved from https://doi.org/10.1088/2399-6528/abb8be.
+    <br><br>
+    K.B. Low. (2001). Conjugation. In Brenner, S. & Miller, J.H.  (Eds.)  Encyclopedia of Genetics (pp. 449-453). Academic Press. Retrieved From: https://doi.org/10.1006/rwgn.2001.0267.
+    <br><br>
+    L.S. Frost. (2009). Conjugation, Bacterial. In Schaechter, M. (Eds.) Encyclopedia of Microbiology (pp. 517-531). Academic Press. Retrieved From: https://doi.org/10.1016/B978-012373944-5.00007-9.
+    <br><br>
+    Griffiths, A. J. F., Miller, J. H., & Suzuki, D. T. (2000). [Figure 7-11 Summary of the various events that take place in the conjugational cycle of <em>E. Coli</em>][Figure] An introduction to genetic analysis 7th edition. W H Freeman & Co. 
+    <br><br>
+    Lopatkin, A. J., Huang, S., Smith, R. P., Srimani, J. K., Sysoeva, T. A., Bewick, S., Karig, D. K., & You, L. (2016, April 11). Antibiotics as a selective driver for conjugation dynamics. Nature Microbiology, 1. Retrieved From: https://doi.org/10.1038/NMICROBIOL.2016.44
+    <br><br>
+    Pei, R., & Gunsch, C. (2009). Plasmid Conjugation in an Activated Sludge Microbial Community. Environmental Engineering Science, 26(4). Retrieved From: https://doi.org/10.1089/ees.2008.0236.
+    <br><br>
+    Prensky, H., Gomez-Simmonds, A. Uhleman, A-C. Lopatkin, A.J. (2021). Conjugation dynamics depend on both the plasmid acquisition cost and the fitness cost. Molecular systems biology. Retrieved From: https://doi.org/10.15252/msb.20209913.
+    <br><br>
+    Raleigh, E. A., & Low, K. B. (2013, May 1). Conjugation. Brenner's Encyclopedia of Genetics (Second Edition), pp. 144-151. Retrieved From: https://doi.org/10.1016/B978-0-12-374984-0.00321-1.
+    <br><br>
+    Wang, Y., Horlamus, F., Henkel, M., Kovacic, F., Schläfle, S., Hausmann, R., Wittgens, A., & Rosenau, F. (2019). Growth of engineered pseudomonas putida KT2440 on glucose, xylose, and arabinose: Hemicellulose hydrolysates and their major sugars as sustainable carbon sources. GCB-Bioenergy. Retrieved From: https://doi.org/10.1111/gcbb.12590
+</p>
+</div>
+
+
+  </div>
+  <div class="dna-divider"></div>
+
+
+
+
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+-->
+  <script src="C:/Users/Garrett/Documents/Documents/wiki/src/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function () { myFunction() };
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+</body>
+
+</html>

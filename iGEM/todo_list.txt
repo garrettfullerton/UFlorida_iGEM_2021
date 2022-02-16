@@ -1,0 +1,17 @@
+- high priority goals:
+    - set up uflorida_style file
+    - X set up navbar
+        - X add progress bar to navbar
+    - X set up header
+    - set up footer
+
+- medium-high priority goals:
+    - team page
+    - attributions page
+    - work on bootstrap file (and also figure out how it works)
+    - work on all the js stuff
+
+- low priority goals:
+    - create rest of todo list
+    - load screen
+    - figure out how to align collapsed navbar symbol to the right

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset:"utf-8">
+  <meta name="viewport" content="width=device-width, intitial-scale=1.0" />
+  <title>UF iGEM Team Page</title>
+  <link rel="stylesheet" href="igem_florida_styles.css" media="screen" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@200&display=swap" rel="stylesheet" />
+  <script type=module src=create_header_footer_tag.js></script>
+</head>
+
+<uflorida-header></uflorida-header>
+
+<body>
+
+
+  <div class="image-header-container"
+    style="justify-content: center; display: flex; background-image: url(logos/uf-campus-example.jpg); height: 250px; width: 100%; text-align: center; vertical-align: center;">
+    <h1
+      style="font-size: 300%; -webkit-text-stroke-width: 0.5%; display: flex; align-content: center; vertical-align: center; transform: translateY(40%)">
+      MEET THE TEAM!</h1>
+  </div>
+
+  <a href="#testing" class="newanchor">
+    <h2>Testing</h2>
+  </a>
+
+  <p>
+    <!--this is a comment-->
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint beatae optio
+    consequatur labore, cum modi dolor eum, tempora numquam omnis eveniet
+    velit id. Debitis suscipit dolor maiores excepturi, dolore eligendi
+    accusamus, numquam, repellendus expedita omnis voluptas exercitationem
+    asperiores rem in perferendis nemo ipsam quas error nobis quis. Quae
+    provident deleniti vero. Itaque modi eligendi quis quas tenetur libero hic
+    iure ex quia, exercitationem obcaecati
+  </p>
+  <hr />
+  <p>
+    sint rerum blanditiis a vero magnam amet quam? Nam rem vel veritatis iusto
+    voluptatibus maxime illum dolor, ducimus non nesciunt cumque eligendi odit
+    nulla? Et a atque nesciunt illum ipsam harum explicabo consequatur cum ad?
+    Cupiditate quasi sed, quibusdam voluptate optio tenetur expedita alias
+    dicta delectus nulla porro illo? <br /><br />
+    Minus maxime debitis a quisquam alias! Inventore impedit maiores saepe
+    corporis atque exercitationem, id non esse culpa laboriosam quas laborum
+    quo ea quis eaque! Sint debitis quae, numquam eos harum atque vel
+    molestias eveniet provident corrupti temporibus impedit magni dolor
+    eligendi, doloremque, quis distinctio excepturi tempora aliquid assumenda
+    aperiam rerum. Ipsam ad animi ducimus similique totam tempore maxime
+    voluptatum perspiciatis enim sint quo magnam aspernatur unde facilis
+    accusantium eum, fuga corrupti commodi, quis sunt quia nam nostrum,
+    debitis est. Asperiores laudantium consequuntur, a rerum sed suscipit
+    nihil.
+  </p>
+  <br />
+
+  <!--
+      <script src="load_modal.js"></script>
+    -->
+
+  <div class="row">
+    <div class="column">
+      <img onclick="myFunc(this)" src="photos/alessio_barca.jpg" alt="" class="headshot" />
+      <p class="photo_name">ALESSIO BARCA</p>
+    </div>
+    <div class="column">
+      <div class="modal" id="myModal" style="position: relative; width: 100%">
+        <!--<span class="btn-close" style="position: absolute;">+</span>-->
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+        testing modal 123
+      </div>
+      <img src="photos/abby_hirshberg.png" alt="" class="headshot" />
+      <p class="photo_name">ABBY HIRSHBERG</p>
+    </div>
+    <div class="column">
+      <div class="modal">
+        <span class="close">+</span>
+        testing modal 123
+      </div>
+      <img src="photos/celeste_wilson.jpg" alt="" class="headshot" />
+      <p class="photo_name">CELESTE WILSON</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="modal">
+        <span class="btn-close">+</span>
+        testing modal 123
+      </div>
+      <img src="photos/jordan_hanson.jpg" alt="" class="headshot" />
+      <p class="photo_name">JORDAN HANSON</p>
+    </div>
+    <div class="column">
+      <div class="modal">
+        <span class="btn-close">+</span>
+        testing modal 123
+      </div>
+      <img src="photos/julie_mallinger.jpg" alt="" class="headshot" />
+      <p class="photo_name">JULIE MALLINGER</p>
+    </div>
+    <div class="column">
+      <div class="modal">
+        <span class="btn-close">+</span>
+        testing modal 123
+      </div>
+      <img src="photos/ryanne_thelwell.jpg" alt="" class="headshot" />
+      <p class="photo_name">RYANNE THELWELL</p>
+    </div>
+  </div>
+
+  <br />
+  <script>
+    var modal = document.getElementById("myModal")
+    var modalImg = document.getElementById("img01")
+    var captionText = document.getElementById("caption");
+
+    function myFunc(el) {
+      var ImgSrc = el.src;
+      var altText = el.alt;
+      modal.style.display = "block";
+      modalImg.src = ImgSrc;
+      captionText.innerHTML = altText;
+    }
+
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+  <!--
+
+    <a
+      href="photos/abby_hirshberg.png"
+      class="newanchor"
+      id="testing"
+      style="font-size: 30px"
+      >Click for a surprise!</a
+    >
+    -->
+  <br /><br />
+</body>
+<footer>
+  <div>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(150,100,240,0.7)" />
+        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(150,100,230,0.5)" />
+        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(150,100,220,0.3)" />
+        <use xlink:href="#gentle-wave" x="48" y="7" fill="rgb(150,100,255)" />
+      </g>
+    </svg>
+  </div>
+</footer>
+
+</html>

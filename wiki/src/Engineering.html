@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>UF iGEM 2021</title>
+
+  <!--
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+-->
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/bootstrap.min.css" rel="stylesheet" />
+
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/custom.css" rel="stylesheet">
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/nicepage.css" rel="stylesheet">
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/page-1.css" rel="stylesheet">
+
+  <link rel="shortcut icon"
+    href="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/favicon_uflorida.png"
+    type="image/x-icon" />
+
+  <!--
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@700&display=swap" rel="stylesheet" />
+-->
+  <!--
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    -->
+  <link href="C:/Users/Garrett/Documents/Documents/wiki/src/css/fontawesome.min.css" rel="stylesheet" />
+
+  <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/loader.js"></script>
+  <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/nicepage.js"></script>
+  <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/jquery.js"></script>
+  <script type="text/javascript" src="C:/Users/Garrett/Documents/Documents/wiki/src/js/fade.js"></script>
+
+  <style>
+    .u-title {
+      font-size: 6vw !important;
+    }
+
+    .u-title::after {
+      content: "" !important;
+      display: inline-block !important;
+      width: 100% !important;
+    }
+
+    .u-title::before {
+      content: "" !important;
+      display: inline-block !important;
+      width: 100% !important;
+      height: 100px !important;
+    }
+
+      @media screen and (max-width: 960px) {
+        .button-link {
+          display: none;
+        }
+
+        .u-title {
+          text-shadow: 0px 0px rgba(0,0,0,0.2) !important;
+        }
+      }    
+
+      .nav-link:link, .dropdown-item:link {
+        text-decoration: none;
+      }
+
+      .nav-link:visited, .dropdown-item:visited {
+        text-decoration: none;
+      }
+
+      .nav-link:hover, .dropdown-item:hover {
+        text-decoration: none;
+      }
+
+      .nav-link:active, .dropdown-item:active {
+        text-decoration: none;
+      }
+
+      .dropdown-item {
+        color: #0a0a0a;
+      }
+
+      .dropdown-item:hover {
+        background-color: rgba(184, 184, 184, 0.435);
+        color: rgb(43, 43, 43);
+      }
+
+      @font-face {
+        font-family: MaliFont;
+        src: url('https://2021.igem.org/wiki/images/b/b1/T--UFlorida--WS-basic--fonts--Mali-Bold.ttf');
+      }
+
+      @font-face {
+        font-family: ComicNeue;
+        src: url('https://2021.igem.org/wiki/images/6/67/T--UFlorida--WS-basic--fonts--ComicNeue-Bold.ttf');
+      }
+
+      @font-face {
+        font-family: ComicNeueText;
+        src: url('https://2021.igem.org/wiki/images/d/d2/T--UFlorida--WS-basic--fonts--ComicNeue-Regular.ttf');
+      }
+
+      h1 {
+        font-family: MaliFont !important;
+        color: #0a0a0a; 
+      }
+
+      h2, h3, h4, h5, h6 {
+        font-family: ComicNeue  !important;
+        color: #0a0a0a; 
+      }
+
+      h2 {
+        font-size: 40px  !important;
+      }
+
+      h3 {
+        font-size: 36px;
+      }
+
+      h4 {
+        font-size: 28px;
+      }
+
+      h5 {
+        font-size: 26px;
+      }
+
+      h6 {
+        font-size: 24px;
+      }
+
+      p, a {
+        font-family: ComicNeueText;
+        font-size: 20px;
+      }
+
+      p {
+        color: #0a0a0a; 
+      }
+  </style>
+</head>
+
+<body>
+  <div id="loader"></div>
+
+  <!--
+      START OF NAVBAR
+    -->
+  <div class="fixed-top">
+    <!--color options: .bg-primary .bg-secondary .bg-success .bg-danger .bg-warning .bg-info .bg-light .bg-dark .bg-white -->
+    <nav class="
+      navbar navbar-default navbar-expand-lg navbar-dark
+      bg-dark
+      sticky-top
+      static
+    ">
+      <div class="container-fluid py-1">
+        <div class="navbar-header" style="padding-top: 5px; padding-bottom: 0px">
+          <a class="navbar-brand" style="padding-left: 30px"
+            href="C:/Uers/Garrett/Documents/Documents/wiki/src/index.html">
+            <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/logo_uf_igem.png"
+              style="object-fit: cover; border-radius: 50%; height: 100px" />
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 18px">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown" style="padding-left: 3.5em">
+              <a class="nav-link dropdown-toggle" href="C:/Users/Garrett/Documents/Documents/wiki/src/Team.html"
+                data-toggle="dropdown" id="dropdown_target" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Team
+                <span class="caret"></span>
+              </a>
+              <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down" aria-labelledby="dropdown_target"
+                style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)">
+                <a class="dropdown-item" href="C:/Users/Garrett/Documents/Documents/wiki/src/Team.html">Team</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Attributions.html">Attributions</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Collaborations.html">Collaborations</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown" style="padding-left: 3.5em">
+              <a class="nav-link dropdown-toggle" href="C:/Users/Garrett/Documents/Documents/wiki/src/Description.html"
+                data-toggle="dropdown" id="dropdown_target" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Project
+                <span class="caret"></span>
+              </a>
+              <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down" aria-labelledby="dropdown_target"
+                style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)">
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Description.html">Description</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="C:/Users/Garrett/Documents/Documents/wiki/src/Results.html">Results</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Contribution.html">Contribution</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="C:/Users/Garrett/Documents/Documents/wiki/src/Model.html">Model</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Engineering.html">Engineering</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Implementation.html">Implementation</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Experiments.html">Experiments</a>
+              </div>
+            </li>
+
+            <li class="nav-item" style="padding-left: 3.5em">
+              <a class="nav-link" href="C:/Users/Garrett/Documents/Documents/wiki/src/Parts.html">Parts</a>
+            </li>
+
+            <li class="nav-item dropdown" style="padding-left: 3.5em; margin-right: 3em">
+              <a class="nav-link dropdown-toggle"
+                href="C:/Users/Garrett/Documents/Documents/wiki/src/Human_Practices.html" data-toggle="dropdown"
+                id="dropdown_target" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Human Practices
+                <span class="caret"></span>
+              </a>
+              <div class="dropdown-menu centerDropdown dropdown-menu-right fade-down" aria-labelledby="dropdown_target"
+                style="box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2)">
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Human_Practices.html">Integrated Human
+                  Practices</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Communication.html">Education & Communication</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item"
+                  href="C:/Users/Garrett/Documents/Documents/wiki/src/Partnership.html">Partnership</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="C:/Users/Garrett/Documents/Documents/wiki/src/Excellence.html">Excellence
+                  in Another Area</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="progress" style="height: 4px">
+      <div style="height: 4px; width: 0px; background: black" class="progress-bar" id="myBar"></div>
+    </div>
+  </div>
+  <!--
+      END OF NAVBAR
+    -->
+
+
+  <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="256"
+    data-image-height="256" id="sec-fc45" style="background-image: linear-gradient(
+    0deg,
+    rgba(241, 241, 241, 0.4),
+    rgba(135, 0, 231, 0.4)
+  ),
+  url('C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/logos/mainpagebackground.gif');">
+    <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+      <h1 class="u-text u-title u-text-1"
+        style="text-shadow: 4px 4px rgba(0, 0, 0, 0.5); letter-spacing: 10px; font-size: 6rem;">
+        ENGINEfddasnnovative practices</h1>
+      <div style="justify-content: center; padding-top:100px;">
+        <a href="#page-content" class="button-link">
+          <button type="button" class="btn btn-dark btn-circle btn-xl" href="#page-content">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+              class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+              <path
+                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z" />
+            </svg>
+
+          </button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="dna-divider" style="margin-top: 3em;"></div>
+  <div id="page-content" style="padding-left: 10%; padding-right: 10%">
+
+
+
+    <div class="container">
+      <h2 style="text-align:center;">Design</h2>
+      <p>
+        At UFLORIDA we became interested in the idea of having a project further researching alternative selection
+        markers by taking inspiration from previous teams like <a
+          href="http://2012.igem.org/Team:Edinburgh/Project/Non-antibiotic-Markers">Edinburgh 2012</a>. Based on
+        previous research showing how sugars can act as evolutionary driving forces in certain types of bacteria, we
+        decided to test how sucrose, Ribitol, and D-Arabitol would react as selection markers to <em>Escherichia.coli</em> and
+        <em>Pseudomonas.putida</em>. Each of these sugars was built using a broad range toolbox for synthetic biology created by
+        Layla Schuster and Dr.Christopher Reisch here at UF. Check out their paper here in our reference section. It is
+        very hopeful and provides great tools for synthetic biology.
+        <br><br>
+        We will go through the engineering design by showing how we correctly assembled one of our plasmids: pFLtR5 in
+        <em>Escherichia.coli</em>. You can check our lab notebook and results sections for more information about our experiments
+        and other constructs we built. Click <a href="https://2021.igem.org/Team:UFlorida/Experiments">here for more
+          information</a>. pfLtR5 means we are working with ribitol(R5), (f) is the name of our origin fragment which is
+        RSF100, (Lt) is for the regulator region tetR, and (p) means plasmid. We are also using gentamicin as our
+        bacterial marker to prove our target bacteria took our plasmid.See figure x,y for the types of plasmids we
+        worked with and designed through benchling. We utilized the gene regulatory power of the lac and tet gene
+        networks to use them for controlled gene expression of our system. See figure 1 for a better explanation of it.
+        In the pFLtR5 circuit we are using the pLacI promoter to express the TetR regulator. This promoter natively
+        codes for the lacI repressor that regulates the lac operon. This is a strong promoter expressed constitutively
+        with regulation.The expression of TetR inhibits the gene activation of the downstream pTetO promoter/operator
+        regions by binding to the operator site of this region and preventing RNA polymerase from performing its job.It
+        is important to not that there is always leakiness in the system and as such a low induction of expression
+        without inducing the system can still happen.
+        <br><br>
+        This circuit we set up allows us to control the gene regulation of our ribitol sugar pathway by activating it
+        using atc as an inducer. Atc is a chemical that binds toTetR and causes a conformational change in the structure
+        of this dimer protein, rendering it unable to bind to the ptet-Operator site. Once TetR is unbound from our
+        desired ribitol metabolism coding sequences ,we can increase their expression as we add more atc. For this
+        specific pathway we need two genes: Ribitol dehydrogenase and Ribulokinase. These two genes are known to be used
+        for the breakdown of ribitol. The name dehydrogenase indicates that ribitol is an enzyme that causes an
+        oxidation reaction alongside a cofactor (Nad+), creating D-ribulose. We then use ribulokinase with the help of
+        ATP as an energy catalyst to transfer a phosphate group making D-ribulose phosphate. This product then further
+        goes on to be further broken down. By using the tools from the plasmid tool box paper, we have been able to
+        design a synthetic gene circuit using heterologous gene combinations attempting to further research alternative
+        selection markers. Next step is building our circuit through gibson assembly in situ.
+        <br><br>
+      </p>
+    </div>
+
+    <div class="container figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/engineering1.png">
+      <p>Figure 1: Plasmid Nomenclature</p>
+    </div>
+
+    <div class="container">
+      <p>
+        <br><br>
+        Team UFLORIDA would like to say a big thank you to Jithran. A current phd student in the SYBORGS lab at UF. Our
+        project would have never worked if it wasn’t for jithran’s patience, passion, and willingness to teach out
+        members this year on design, wet lab collaborations, and overall understanding of tinkering with synthetic
+        biology! We are very thankful for all your help! Thank you
+        <br>
+      </p>
+    </div>
+
+    <div class="container figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/engineering2.png">
+    </div>
+
+    <div class="container figure">
+      <br><br>
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/engineering3.png">
+      <p> Figure 2: The sequenced pFLtRi5 plasmid designed by UFlorida iGEM 2021</p>
+    </div>
+
+
+    <div class="dna-divider"></div>
+
+    <div class="container">
+      <h2 style="text-align:center;">Build</h2>
+      <p>Once we had our design with the desired genetic circuit for our carbon sugars like ribitol, our next step was
+        to order the individual parts of our plasmid with their respective primers and start assembling it.
+        <br><br>
+        What are primers? Primers are short sequences of nucleic acids like DNA that bind to complementary regions.They
+        are used so that the replication machinery of DNA can properly amplify a desired DNA sequence. They also can
+        serve a purpose in genetic engineering when it comes to assembling all of the individual parts of our plasmids:
+        RSF100 origin/backbone, Gent, Ribitol CDS, and Lter Regulator. Once we had all of the reagents needed, we used
+        PCR to amplify each of those sequences for a 50 microliter reaction in a PCR tube. This allowed us to have
+        enough stock DNA concentration to further proceed into the assembly of all of the parts at once. Colony PCR was
+        performed over 35 cycles with celsius temperatures of : 98 Denaturation, 60 annealing, and 72 elongation and
+        final extension. We used the super fi 2 DNA polymerase for the amplification of each part. For each PCR reaction
+        of our plasmid, we used DPN1 protein in order to get rid of the wild type DNA sequences that would not make part
+        of the circuit.The amplification of our parts was used with the primers mentioned in table 1.
+        <br><br>
+      </p>
+    </div>
+
+
+    <div class="container" style="text-align: center; width: 80%;">
+      <table class="table table-hover table-bordered table-striped table-light">
+        <thead>
+          <tr class="table-primary">
+            <th scope="col"><strong>Primer of pFLtR5</strong></th>
+            <th scope="col"><strong>Number of primers</strong></th>
+            <th scope="col"><strong>Size of pFLtR5 by part</strong></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">RSF1010</th>
+            <td>2283,2818</td>
+            <td>6 kbs</td>
+          </tr>
+          <tr>
+            <th scope="row">Ltet Regulator</th>
+            <td>2819,2329</td>
+            <td>1.3kbs</td>
+          </tr>
+          <tr>
+            <th scope="row">Gent Marker</th>
+            <td>2282,1529</td>
+            <td>1kbs</td>
+          </tr>
+          <tr>
+            <th scope="row">Ribitol pathway</th>
+            <td>2844. 2845</td>
+            <td>2.5kbs</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container figure">
+      <p>Figure 3: Size of included parts in pFLtR5</p>
+    </div>
+
+
+    <div class="container">
+      <p>
+        <br><br>After amplifying our parts. We proceeded to assemble our plasmid using the method of gibson cloning.
+        This method relies on using overlapping primers of our parts that are complementary to each other, serving as
+        glue to assemble our parts together.It works by first using an exonuclease enzyme that degrades the desired
+        sequences in the 3 to 5 exonuclease direction. This allows for the overlapping primer hangs to bind to each
+        other, acting as glue and fully assembling our genetic circuit. For this reaction, we used a total mixture of 2
+        microliters.The solution was placed into a PCR machine for 1 hour at 50 degrees temperature. See figure x for
+        more reference.
+        <br><br>
+      </p>
+    </div>
+
+
+    <div class="container figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/engineering4.png">
+      <p>Figure 4: Primer location in Gibson Assembly. Marker for shown plasmid is gentamicin</p>
+      <br><br>
+    </div>
+
+
+    <div class="container" style="text-align: center; width: 80%;">
+      <table class="table table-hover table-bordered table-striped table-light">
+        <thead>
+          <tr class="table-primary">
+            <th scope="col"><strong>Gibson pFLtR5 plasmid assembly</strong></th>
+            <th scope="col"><strong>Solution size</strong></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Gibson assembly mix</th>
+            <td>1 ul</td>
+          </tr>
+          <tr>
+            <th scope="row">RSF1010 Backbone</th>
+            <td>0.25 ul</td>
+          </tr>
+          <tr>
+            <th scope="row">Ribitol pathway</th>
+            <td>0.25 ul</td>
+          </tr>
+          <tr>
+            <th scope="row">Ltet Regulator</th>
+            <td>0.25 ul</td>
+          </tr>
+          <tr>
+            <th scope="row">Gent marker</th>
+            <td>0.25 ul</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="container figure">
+      <p>Figure 5: Parts in pFLtR5 Gibson Assembly</p>
+    </div>
+
+
+    <div class="container">
+      <p>
+        <br><br>
+        After we had assembled our plasmid, our next step was to chemically prepare our target bacteria to uptake our
+        plasmid via the process of transformation. This process allows us to hijack our bacteria into taking our plasmid
+        by exposing them to electricity or heat shock. These two types of methods trigger our target bacteria’s membrane
+        to become more susceptible to the uptake of plasmid DNA. This process is physically straining for bacteria so we
+        need to transfer it to a liquid vial with fresh LB media for a recovery period. This period can be 1-2 hours of
+        incubation time. See figure 3 for more reference.
+        <br><br>
+      </p>
+    </div>
+
+
+    <div class="container figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/engineering5.png">
+      <p>Figure 5: DNA Transformation</p>
+    </div>
+
+    <div class="container">
+      <p>
+        <br><br>
+        In order to check whether our circuit was taken up by our bacteria we extracted the plasmid from our bacteria
+        and we performed a PCR reaction amplifying the Ribitol pathway with the correct primers. Our gel results show
+        that we were able to assemble our plasmid correctly as the size of the migration in our part matches the
+        expected size we had from our design. See image x for more information Our next steps are to test whether we can
+        utilize these alternative selection markers that can be induced through our regulatory pathway.
+        <br><br>
+      </p>
+    </div>
+
+    <div class="container figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/engineering6.jpg">
+      <p>Figure 5: Electrophoresis gel depicting verification of ribitol part of pFLtRi5 plasmid. The first band (first
+        from left) is a ladder dye used to delineate size of parts in 0.5kb increments. The second band (second from
+        left) was segmented using a forward primer in front of the respective regulator part (Ltet02) and reverse primer
+        internal to ribitol part at 1.5kb. The third band (third from left) depicts the entire ribitol metabolic pathway
+        as amplified through PCR at 2.5kb.</p>
+    </div>
+
+    <div class="dna-divider"></div>
+
+    <div class="container">
+      <h2 style="text-align:center;">Test</h2>
+      <p>Once we had proved our plasmid was assembled correctly, our next steps were to test both the effectiveness and
+        efficiency of alternative sugar selection. Initial experimentation appeared promising as transformed growth
+        occurred; however, its inconsistency even among sugars proved it ultimately inconclusive. In an effort to
+        establish that introduction of our plasmid allowed for selective growth, we attempted to control for numerous
+        factors that might have confounded our results.
+        <br><br>
+      </p>
+    </div>
+
+    <div class="container">
+      <h3 style="text-align:center;">Growth Phase</h3>
+      <p>There were several factors we considered that might have potentially inhibited the success of our sugar
+        selection. The first of these cases was the phase of the parent colony. Initially, whenever we subcultured from
+        the parent colony which we had already successfully transformed we would subculture and immediately add the
+        respective inducer for the Ltet and begin an experiment. We hypothesized the issue with this being that the
+        parent colony, having already grown, existed in a stationary growth phase where minimal further colony growth
+        may be observed and biochemical processes are stabilized to that required for continued survival. Given a new
+        metabolic enzyme to produce may have either been downregulated due to the importance of other factors necessary
+        towards survival and thus enzyme production occurring at a very slow rate or rather not enough necessary
+        cellular machinery already present to produce the enzyme due to high levels during growth being depleted. To
+        address this issue, we performed an experiment in which we took two subcultures from the same parent colony. One
+        subculture, our control, was immediately treated with the appropriate inducer; the other subculture was again
+        quickly subcultured to obtain a colony in exponential phase which was only then treated with the respective
+        inducer. While the stationary phase may have inhibited enzyme production, we hypothesized that the addition of
+        an inducer during an exponential phase of growth would allow for a greater availability of cellular resources
+        and machinery to be dedicated towards enzymatic production. Moreover, the exponential phase subculture had more
+        time to produce the desired sugar enzymes.
+        <br><br>
+        Bacterial growth may be sorted into four distinct phases: lag, exponential, stationary, and death. Prefacing the
+        growth of a colony is the initial lag phase; bacteria in this phase may be considered metabolically active but
+        do not actively participate in growth. Moreover, the synthesis of essential proteins for survival and eventual
+        growth is established in this phase prior to that of the next phase. Only during the exponential phase do
+        bacteria begin to replicate. This stage is where selection occurs. Only cells maintaining one of our engineered
+        plasmids capable of metabolizing the only energy source available (the respective sugar) would be able to grow.
+        Metabolic conditioning is highest during this phase as cellular processes are most needed to support growth. We
+        were able to isolate various other potential energy sources through the introduction of M9 media, a minimal
+        media type not rich with available sugars as energy sources to encourage colony growth. The environment’s
+        carrying capacity identifies the transition from exponential to stationary phase. As colonies compete for scarce
+        sugar availability, further growth is stifled likewise by limits in energy supply. Bacterial population plateaus
+        as growth rate equates to the death rate. Furthermore, metabolic activity significantly lessens as survival is
+        prioritized over sustained growth. Finally, an exhausted nutrient supply marks the beginning of compounding
+        death. Minimal growth may be observed as lysed cells may supply nutrients that spur occasional growth sites;
+        however, without environmental nutrient availability, such cells will quickly cease to replicate and also die.
+        <br><br>
+      </p>
+    </div>
+
+
+    <div class="container">
+      <h3 style="text-align:center;">Inducer Effects</h3>
+      <p>
+        Rather than the phase of growth when conducting an experiment, another variable we sought to regulate was
+        whether the concentration of the respective inducer influenced the amount of enzyme produced. There are two
+        important implications regarding the effect of the inducer on the regulator. With too little induced production
+        of the enzyme, the cell may not be able to produce enough of the enzyme to metabolize the respective sugar and
+        thus will die. However, too much of the enzyme produced might draw cellular resources and machinery otherwise
+        vital to growth and survival, likewise leading to cellular death. In order to account for both these
+        possibilities, we conducted an experiment varying our inducer concentration from that we regularly used to those
+        both lower and higher amounts. No colonies grew on the respective sugar regardless of inducer concentration.
+        <br><br>
+      </p>
+    </div>
+
+    <div class="container figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/engineering7.png">
+      <p>Figure 7: Method of inducer application to experimental plates</p>
+    </div>
+
+    <div class="container">
+      <p>
+        <br><br>
+        Inducible systems are integral to the systemized optimization of desired outcomes in synthetic biology. By
+        utilizing our method of toolbox plasmid assembly, we were able to tightly regulate the effects of our
+        transformed pathways into their respective native hosts. Regulating systems are oftentimes initiated by a
+        promoter composite consisting of molecular interactions to commence/inhibit transcription of the desired
+        gene(s). Of the noted toolbox, we opted to construct two plasmids of each respective tested sugar. Each sugars’
+        pair of plasmids would contain one retaining the Ltet02 and the other holding the CinR regulator. We chose these
+        two regulators of the toolbox specifically for their previously proven ability to induce respective lower and
+        higher levels of transcription whilst also maintaining established inducible promoter systems. As a result, with
+        each respective sugars’ plasmids, we would be able to compare whether a lesser or greater production of desired
+        sugar enzymes would better promote selection.
+        <br><br>
+        The Ltet02 system is also termed the tetracycline (tc) expression system. TetR is the primary protein regulating
+        the system. Natively, tetR binds to the tetO operator and blocks downstream transcription. Upon tc binding,
+        however, tetR releases from the operator and thereby facilitates transcription. We were able to manipulate this
+        system via the tightly coordinated addition of anhydrotetracycline (aTc) inducer. A derivative of tc, aTc
+        maintains a high affinity for tetR that allows for its introduction to synthetically promote transcription.
+        <br><br>
+        The CinR system natively operates in a positive feedback loop manner. Transcription of cinR both stimulates
+        downstream gene cinI and production of the 3-hydroxy-7-<em>cis</em> tetradecenoyl)-l-homoserine lactone (OHC14) molecule.
+        OHC further stimulates cinI. Transcription of cinI results in the production of another molecule closely related
+        to OHC14 which completes the positive feedback loop of cinI stimulation. In this manner, addition of OHC further
+        induces the system. One important note of the CinR quorum-sensing regulation system is that it has been found to
+        be strongly growth-inhibitory; an OHC14 derivative is known to be responsible for premature entry to the
+        stationary phase. Through experimentation, we found Ltet02 to better facilitate growth in all sugars’ plasmids.
+        <br><br>
+      </p>
+    </div>
+
+
+    <div class="container">
+      <h3 style="text-align:center;">Enzymatic Production</h3>
+      <p>
+        Finally, as growth phase, inducer influence, and sugar concentration were proven to not be primarily responsible
+        for the lack of expected select growth, we decided to further verify enzymatic production. With evidence
+        supporting the accuracy of our new engineered genetic part and inability to observe the expected growth of
+        transformed cells, we instead looked to any potential issue in the process of enzyme production itself. We were
+        able to assess the production of the desired enzymes coded for by our plasmids through an assay analysis. In
+        opting to evaluate the presence of coded-for dehydrogenase enzymes, we were able to take advantage of the
+        NAD/NADH cofactor system commonly present in a variety of metabolic systems through various lineages. By lysing
+        varying amounts of our transformed cells and immediately screening for a change in the ratio of NAD:NADH present
+        over time, we were able to evaluate for the expected trend of greater transformed cellular lysate equating to
+        greater changes of the NAD:NADH ratio in the observed time interval. Nevertheless, we found that compared to a
+        control in which no cell lysate and thus no dehydrogenase enzyme present to hasten the NAD:NADH conversion, the
+        observed varying concentration did not prove any conclusive association that evidenced greater dehydrogenase
+        present in lysate resulting in greater changes in the cofactor over time.
+        <br><br>
+        Similar to antibiotic resistance referring to cells’ ability to grow and survive despite an inhospitable
+        environment, transference of enzymatic pathways aimed to confer the same ability to cells that would otherwise
+        die in an inhospitable environment. In this case, supplying only sugar non-transformed cells would be unable to
+        utilize as the sole energy source created the selective pressure antibiotics currently do. Enzymatic pathways
+        enabling the metabolism of each respective sugar were extrapolated from their native hosts. A complication in
+        the transference of sugar metabolic pathways is the series of enzymes that encode for vital components of the
+        process. Firstly, the selection of pathways must be limited to those simple sugars that require minimal
+        enzymatic interaction to break into usable monosaccharide carbon sources.
+        <br><br>
+        As aforementioned, a previous team was able to successfully induce metabolic genes necessary for sucrose
+        degradation to <em>E. coli</em>. This year, we sought to broaden the range and application of this metabolic transfer.
+        D-Arabinitol and Ribitol are both sugar alcohols that belong to a certain class of polyols termed pentitols. The
+        usefulness in this method of sugar selection is a common metabolic system of digestion.
+        <br><br>
+      </p>
+    </div>
+
+    <div class="container" style="
+          text-align: center;
+          padding-left: 20%;
+          padding-right: 20%;
+          padding-top: 2.5%;
+          padding-bottom: 2.5%;
+        ">
+      <div class="container shadow" style="
+            background-color: white;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 2.5%;
+            padding-bottom: 2.5%;
+            border-radius: 10px;
+          ">
+
+        <div class="container">
+          <ul class="list-unstyled">
+            <li>
+              1. The respective polyol dehydrogenase oxidizes the sugar to its respective keto sugar (D-Xylulose and
+              D-Ribulose, respectively). <br><br>
+            </li>
+            <li>
+              2. The respective keto sugar is phosphorylated by the sugar’s corresponding kinase.<br><br>
+            </li>
+            <li>
+              3. The resulting compounds enter the non-oxidative branch of the pentose phosphate pathway. </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>
+        Only after the pentose phosphate pathway may a cell effectively utilize the resultant compounds to fuel vital
+        processes. A necessary aspect of this degradation system to be considered is that while the genes encoding for
+        the NAD-dependent dehydrogenase and ATP-dependent kinase may be transferred, the presence of a phosphorylated
+        keto sugar does not ensure that the third step, common to most bacterial strains, will commence.
+        <br><br>
+        The pentose phosphate pathway is separated into two distinct stages. The first, oxidative stage represents the
+        oxidation of a sugar to its determined phosphorylated keto sugar. Our transformed plasmids represent this
+        initial step of the pathway; we only supplied the necessary coding for this oxidation to occur with sugars
+        alternative to typical glucose. During the initial step of this oxidation, however, cofactor NADP+ is protonated
+        to NADPH. A potential reason why our system did not ultimately work may have been this aspect of the pentose
+        phosphate pathway. The concentration of NADP+ determines whether the derived keto sugar will continue down the
+        pathway. Lack of available NADP+ results in the halting of the pathway and accumulation of the unusable keto
+        sugar metabolite within the cell. Its concentration gradient favors against the pathway to an extent that, in
+        eukaryotes, glucose surges trigger a cellular need for NADPH for biosynthesis reactions as insulin likewise
+        upregulates production of the respective dehydrogenase. Furthermore, the most important distinction between the
+        first and second steps of the pathway remains that the former is an irreversible process whereas the latter is
+        reversible dependent on cellular needs.
+        <br><br>
+        D-Xylulose-5-phosphate (D-Xylulose) and D-Ribose-5-phosphate (D-Ribose) are the primary keto sugars that may
+        participate in the pathway. Thus, while the Arabitinol plasmid formed a valid keto sugar, the Ribitol plasmid
+        likely required the addition of two additional enzymes to convert unusable D-Ribulose to usable D-Ribose. One
+        necessary consideration made in the determination of how these processes would function was the space available
+        on each plasmid. At a certain size threshold, plasmids no longer favor conjugation. In order to promote
+        horizontal gene transfer, we had to determine which genes we thought to be most integral to an even suboptimal
+        functioning of the sugars’ metabolic breakdown. Nevertheless, we did not account for the several reactions
+        occurring in the second, reductive step in the pentose phosphate pathway.
+      </p>
+    </div>
+
+
+    <div class="container" style="
+          text-align: center;
+          padding-left: 20%;
+          padding-right: 20%;
+          padding-top: 2.5%;
+          padding-bottom: 2.5%;
+        ">
+      <div class="container shadow" style="
+            background-color: white;
+            padding-left: 5%;
+            padding-right: 5%;
+            padding-top: 2.5%;
+            padding-bottom: 2.5%;
+            border-radius: 10px;
+          ">
+
+        <div class="container">
+          <ul class="list-unstyled">
+            <li>
+              1. Transketolase enzyme transfers two smaller carbon chains to D-Ribose-5-Phosphate to form two new
+              pentose sugars, A and B
+              <br><br>
+            </li>
+            <li>
+              2. Transaldolase enzyme facilitates the transfer of a 3-Carbon chain from molecule A to B, resulting in
+              two new molecules, C and D
+              <br><br>
+            </li>
+            <li>
+              3. Transketolase uses D-Xylulose in conjunction with molecule C to form another of each molecules B and D
+              <br><br>
+            </li>
+            <li>
+              4. Both molecules B and D may then be utilized in traditional glycolysis
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <p>
+        This series of reactions for the second, reductive step of the pentose phosphate pathway presents several other
+        opportunities for our plasmids’ malfunctioning. With metabolism of D-Arabitol resulting in only D-Xylulose since
+        glucose that would have provided D-Ribose was absent, neither of the compounds that may be used for eventual
+        glycolysis would have been formed. Moreover, metabolism of Ribitol, even if the necessary enzymes for its
+        conversion to D-Ribose were present, would have lacked the required D-Xylulose to most efficiently produce
+        functional energy sources for glycolysis. This may have led to an inadequate amount of energy to fuel cellular
+        growth processes and kept cells in a survival-first state in the lag phase. Another consideration in the pentose
+        phosphate pathway is the direction of the process and whether it favors the phosphorylated keto sugar reactants
+        or the glycolytic-available products. If a cell needs ATP, it will follow the process to form products then
+        usable for glycolysis; however, a cell needing NADPH for other reductive, anaerobic processes will favor the
+        reactants by recycling the products. Finally is the foremost issue we may have encountered. With
+        D-Ribose-5-phosphate being essential to nucleotide formation, the reverse reactions are greatly favored in this
+        second step of the pentose phosphate pathway. As our cells would have entered an exponential phase and needed to
+        rapidly replicate genetic material for continued growth, the system providing their sole source of energy would
+        have been greatly favoring the reverse reaction and forming more reactant. Any minimal usable glycolytic product
+        would have been converted back to unusable molecules for growth, leaving the cells to die without any source of
+        energy. Such is one of the primary complications we found of using metabolism as a selection marker; offering a
+        single energy source creates a dipole towards where that energy is used towards. In this case, the growth of the
+        exponential phase would have inhibited growth by killing cells as survival in the lag phase was yet sustained.
+        <br><br>
+        Metabolism of sucrose is less detailed. There exists more than five variations of how certain bacterial strains
+        have come to gain the ability to utilize sucrose as a viable carbon source. We decided to use the variation of
+        the pathway successfully exhibited by a previous iGEM team in <em>E. coli</em>. In this pathway, uptaken sucrose is
+        oxidized in the periplasmic space by the corresponding dehydrogenase (D-Glucoside-3-dehydrogenase) to form a
+        keto sucrose sugar. Hydrolysis in the cytoplasm by the corresponding sucrose hydrolase enzyme (3-keto sucrose
+        hydrolase) finally separates the sucrose keto sugar to its monosaccharide derivatives that may be used in both
+        cellular respiration and glycolysis. We found that the previous iGEM team found selective success in alternative
+        selection by sucrose. By the metabolic pathway of sucrose catabolism utilizing a dehydrogenase enzyme, the
+        hydrolase enzyme is also necessary. Nevertheless, by transferring only the dehydrogenase gene, it is known that
+        that the encoded enzyme similarly allows for utilization of available lactose as another usable carbon sugar.
+        With our experimental design ensuring no other carbon source (i.e. lactose) was present alongside sucrose, we
+        may infer that lactose could have been present in the prior team’s investigation. Additionally, our utilization
+        of an auxotrophic strain of <em>E. coli</em> for ease of transformation of our plasmids may have either not correctly
+        produced the necessary enzymes or perhaps not in the right location for sucrose metabolism.
+        <br><br>
+        Although we were unable to demonstrate sugar introduction as an alternative selectable marker, we were able to
+        successfully engineer and introduce a novel plasmid with the code for transferable sugar-metabolizing pathways
+        to <em>Pseudomonas.putida</em> and <em>Escherichia.coli</em>. Numerous complications exist in the manifestation of full
+        transference of a metabolic pathway. Many metabolites serve as complex intermediates within several systemic
+        pathways that play integral roles in cell function. Introducing mechanisms to metabolize new substances likely
+        incur innumerable opportunities to confound a natural pathway integral to the survival of a cell. Even with
+        fully analyzing the biochemical interactions responsible for metagenomic-derived processes, there are always
+        more details to be yet discovered to truly uncover why our system was unable to materialize. Moreover, there
+        additionally could have been complications arising from the aspect of synthetic biology. As we commonly used
+        transformed cells of one sugar as the positive control in an experiment meant to test another sugar, it may be
+        that the respective inducer added to stimulate the included regulator might have potential crossover with common
+        promoters among the other control. Finally, an exhaustion of cellular resources necessary to construct the coded
+        enzymes may have had compounding effects on those available for other cell functions as well. Further testing is
+        needed to establish a basis of consistency in expected selection prior to systemic optimization and judging
+        efficacy as a potential replacement for alternative selectable markers to traditional antibiotics; however, we
+        considered numerous variables integral to and were able to successfully produce the genetic parts to enable the
+        eventual creation of such a system. We’ve also been able to assemble each of our genetic circuits, arranging our
+        desired selection marker’s CDS sequences with synthetic biology regulatory parts. We hope this contribution can
+        also inspire and help future teams interested in expanding the work of alternative selection markers using sugar
+        carbon sources
+        <br><br>
+      </p>
+    </div>
+
+    <div class="dna-divider"></div>
+
+    <div class="container">
+      <h2 style="text-align:center;">Learn</h2>
+      <p>
+        Into our designed plasmids, we sought to include various enzymatic pathways in order to achieve our end result.
+        Ultimately, this end result would be conferring to a given species of bacteria the ability to utilize a specific
+        carbon source that it was not previously able to metabolize. During our research prior to the beginning of our
+        experimental process, we determined which species of bacteria we would be moving forward with during
+        experimentation on the basis of their ability to metabolize certain common carbon sources. From this preliminary
+        research, we came to the conclusion that we would be working with two distinct species: <em>Pseudomonas putida</em> (P.
+        putida) and <em>Escherichia coli</em> (<em>E. coli</em>). We would ideally provide the <em>E. coli</em> bacteria with the ability to
+        metabolize ribitol and the <em>P. putida</em> the ability to metabolize D-arabitol and sucrose. As can be gathered from
+        the Test section, we have much to learn both from the selection of these specific sugars as well as in our
+        implementation of the plasmids to the systems.
+        <br><br>
+        In future iterations of this project or similar projects, it would be beneficial to conduct intensive research
+        into the mechanisms of each of the enzymes responsible for the metabolism of their respective sugars in order to
+        better understand how these systems could go about being manipulated. On the same note, garnering a more
+        well-rounded understanding of the function of the enzymes themselves and their structures may serve to also
+        facilitate a more effective manipulation of enzymes. This is all being said as we attempted to confer our
+        bacteria with these newfound proteins without fully harboring an explicit understanding of how they will
+        function within the system itself as a whole and how these enzymes will serve the bacteria. In addition, this
+        research would allow us to improve upon the latter parts of the experiment in which we sought to alter the
+        concentration of the sugars in the media upon which our bacteria were growing to determine whether or not this
+        would have an effect on the transformation’s efficacy. We could make these improvements in that we could
+        recognize the relationship between the sugar substrate and their respective enzymes to assess how a change in
+        concentration would alter the activity of the enzyme via an increase or decrease of activity.
+        <br><br>
+        From our data, we also determined a need to conduct our plasmid transformations at a time that would result in
+        the greatest amount of plasmid uptake and implementation into the bacteria’s genome. For future experiments, we
+        would time the transformations to be done at a time in the life cycle of a bacterial colony at which the
+        bacteria are most prone to uptake and at which the largest percentage of bacteria residing in the colony would
+        harbor this characteristic. Having had an understanding of the times at which a bacterial colony will possess
+        these properties may have augmented the efficiency of our transformations and resulted in more positive results
+        such as a higher percentage of colonies within a plate exhibiting the desired trait(s).
+        <br><br>
+        During our experimental process, some of the growth we witnessed on the plates exhibited morphologies atypical
+        of either <em>P. putida</em> or <em>E. coli</em>. Figures 8 and 9 display the contamination in question. This finding suggests
+        contamination and the growth of a bacterial species that was neither of the species being studied. Mitigating
+        contamination during experiments when working with bacteria can be a very difficult process, especially when
+        some of the steps are done outside of a fume hood or away from the Bunsen burner. This difficulty is only
+        amplified when considering that our bacteria are being grown on plates containing glucose, sucrose, D-arabitol,
+        and ribose, all of which are sugar sources that will be ideal for the proliferation of certain bacterial
+        species, particularly glucose, which can be metabolized by nearly every species of bacteria and eukaryote. Our
+        liquid cultures were occasionally conducted in LB agar in order to allow the bacteria to proliferate to a
+        certain point before being spread along with their respective sugar-containing plates; this media serves as a
+        nutrient source for almost all bacterial species and is a very likely source of contamination. In order to
+        manage contamination within these liquid cultures, steps involving the test tubes containing LB agar were done
+        in proximity to a Bunsen burner flame, and all tools going into this culture were sterilized as well as the
+        outer rim of the glass test tube. This being said, we still encountered contamination in multiple plates and
+        liquid cultures. In future experimental iterations, this could best be managed by keeping all experimental
+        processes within a fume hood while continuing the use of the Bunsen burner. Additionally, given that our
+        experiments were conducted in a laboratory space shared by other students and researchers of the microbiology
+        department of the University of Florida, it is extremely likely that shared spaces contained trace amounts of a
+        wide variety of bacterial species.
+        <br><br>
+      </p>
+    </div>
+
+    <div class="container figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/engineering8.jpg">
+      <p>Figure 8: This image displays a sucrose plate on which we spotted a serial dilution of a <em>P. putida</em> culture
+        transformed with the plasmid pFLtRi5. Contamination can be seen in the form of white dots outside of the spots
+        located along the bottom right edge of the plate.
+        <br><br>
+      </p>
+    </div>
+
+    <div class="container figure">
+      <img src="C:/Users/Garrett/Documents/Documents/wiki/src/assets/WS-basic/img/photos/engineering9.jpg">
+      <p>
+        Figure 9: This image displays a ribitol sugar plate onto which a serial dilution of a <em>P. putida</em> culture
+        transformed with the plasmid pFLtSc5. Contamination can be seen in the form of white dots outside of the spots
+        located along the bottom right edge of the plate.
+        <br><br>
+      </p>
+    </div>
+
+    <div class="container">
+      <p>
+        Lastly, a large and immensely important element of our experimental process was the design of our 5 plasmids.
+        These manufactured plasmids were referred to by the following names: pFLtAb5, pFCiAb5, pFLtSc5, pFCiRi5, and
+        pFLtRi5. The thought process behind the design of these individual plasmids can be found in the Design section
+        of Engineering Sucess. In order to verify the correct assembly of our plasmids and to verify that they contained
+        those elements that we sought to include in their design, these plasmids were sent to a company for sequencing.
+        Upon receiving these plasmids, we found that while most of them contained the desired elements (ie. sequences
+        for the respective sugar degradation pathway, gentamicin resistance, and the regulators), they contained
+        extraneous elements that could not be identified. This can be seen, for example in Figure 2. This figure is a
+        Benchling file of the sequenced pFLtRi5 plasmid. There are many elements within this plasmid that had not been
+        intentionally placed there, but as can be seen on the sequencing file, they were included in the chemical makeup
+        of the plasmid. This being said, the process of plasmid assembly will need to be more effectively micromanaged
+        in the future in order to mitigate inclusions of extraneous genes that may have an undetermined (ie. negative or
+        positive) effect on the overall experiment. The inclusion of bases with an unidentified effect on the overall
+        translational process of the plasmid and on the results of the translation may have altered our experimental
+        results in deleterious ways.<br><br>
+      </p>
+    </div>
+
+
+
+  </div>
+  <div class="dna-divider"></div>
+
+
+
+
+
+
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+-->
+  <script src="C:/Users/Garrett/Documents/Documents/wiki/src/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    // When the user scrolls the page, execute myFunction 
+    window.onscroll = function () { myFunction() };
+
+    function myFunction() {
+      var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      var scrolled = (winScroll / height) * 100;
+      document.getElementById("myBar").style.width = scrolled + "%";
+    }
+  </script>
+</body>
+
+</html>
